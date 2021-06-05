@@ -29,4 +29,12 @@ Ecommerce project, developed at the OSF Academy in June 2021
 
 - [ ] ( 7.1 Product Image)
 
-- [ ] ( 7.1 Product Details)
+- [ ] ( 7.2 Produt Details)
+
+- [ ] ( 7.3 Tabs)
+
+- [ ] ( 8.1 404 page)
+
+- [ ] ( 8.2 Log in Diagoly)
+
+- [ ] ( 8.3 Cookies Policy)

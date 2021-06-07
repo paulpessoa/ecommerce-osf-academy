@@ -1,8 +1,13 @@
 //test import
-
-p, a, li {
-    color: red !important;
-    background-color: green;
-    font-size: 50px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+$primary-color: #011847 ;   // green color osf
+$secondary-color: #84bc22;  // green color osf
+$base-color: #fff;          // background bright color
+$back-color: #262a32;       // background dark color  
+$opacity-color: #bdc3c7;    // down point on menu language and currency 
+$main-color: #45413e;       // button opacity color
+$fb-color: #3a5b96;         // facebook button
+$icon-color1: #23c46e;      // icons
+$icon-color2: #e73c68;      // icons
+$but-color: #000;           // button buy font color
+$price-color: #011847;      // price on products
+$offer-color: #24c36c;      // offer price on products

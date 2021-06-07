@@ -1,111 +1,108 @@
-// Imports
-@import '../helpers/reset', '../helpers/colors';
+@import '../helpers/colors',
+        '../helpers/components',
+        '../helpers/fonts',
+        '../helpers/reset';
+        
 
 header {
-    border-bottom: 2px solid #d3d2d1;
-}
-
-.nav-wrapper {
-    margin: 0 auto;
+    border-bottom: 2px solid #F3F0E9;
     width: 100%;
     max-width: 1280px;
-    height: 80px;
+    margin: 0 auto;
 }
 
-/* header  style */
-header .nav-wrapper, .nav-brand, .nav-menu, .nav-buttons {
+
+// ---------------------
+.nav-wrapper, .nav-brand, .nav-menu{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;    
+    height: 80px;
 }
 
+// Logo Style
 .nav-brand img {
-    height: 100%;
     width: 64px;
-    margin: auto 0.5rem;
+    margin-right: 0.5rem;
 }
 
 
-/* Style for "OSF" */
+// Style for "OSF"
 .nav-brand h1 {
     margin: 0;
-    color: #011847;
-    font-family: Lato;
-    font-weight: 800;
+    color: $primary-color;
+    font-family: $osf-font;
+    font-weight: 900;
     font-size: 32px;
     text-transform: uppercase;
     letter-spacing: 6.33px;
 }
 
-/* Style for "Academy" */
+// Style for "Academy" 
 .nav-brand h2 {
     margin: 0;
     margin-top: -8px;
-    color: #84bc22;
-    font-family: Lato;
+    color: $secondary-color;
+    font-family: $osf-font;
     font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-wrapper ul li a{
+    color: $main-color;
     font-weight: 500;
 }
 
-/* Style for "services" */
-.nav-menu a, .dropdown a {
+.nav-menu ul a{
+    color: $opacity-color;
+    font-weight: 500;
+}
+
+.nav-menu span {
+    font-size: 0.5rem;
+    color: $opacity-color;
+    margin-left: 8px;
+}
+
+// Style for "services"
+.nav-menu a, .downmenu a {
 margin: 0.5rem 1rem;
-color: #45413e;
+color: $main-color;
 font-family: Lato;
 font-size: 14px;
 font-weight: 400;
 text-transform: uppercase;   
-}
-
-.dropdown a {
-    opacity: 0.5;
-    span {
-        font-size: 10px
-    };
+text-align: center;
 }
   
-/* Dropdown content (hidden by default) */
-.dropdown-content {
+// Dropdown content hidden by default
+
+.downmenu-content {
 display: none;
 margin: 0;
 position: absolute;
 background-color: #f9f9f9;
 z-index: 1;
 text-decoration: none;
+text-align: center;
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-color: black;
-text-decoration: none;
-display: block;
-}
+// green balloons in the icons favorite and cart -------------------------------
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-background-color: #ddd;
+.nav-buttons {
+    margin-left: 30px; //space between dropdown buttons 
 }
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-display: block;
-}
-
-.nav-buttons li a img {
-    position: relative;
-    margin: 10px;
-}
-
-.nav-buttons li a span {
+.nav-buttons span {
     position: absolute;
     font-size: 10px;
-    color: #84bc22;
-    margin: 5px 0px 0px -15px;
+    color: $secondary-color;
+    margin: -10px 0px 0px -10px;
     background-color: #ffffff;
-    border: 1px solid #84bc22;
+    border: 2px solid $secondary-color;
     z-index: 15;
-    padding: 0.23rem 0.35rem;
+    padding: 0.1rem 0.3rem;
     border-radius: 50%;
+    font-family: $osf-font;
 }

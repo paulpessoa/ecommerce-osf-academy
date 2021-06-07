@@ -2,29 +2,34 @@
         '../helpers/components',
         '../helpers/fonts',
         '../helpers/reset';
-        
+
+//desktop standard        
 body {
     width: 100%;
     margin: 0 auto;
     max-width: 1280px;
-
 }
 
+
+// --------------- header style ---------------------
+
+// border botton line
 header {
     border-bottom: 2px solid #F3F0E9;
-
+ 
 }
 
-
-// ---------------------
 .nav-wrapper, .nav-brand, .nav-menu{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    margin: 0 auto;    
     height: 76px;
+    margin: 0 auto;
+
+   
 }
+
 
 // Logo Style
 .nav-brand img {
@@ -33,7 +38,7 @@ header {
 }
 
 
-// Style for "OSF"
+// Style "OSF"
 .nav-brand h1 {
     margin: 0;
     color: $primary-color;
@@ -44,7 +49,7 @@ header {
     letter-spacing: 6.33px;
 }
 
-// Style for "Academy" 
+// Style "Academy" 
 .nav-brand h2 {
     margin: 0;
     margin-top: -8px;
@@ -54,38 +59,21 @@ header {
     font-weight: 400;
 }
 
-.nav-wrapper ul li a{
-    font-weight: 500;
-}
-
-.d-lang, .d-cur{
-    color: $opacity-color;
-    font-weight: 500;
-}
-
-.nav-menu span {
-    font-size: 0.5rem;
-    color: $opacity-color;
-    margin-left: 8px;
-}
-
 
 // --------------- dropdown menu ---------------
 
-.d-menu {
-    overflow: hidden;
-}
+//reset menu button  -------
 
 .d-menu-btn {
     border: none;
     outline: none;
     margin-top: 10px;
-    padding: 20px 15px 30px;
+    padding: 20px 18px 30px;
     background-color: inherit;
     text-transform: uppercase;
-
 }
 
+//hover effect menu button green and dark
 .d-menu-btn:hover, .d-menu button:hover{
     background: $back-color;
     border-bottom: 4px solid $secondary-color;
@@ -94,93 +82,115 @@ header {
    
 }
 
-.d-menu-content {
+//first dropdown content style 
+.d-menu-content, .d-menu-content-lang, .d-menu-content-cur {
     display: none;
     position: absolute;
     background-color: $back-color;
     width: 100%;
     left: 0;
     right: 0;
-    z-index: 10;
+    z-index: 15;
     justify-content: space-around;
     padding: 20px;
-   
 }
 
-.d-menu:hover .d-menu-content {
+//this hover shows the dropdown content
+.d-menu:hover .d-menu-content, .d-menu-btn:hover{
     display: block;
-   
 }
 
+//dropdown content color links "a" 
 .d-menu-content-flex li a{
     color: $base-color;
 }
 
+
+//content columns side by side 
+.d-menu-content-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: $size-desktop;
+    color: $base-color;
+}
+
+//content list side by side 
 .menu-products {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.d-menu-content-flex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1280px;
-}
-
-
-.d-menu-content-flex{
-    color: $base-color;
-    text-transform:lowercase;    
-}
-
-.d-menu-content-flex h3{
-    text-transform:uppercase;    
-}
-.d-menu-content-flex li a{
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Style for "services"
+// Style dropdown "services"
 .nav-menu a, .downmenu a {
-margin: 0.5rem 1rem;
+margin: 0.4rem 1rem;
 color: $main-color;
 font-family: Lato;
 font-size: 14px;
-font-weight: 400;
-text-transform: uppercase;   
-text-align: center;
+
 }
+
+.nav-menu span, .d-lang, .d-cur{
+    color: $opacity-color;
+    font-weight: 600;
+}
+
+.nav-menu span {
+    font-size: 0.5rem;
+    margin-left: 8px;
+}
+
+
+
+
+
+
+//first dropdown content style 
+
+.d-menu2{
+    display: block;
+    position: relative;
+    z-index: 10; 
+    //Language and currency buttons color
+    button{
+        color: $opacity-color;
+    }
+}
+
+.d-menu-content-lang a, .d-menu-content-cur a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 14px 0px;
+    background-color: $back-color;
+    color: $base-color;
+    margin: -15px;
+    z-index: 10;
   
-// Dropdown content hidden by default
 
-.downmenu-content {
-display: none;
-margin: 0;
-position: absolute;
-background-color: #f9f9f9;
-z-index: 1;
-text-decoration: none;
-text-align: center;
 }
 
-// green balloons in the icons favorite and cart -------------------------------
+//this hover shows the dropdown content
+.d-menu2:hover .d-menu-content-lang, .d-menu2:hover .d-menu-content-cur{
+    display: block;
+   a:hover{
+       color: red;
+   }
+}
+
+//dropdown content color links "a" 
+.d-menu-content-lang li a, .d-menu-content-cur li a{
+    color: $base-color;
+}
+
+
+
+
+// ---------------  green balloons in the icons favorite and cart   ----------------------------------------
 
 .nav-buttons {
-    margin-left: 30px; //space between dropdown buttons 
+    margin-left: 20px; //space between dropdown buttons 
 }
 .nav-buttons span {
     position: absolute;
@@ -189,8 +199,7 @@ text-align: center;
     margin: -10px 0px 0px -10px;
     background-color: #ffffff;
     border: 2px solid $secondary-color;
-    z-index: 15;
+    z-index: 14;
     padding: 0.1rem 0.3rem;
     border-radius: 50%;
-    font-family: $osf-font;
 }

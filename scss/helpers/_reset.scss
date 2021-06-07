@@ -1,8 +1,14 @@
+@import '../helpers/fonts';
+
 * {
     box-sizing: border-box;
-    font-family: 'Lato', Helvetica, sans-serif;
+    font-family: $osf-font;
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
 }
+
+$size-desktop: 1280px;
+$size-tablet: 768px;
+$size-phone: 320px;

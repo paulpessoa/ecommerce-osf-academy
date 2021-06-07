@@ -6,6 +6,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -75,8 +83,8 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
   height: 76px;
+  margin: 0 auto;
 }
 
 .nav-brand img {
@@ -103,30 +111,11 @@ header {
   font-weight: 400;
 }
 
-.nav-wrapper ul li a {
-  font-weight: 500;
-}
-
-.d-lang, .d-cur {
-  color: #bdc3c7;
-  font-weight: 500;
-}
-
-.nav-menu span {
-  font-size: 0.5rem;
-  color: #bdc3c7;
-  margin-left: 8px;
-}
-
-.d-menu {
-  overflow: hidden;
-}
-
 .d-menu-btn {
   border: none;
   outline: none;
   margin-top: 10px;
-  padding: 20px 15px 30px;
+  padding: 20px 18px 30px;
   background-color: inherit;
   text-transform: uppercase;
 }
@@ -138,23 +127,31 @@ header {
   color: #ffffff;
 }
 
-.d-menu-content {
+.d-menu-content, .d-menu-content-lang, .d-menu-content-cur {
   display: none;
   position: absolute;
   background-color: #262a32;
   width: 100%;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 15;
   justify-content: space-around;
   padding: 20px;
 }
 
-.d-menu:hover .d-menu-content {
+.d-menu:hover .d-menu-content, .d-menu-btn:hover {
   display: block;
 }
 
 .d-menu-content-flex li a {
+  color: #ffffff;
+}
+
+.d-menu-content-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1280px;
   color: #ffffff;
 }
 
@@ -164,44 +161,56 @@ header {
   justify-content: space-between;
 }
 
-.d-menu-content-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1280px;
-}
-
-.d-menu-content-flex {
-  color: #ffffff;
-  text-transform: lowercase;
-}
-
-.d-menu-content-flex h3 {
-  text-transform: uppercase;
-}
-
 .nav-menu a, .downmenu a {
-  margin: 0.5rem 1rem;
+  margin: 0.4rem 1rem;
   color: #45413e;
   font-family: Lato;
   font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
 }
 
-.downmenu-content {
-  display: none;
-  margin: 0;
-  position: absolute;
-  background-color: #f9f9f9;
-  z-index: 1;
-  text-decoration: none;
+.nav-menu span, .d-lang, .d-cur {
+  color: #bdc3c7;
+  font-weight: 600;
+}
+
+.nav-menu span {
+  font-size: 0.5rem;
+  margin-left: 8px;
+}
+
+.d-menu2 {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+.d-menu2 button {
+  color: #bdc3c7;
+}
+
+.d-menu-content-lang a, .d-menu-content-cur a {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  padding: 14px 0px;
+  background-color: #262a32;
+  color: #ffffff;
+  margin: -15px;
+  z-index: 10;
+}
+
+.d-menu2:hover .d-menu-content-lang, .d-menu2:hover .d-menu-content-cur {
+  display: block;
+}
+.d-menu2:hover .d-menu-content-lang a:hover, .d-menu2:hover .d-menu-content-cur a:hover {
+  color: red;
+}
+
+.d-menu-content-lang li a, .d-menu-content-cur li a {
+  color: #ffffff;
 }
 
 .nav-buttons {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .nav-buttons span {
@@ -211,10 +220,9 @@ header {
   margin: -10px 0px 0px -10px;
   background-color: #ffffff;
   border: 2px solid #84bc22;
-  z-index: 15;
+  z-index: 14;
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
-  font-family: "Lato", Helvetica, sans-serif;
 }
 
 * {
@@ -250,8 +258,8 @@ header {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
   height: 76px;
+  margin: 0 auto;
 }
 
 .nav-brand img {
@@ -278,30 +286,11 @@ header {
   font-weight: 400;
 }
 
-.nav-wrapper ul li a {
-  font-weight: 500;
-}
-
-.d-lang, .d-cur {
-  color: #bdc3c7;
-  font-weight: 500;
-}
-
-.nav-menu span {
-  font-size: 0.5rem;
-  color: #bdc3c7;
-  margin-left: 8px;
-}
-
-.d-menu {
-  overflow: hidden;
-}
-
 .d-menu-btn {
   border: none;
   outline: none;
   margin-top: 10px;
-  padding: 20px 15px 30px;
+  padding: 20px 18px 30px;
   background-color: inherit;
   text-transform: uppercase;
 }
@@ -313,23 +302,31 @@ header {
   color: #ffffff;
 }
 
-.d-menu-content {
+.d-menu-content, .d-menu-content-lang, .d-menu-content-cur {
   display: none;
   position: absolute;
   background-color: #262a32;
   width: 100%;
   left: 0;
   right: 0;
-  z-index: 10;
+  z-index: 15;
   justify-content: space-around;
   padding: 20px;
 }
 
-.d-menu:hover .d-menu-content {
+.d-menu:hover .d-menu-content, .d-menu-btn:hover {
   display: block;
 }
 
 .d-menu-content-flex li a {
+  color: #ffffff;
+}
+
+.d-menu-content-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1280px;
   color: #ffffff;
 }
 
@@ -339,44 +336,56 @@ header {
   justify-content: space-between;
 }
 
-.d-menu-content-flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1280px;
-}
-
-.d-menu-content-flex {
-  color: #ffffff;
-  text-transform: lowercase;
-}
-
-.d-menu-content-flex h3 {
-  text-transform: uppercase;
-}
-
 .nav-menu a, .downmenu a {
-  margin: 0.5rem 1rem;
+  margin: 0.4rem 1rem;
   color: #45413e;
   font-family: Lato;
   font-size: 14px;
-  font-weight: 400;
-  text-transform: uppercase;
-  text-align: center;
 }
 
-.downmenu-content {
-  display: none;
-  margin: 0;
-  position: absolute;
-  background-color: #f9f9f9;
-  z-index: 1;
-  text-decoration: none;
+.nav-menu span, .d-lang, .d-cur {
+  color: #bdc3c7;
+  font-weight: 600;
+}
+
+.nav-menu span {
+  font-size: 0.5rem;
+  margin-left: 8px;
+}
+
+.d-menu2 {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+.d-menu2 button {
+  color: #bdc3c7;
+}
+
+.d-menu-content-lang a, .d-menu-content-cur a {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  padding: 14px 0px;
+  background-color: #262a32;
+  color: #ffffff;
+  margin: -15px;
+  z-index: 10;
+}
+
+.d-menu2:hover .d-menu-content-lang, .d-menu2:hover .d-menu-content-cur {
+  display: block;
+}
+.d-menu2:hover .d-menu-content-lang a:hover, .d-menu2:hover .d-menu-content-cur a:hover {
+  color: red;
+}
+
+.d-menu-content-lang li a, .d-menu-content-cur li a {
+  color: #ffffff;
 }
 
 .nav-buttons {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .nav-buttons span {
@@ -386,10 +395,9 @@ header {
   margin: -10px 0px 0px -10px;
   background-color: #ffffff;
   border: 2px solid #84bc22;
-  z-index: 15;
+  z-index: 14;
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
-  font-family: "Lato", Helvetica, sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

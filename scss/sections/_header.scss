@@ -3,12 +3,16 @@
         '../helpers/fonts',
         '../helpers/reset';
         
+body {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1280px;
+
+}
 
 header {
     border-bottom: 2px solid #F3F0E9;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
+
 }
 
 
@@ -19,7 +23,7 @@ header {
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;    
-    height: 80px;
+    height: 76px;
 }
 
 // Logo Style
@@ -51,11 +55,10 @@ header {
 }
 
 .nav-wrapper ul li a{
-    color: $main-color;
     font-weight: 500;
 }
 
-.nav-menu ul a{
+.d-lang, .d-cur{
     color: $opacity-color;
     font-weight: 500;
 }
@@ -65,6 +68,91 @@ header {
     color: $opacity-color;
     margin-left: 8px;
 }
+
+
+// --------------- dropdown menu ---------------
+
+.d-menu {
+    overflow: hidden;
+}
+
+.d-menu-btn {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 20px 15px 30px;
+    background-color: inherit;
+    text-transform: uppercase;
+
+}
+
+.d-menu-btn:hover, .d-menu button:hover{
+    background: $back-color;
+    border-bottom: 4px solid $secondary-color;
+    padding-bottom: 26px;
+    color: $base-color;
+   
+}
+
+.d-menu-content {
+    display: none;
+    position: absolute;
+    background-color: $back-color;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    justify-content: space-around;
+    padding: 20px;
+   
+}
+
+.d-menu:hover .d-menu-content {
+    display: block;
+   
+}
+
+.d-menu-content-flex li a{
+    color: $base-color;
+}
+
+.menu-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.d-menu-content-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+
+
+.d-menu-content-flex{
+    color: $base-color;
+    text-transform:lowercase;    
+}
+
+.d-menu-content-flex h3{
+    text-transform:uppercase;    
+}
+.d-menu-content-flex li a{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Style for "services"
 .nav-menu a, .downmenu a {

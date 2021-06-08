@@ -8,6 +8,10 @@ body {
     width: 100%;
     margin: 0 auto;
     max-width: 1280px;
+    a:hover { text-decoration: none }
+    button:focus {
+    outline: none;
+  }
 }
 
 
@@ -23,11 +27,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    height: 76px;
-    margin: 0 auto;
-
-   
+    justify-content: space-around; 
 }
 
 
@@ -38,7 +38,7 @@ header {
 }
 
 
-// Style "OSF"
+// "OSF" Style 
 .nav-brand h1 {
     margin: 0;
     color: $primary-color;
@@ -49,7 +49,7 @@ header {
     letter-spacing: 6.33px;
 }
 
-// Style "Academy" 
+// "Academy" Style 
 .nav-brand h2 {
     margin: 0;
     margin-top: -8px;
@@ -64,6 +64,9 @@ header {
 
 //reset menu button  -------
 
+.nav-wrapper ul{
+    margin: 0px;
+}
 .d-menu-btn {
     border: none;
     outline: none;
@@ -72,6 +75,8 @@ header {
     background-color: inherit;
     text-transform: uppercase;
 }
+
+
 
 //hover effect menu button green and dark
 .d-menu-btn:hover, .d-menu button:hover{
@@ -101,9 +106,41 @@ header {
 }
 
 //dropdown content color links "a" 
-.d-menu-content-flex li a{
-    color: $base-color;
+
+.d-menu-content {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0px auto;
+  
+    
 }
+.d-menu-content-flex {
+    margin: 35px;
+
+    li a {
+        color:$base-color;
+        margin: 0px;
+        font-size: 16px;
+    }
+}
+
+.hoverli h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+
+
+.hoverli:hover {
+    a {
+        color: $secondary-color;
+         }
+    h3, h3 span {
+        color: $secondary-color;
+            }
+}
+
+
 
 
 //content columns side by side 
@@ -116,10 +153,15 @@ header {
 }
 
 //content list side by side 
-.menu-products {
+.menu-products, .menu-sales {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    padding-top: 10px;
+    line-height: 2rem;
+    ul:nth-child(-n+3) {
+        margin-right: 110px;
+    }
 }
 
 // Style dropdown "services"
@@ -192,6 +234,13 @@ font-size: 14px;
 .nav-buttons {
     margin-left: 20px; //space between dropdown buttons 
 }
+
+
+
+
+
+
+
 .nav-buttons span {
     position: absolute;
     font-size: 10px;
@@ -203,3 +252,11 @@ font-size: 14px;
     padding: 0.1rem 0.3rem;
     border-radius: 50%;
 }
+
+
+
+.nav-buttons li:hover {
+    path {
+    fill: $secondary-color;
+    }
+} 

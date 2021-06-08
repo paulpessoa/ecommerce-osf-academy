@@ -73,6 +73,12 @@ body {
   margin: 0 auto;
   max-width: 1280px;
 }
+body a:hover {
+  text-decoration: none;
+}
+body button:focus {
+  outline: none;
+}
 
 header {
   border-bottom: 2px solid #F3F0E9;
@@ -82,9 +88,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  height: 76px;
-  margin: 0 auto;
+  justify-content: space-around;
 }
 
 .nav-brand img {
@@ -109,6 +113,10 @@ header {
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.nav-wrapper ul {
+  margin: 0px;
 }
 
 .d-menu-btn {
@@ -143,8 +151,31 @@ header {
   display: block;
 }
 
+.d-menu-content {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.d-menu-content-flex {
+  margin: 35px;
+}
 .d-menu-content-flex li a {
   color: #ffffff;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.hoverli h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.hoverli:hover a {
+  color: #84bc22;
+}
+.hoverli:hover h3, .hoverli:hover h3 span {
+  color: #84bc22;
 }
 
 .d-menu-content-flex {
@@ -155,10 +186,15 @@ header {
   color: #ffffff;
 }
 
-.menu-products {
+.menu-products, .menu-sales {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 10px;
+  line-height: 2rem;
+}
+.menu-products ul:nth-child(-n+3), .menu-sales ul:nth-child(-n+3) {
+  margin-right: 110px;
 }
 
 .nav-menu a, .downmenu a {
@@ -223,6 +259,10 @@ header {
   z-index: 14;
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
+}
+
+.nav-buttons li:hover path {
+  fill: #84bc22;
 }
 
 * {
@@ -248,6 +288,12 @@ body {
   margin: 0 auto;
   max-width: 1280px;
 }
+body a:hover {
+  text-decoration: none;
+}
+body button:focus {
+  outline: none;
+}
 
 header {
   border-bottom: 2px solid #F3F0E9;
@@ -257,9 +303,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
-  height: 76px;
-  margin: 0 auto;
+  justify-content: space-around;
 }
 
 .nav-brand img {
@@ -284,6 +328,10 @@ header {
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.nav-wrapper ul {
+  margin: 0px;
 }
 
 .d-menu-btn {
@@ -318,8 +366,31 @@ header {
   display: block;
 }
 
+.d-menu-content {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.d-menu-content-flex {
+  margin: 35px;
+}
 .d-menu-content-flex li a {
   color: #ffffff;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.hoverli h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.hoverli:hover a {
+  color: #84bc22;
+}
+.hoverli:hover h3, .hoverli:hover h3 span {
+  color: #84bc22;
 }
 
 .d-menu-content-flex {
@@ -330,10 +401,15 @@ header {
   color: #ffffff;
 }
 
-.menu-products {
+.menu-products, .menu-sales {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-top: 10px;
+  line-height: 2rem;
+}
+.menu-products ul:nth-child(-n+3), .menu-sales ul:nth-child(-n+3) {
+  margin-right: 110px;
 }
 
 .nav-menu a, .downmenu a {
@@ -398,6 +474,10 @@ header {
   z-index: 14;
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
+}
+
+.nav-buttons li:hover path {
+  fill: #84bc22;
 }
 
 /*# sourceMappingURL=style.css.map */

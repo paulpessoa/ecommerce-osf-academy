@@ -82,6 +82,11 @@ body button:focus {
 
 header {
   border-bottom: 2px solid #F3F0E9;
+  position: fixed;
+  width: 100%;
+  max-width: 1280px;
+  z-index: 100;
+  background-color: #ffffff;
 }
 
 .nav-wrapper, .nav-brand, .nav-menu {
@@ -238,7 +243,7 @@ header {
   display: block;
 }
 .d-menu2:hover .d-menu-content-lang a:hover, .d-menu2:hover .d-menu-content-cur a:hover {
-  color: red;
+  color: #84bc22;
 }
 
 .d-menu-content-lang li a, .d-menu-content-cur li a {
@@ -263,6 +268,43 @@ header {
 
 .nav-buttons li:hover path {
   fill: #84bc22;
+}
+
+.nav-banners {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+  padding-top: 110px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banners-main {
+  width: 75%;
+  max-width: 1280px;
+  margin: 0;
+  position: relative;
+}
+.banners-main .image {
+  height: 500px;
+  border-radius: 10px;
+}
+
+.banners-offer {
+  width: 23%;
+  max-width: 1280px;
+  margin: 0;
+  position: relative;
+}
+.banners-offer .image {
+  width: 100%;
+  height: 305px;
+  border-radius: 10px;
+}
+.banners-offer .follow {
+  margin-top: 40px;
+  text-align: center;
 }
 
 * {
@@ -297,6 +339,11 @@ body button:focus {
 
 header {
   border-bottom: 2px solid #F3F0E9;
+  position: fixed;
+  width: 100%;
+  max-width: 1280px;
+  z-index: 100;
+  background-color: #ffffff;
 }
 
 .nav-wrapper, .nav-brand, .nav-menu {
@@ -453,7 +500,7 @@ header {
   display: block;
 }
 .d-menu2:hover .d-menu-content-lang a:hover, .d-menu2:hover .d-menu-content-cur a:hover {
-  color: red;
+  color: #84bc22;
 }
 
 .d-menu-content-lang li a, .d-menu-content-cur li a {
@@ -478,6 +525,43 @@ header {
 
 .nav-buttons li:hover path {
   fill: #84bc22;
+}
+
+.nav-banners {
+  justify-content: space-around;
+  flex-wrap: wrap;
+  display: flex;
+  padding-top: 110px;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banners-main {
+  width: 75%;
+  max-width: 1280px;
+  margin: 0;
+  position: relative;
+}
+.banners-main .image {
+  height: 500px;
+  border-radius: 10px;
+}
+
+.banners-offer {
+  width: 23%;
+  max-width: 1280px;
+  margin: 0;
+  position: relative;
+}
+.banners-offer .image {
+  width: 100%;
+  height: 305px;
+  border-radius: 10px;
+}
+.banners-offer .follow {
+  margin-top: 40px;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <!--Favicon-->
@@ -27,6 +29,8 @@
 
 
     <nav class="nav-wrapper">
+       <button class="fas fa-bars"></button>
+       
         <a class="nav-brand" href="./index.html">
             <img src="./img/logo.png" width="" height="" alt="OSF Logo">
             <div class="text-logo">
@@ -42,7 +46,7 @@
                     <div class="d-menu-content">
                         <div class="d-menu-content-flex">
                             <!----------------coluna 1 -------------------->
-                            <div class="column-products">
+                            <div class="column-products full width">
                                 <div class="hoverli"><h3>Product Categories<span>▼</span></h3> 
                                 </div>
                                 <div class="">
@@ -153,16 +157,18 @@
 <!--4.1 Product Title-->
 
 <!--5.1 Carrousel Banner-->
-
-<section id="section-sliders" >
-    <div class="nav-banners">
-        <div class="banners-main">
-            <div class="image active" style="background-image: url(./img/img1.jpg)">
-                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
-                <p> Dignissimos a quos cumque iste ipsa? Voluptas, magni neque. Quidem unde omnis praesentium perspiciatis! Quia, sequi quas? Mollitia earum eius dolore quam.</p>
-                <button>Click here</button>
-            </div>
+<section class="container nav-banners">
+    <div class="row">
+       <div class="col-sm-12 col-md-8 col-lg-9"><div class="banners-main">
+        <div class="image active" style="background-image: url(./img/img1.jpg)">
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+            <p> Dignissimos a quos cumque iste ipsa? Voluptas, magni neque. Quidem unde omnis praesentium perspiciatis! Quia, sequi quas? Mollitia earum eius dolore quam.</p>
+            <button>Click here</button>
         </div>
+    </div> </div>
+
+
+       <div class="col-sm-12 col-md-4 col-lg-3"> 
         <div class="banners-offer">
             <div class="image active" style="background-image: url(./img/sales.png)">
                 <h3>55%</h3>
@@ -175,11 +181,88 @@
                 <button>click here</button>
             </div>
         </div>
+       </div>
+       
+       
     </div>
 </section>
 
 
 <!--5.2 Popular Itens-->
+
+<section class="container nav-banners pop-itens">
+    <h1 style="text-align: center;">popular itens</h1>
+
+    <div class="row">
+<!---------------------------------------------->
+        <div class="col-sm-12 col-md-4 col-lg-3"> 
+            <div class="imagini2">
+                <div class="imagini" style="background-image: url(./img/sales.png)"></div>
+                <h4 class="name">product title</h4>
+                <span>$ 99.99</span>
+                <div class="card-overlay">
+                    <button class="add-cart">
+                        <img src="img/icons/plus.svg" alt="Add">
+                    </button>
+                    <button class="favorite-button">
+                        <img src="img/icons/heart.svg" alt="Favorite">
+                    </button>
+                </div>    
+            </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-4 col-lg-3"> 
+            <div class="imagini2">
+                <div class="imagini" style="background-image: url(./img/sales.png)"></div>
+                <h4 class="name">product title</h4>
+                <span>$ 99.99</span>
+                <div class="card-overlay">
+                    <button class="add-cart">
+                        <img src="img/icons/plus.svg" alt="Add">
+                    </button>
+                    <button class="favorite-button">
+                        <img src="img/icons/heart.svg" alt="Favorite">
+                    </button>
+                </div>    
+            </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-4 col-lg-3"> 
+            <div class="imagini2">
+                <div class="imagini" style="background-image: url(./img/sales.png)"></div>
+                <h4 class="name">product title</h4>
+                <span>$ 99.99</span>
+                <div class="card-overlay">
+                    <button class="add-cart">
+                        <img src="img/icons/plus.svg" alt="Add">
+                    </button>
+                    <button class="favorite-button">
+                        <img src="img/icons/heart.svg" alt="Favorite">
+                    </button>
+                </div>    
+            </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-4 col-lg-3"> 
+            <div class="imagini2">
+                <div class="imagini" style="background-image: url(./img/sales.png)"></div>
+                <h4 class="name">product title</h4>
+                <span>$ 99.99</span>
+                <div class="card-overlay">
+                    <button class="add-cart">
+                        <img src="img/icons/plus.svg" alt="Add">
+                    </button>
+                    <button class="favorite-button">
+                        <img src="img/icons/heart.svg" alt="Favorite">
+                    </button>
+                </div>    
+            </div>
+        </div>
+        
+    </div>
+    
+</section>
+
 
 <!--5.3 Full Width Image-->
 

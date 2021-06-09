@@ -253,7 +253,6 @@ header {
 .nav-buttons {
   margin-left: 20px;
 }
-
 .nav-buttons span {
   position: absolute;
   font-size: 10px;
@@ -265,37 +264,24 @@ header {
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
 }
-
 .nav-buttons li:hover path {
   fill: #84bc22;
 }
 
 .nav-banners {
   justify-content: space-around;
-  flex-wrap: wrap;
-  display: flex;
   padding-top: 110px;
   max-width: 1280px;
-  width: 100%;
   margin: 0 auto;
 }
 
-.banners-main {
-  width: 75%;
-  max-width: 1280px;
-  margin: 0;
-  position: relative;
-}
 .banners-main .image {
   height: 500px;
   border-radius: 10px;
 }
 
 .banners-offer {
-  width: 23%;
-  max-width: 1280px;
   margin: 0;
-  position: relative;
 }
 .banners-offer .image {
   width: 100%;
@@ -307,6 +293,39 @@ header {
   text-align: center;
 }
 
+.imagini {
+  background-size: cover no-repeat;
+  height: 200px;
+}
+
+.imagini2 {
+  background-color: gray;
+}
+
+@media screen and (min-width: 768px) and (max-width: 870px) {
+  .fa-bars {
+    display: none;
+  }
+
+  .d-menu-btn {
+    padding: 20px 9px 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .nav-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    justify-content: center;
+    background-color: #262a32;
+    padding: 15px;
+  }
+  .nav-buttons path {
+    fill: #ffffff;
+  }
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -510,7 +529,6 @@ header {
 .nav-buttons {
   margin-left: 20px;
 }
-
 .nav-buttons span {
   position: absolute;
   font-size: 10px;
@@ -522,37 +540,24 @@ header {
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
 }
-
 .nav-buttons li:hover path {
   fill: #84bc22;
 }
 
 .nav-banners {
   justify-content: space-around;
-  flex-wrap: wrap;
-  display: flex;
   padding-top: 110px;
   max-width: 1280px;
-  width: 100%;
   margin: 0 auto;
 }
 
-.banners-main {
-  width: 75%;
-  max-width: 1280px;
-  margin: 0;
-  position: relative;
-}
 .banners-main .image {
   height: 500px;
   border-radius: 10px;
 }
 
 .banners-offer {
-  width: 23%;
-  max-width: 1280px;
   margin: 0;
-  position: relative;
 }
 .banners-offer .image {
   width: 100%;
@@ -562,6 +567,40 @@ header {
 .banners-offer .follow {
   margin-top: 40px;
   text-align: center;
+}
+
+.imagini {
+  background-size: cover no-repeat;
+  height: 200px;
+}
+
+.imagini2 {
+  background-color: gray;
+}
+
+@media screen and (min-width: 768px) and (max-width: 870px) {
+  .fa-bars {
+    display: none;
+  }
+
+  .d-menu-btn {
+    padding: 20px 9px 30px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .nav-buttons {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    justify-content: center;
+    background-color: #262a32;
+    padding: 15px;
+  }
+  .nav-buttons path {
+    fill: #ffffff;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

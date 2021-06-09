@@ -320,15 +320,16 @@ font-size: 14px;
 
 
 
-@media screen and (min-width: 768px) and (max-width: 870px) {
+@media screen and (min-width: 768px) and (max-width: 880px) {
     .fa-bars{
         display: none;        
     }
 
     .d-menu-btn {
-        padding: 20px 9px 30px;
+        padding: 20px 8px 30px;
+
     }
-   
+
 }
 
 
@@ -337,6 +338,10 @@ font-size: 14px;
 //--------------------------------
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+    #eitia {
+        display: none;
+    }
+    
     .nav-buttons {
         position: fixed;
         bottom: 0;

@@ -1,6 +1,6 @@
 /** This function import the sections*/
 
 $(function(){ 
-    $("#header").load("./index.html");
-    $("#footer").load("footer.html"); 
+    $("#header").load("./sections/header.html");
+    $("#footer").load("./sections/footer.html"); 
 });

@@ -96,13 +96,15 @@ header {
   justify-content: space-around;
 }
 
-#hamburger {
-  align-items: flex-start;
+.nav-wrapper#hamburger {
+  display: none;
   background-color: transparent;
   border: 0;
   color: #011847;
   text-decoration: none;
   cursor: pointer;
+  padding: 0.5rem;
+  width: 15%;
 }
 
 .nav-brand img {
@@ -142,6 +144,13 @@ header {
   text-transform: uppercase;
 }
 
+#hoverbutton {
+  background: #262a32;
+  border-bottom: 4px solid #84bc22;
+  padding-bottom: 26px;
+  color: #ffffff;
+}
+
 .d-menu-btn:hover, .d-menu button:hover {
   background: #262a32;
   border-bottom: 4px solid #84bc22;
@@ -161,7 +170,7 @@ header {
   padding: 20px;
 }
 
-.d-menu:hover .d-menu-content, .d-menu-btn:hover, #hamburger:hover .d-menu-content {
+.d-menu:hover .d-menu-content, .d-menu-btn:hover {
   display: block;
 }
 
@@ -211,6 +220,12 @@ header {
   margin-right: 110px;
 }
 
+.column-img {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
 .nav-menu a, .downmenu a {
   margin: 0.4rem 1rem;
   color: #45413e;
@@ -225,6 +240,9 @@ header {
 
 .nav-menu span {
   font-size: 0.5rem;
+}
+
+i {
   margin-left: 8px;
 }
 
@@ -325,8 +343,59 @@ header {
     padding: 20px 8px 30px;
   }
 }
+.link-mobile-menu {
+  display: flex;
+  display: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .iconmenu {
+    font-size: 24px;
+  }
+
+  .link-mobile-menu {
+    display: block;
+  }
+
+  #list-pro, #list-sale {
+    display: none;
+  }
+
+  .d-menu-content-flex {
+    display: block;
+    margin: 0;
+  }
+
+  .d-menu {
+    margin-top: 64px;
+  }
+  .d-menu h3 {
+    padding-top: 15px;
+  }
+
+  span {
+    rotation-point: 50% 50%;
+    rotation: 180deg !important;
+  }
+
+  button {
+    display: none;
+  }
+
+  .nav-wrapper#hamburger {
+    display: flex;
+  }
+
+  .nav-brand {
+    width: 85%;
+    transform: translateX(-5%);
+  }
+
   .text-logo {
+    display: none;
+  }
+
+  .menu-products, .menu-sales {
     display: none;
   }
 
@@ -390,13 +459,15 @@ header {
   justify-content: space-around;
 }
 
-#hamburger {
-  align-items: flex-start;
+.nav-wrapper#hamburger {
+  display: none;
   background-color: transparent;
   border: 0;
   color: #011847;
   text-decoration: none;
   cursor: pointer;
+  padding: 0.5rem;
+  width: 15%;
 }
 
 .nav-brand img {
@@ -436,6 +507,13 @@ header {
   text-transform: uppercase;
 }
 
+#hoverbutton {
+  background: #262a32;
+  border-bottom: 4px solid #84bc22;
+  padding-bottom: 26px;
+  color: #ffffff;
+}
+
 .d-menu-btn:hover, .d-menu button:hover {
   background: #262a32;
   border-bottom: 4px solid #84bc22;
@@ -455,7 +533,7 @@ header {
   padding: 20px;
 }
 
-.d-menu:hover .d-menu-content, .d-menu-btn:hover, #hamburger:hover .d-menu-content {
+.d-menu:hover .d-menu-content, .d-menu-btn:hover {
   display: block;
 }
 
@@ -505,6 +583,12 @@ header {
   margin-right: 110px;
 }
 
+.column-img {
+  display: flex;
+  padding-top: 20px;
+  align-items: center;
+}
+
 .nav-menu a, .downmenu a {
   margin: 0.4rem 1rem;
   color: #45413e;
@@ -519,6 +603,9 @@ header {
 
 .nav-menu span {
   font-size: 0.5rem;
+}
+
+i {
   margin-left: 8px;
 }
 
@@ -619,8 +706,59 @@ header {
     padding: 20px 8px 30px;
   }
 }
+.link-mobile-menu {
+  display: flex;
+  display: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
+  .iconmenu {
+    font-size: 24px;
+  }
+
+  .link-mobile-menu {
+    display: block;
+  }
+
+  #list-pro, #list-sale {
+    display: none;
+  }
+
+  .d-menu-content-flex {
+    display: block;
+    margin: 0;
+  }
+
+  .d-menu {
+    margin-top: 64px;
+  }
+  .d-menu h3 {
+    padding-top: 15px;
+  }
+
+  span {
+    rotation-point: 50% 50%;
+    rotation: 180deg !important;
+  }
+
+  button {
+    display: none;
+  }
+
+  .nav-wrapper#hamburger {
+    display: flex;
+  }
+
+  .nav-brand {
+    width: 85%;
+    transform: translateX(-5%);
+  }
+
   .text-logo {
+    display: none;
+  }
+
+  .menu-products, .menu-sales {
     display: none;
   }
 

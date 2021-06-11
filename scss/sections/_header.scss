@@ -37,13 +37,15 @@ header {
 // hamburger menu --------
 
 
-#hamburger {
-    align-items: flex-start;
+.nav-wrapper#hamburger {
+    display: none;
     background-color: transparent;
     border: 0;
     color: $primary-color;
     text-decoration: none;
     cursor: pointer;
+    padding: 0.5rem;
+    width: 15%;
 }    
 
 
@@ -95,7 +97,12 @@ header {
     text-transform: uppercase;
 }
 
-
+#hoverbutton{
+    background: $back-color;
+    border-bottom: 4px solid $secondary-color;
+    padding-bottom: 26px;
+    color: $base-color;
+}
 
 //hover effect menu button green and dark
 .d-menu-btn:hover, .d-menu button:hover{
@@ -103,8 +110,12 @@ header {
     border-bottom: 4px solid $secondary-color;
     padding-bottom: 26px;
     color: $base-color;
-   
 }
+
+//hover effect menu button green and dark
+
+
+
 
 //first dropdown content style 
 .d-menu-content, .d-menu-content-lang, .d-menu-content-cur {
@@ -120,7 +131,7 @@ header {
 }
 
 //this hover shows the dropdown content
-.d-menu:hover .d-menu-content, .d-menu-btn:hover, #hamburger:hover .d-menu-content{
+.d-menu:hover .d-menu-content, .d-menu-btn:hover{
     display: block;
 }
 
@@ -142,6 +153,7 @@ header {
         font-size: 16px;
     }
 }
+
 
 .hoverli h3 {
     font-size: 14px;
@@ -183,6 +195,13 @@ header {
     }
 }
 
+
+.column-img {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+}
+
 // Style dropdown "services"
 .nav-menu a, .downmenu a {
 margin: 0.4rem 1rem;
@@ -199,8 +218,13 @@ font-size: 14px;
 
 .nav-menu span {
     font-size: 0.5rem;
-    margin-left: 8px;
 }
+
+i {
+    margin-left: 8px;
+    
+}
+
 
 
 
@@ -343,9 +367,9 @@ font-size: 14px;
 
     @media screen and (min-width: 768px) and (max-width: 880px) {
     .fa-bars{
-        display: none;        
+        display: none;  
     }
-
+    
   
     .d-menu-btn {
         padding: 20px 8px 30px;
@@ -353,14 +377,72 @@ font-size: 14px;
 
 }
 
-
+.link-mobile-menu {
+    display: flex;
+    display: none;
+}
 
 
 //--------------------------------
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
     
+    .iconmenu{
+        font-size: 24px;
+    }
+
+    
+    .link-mobile-menu {
+        display: block; 
+               
+    }
+
+
+    #list-pro, #list-sale {
+        display:none;
+    }
+
+    .d-menu-content-flex {
+        display: block;
+        margin: 0;
+    }
+
+    
+    .d-menu{
+        margin-top: 64px;
+        
+        h3 {
+           padding-top: 15px;
+
+        
+        }
+    }
+
+
+ span {
+    rotation-point: 50% 50%;
+        rotation:180deg !important;
+
+    }
+    button{
+        display: none;
+    }
+
+    .nav-wrapper#hamburger {
+        display:flex;}
+
+    .nav-brand {
+        width: 85%;
+        transform: translateX(-5%);
+    }
+
+
     .text-logo {
+        display: none;
+    }
+
+
+    .menu-products, .menu-sales {
         display: none;
     }
 

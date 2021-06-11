@@ -1,3 +1,13 @@
+
+ 
+
+$(function () {
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+ });
+
+
+
 //change 'hamburger' to 'X'
 
 $('.fa-bars').on('click', function(event){
@@ -54,8 +64,3 @@ $(document).ready(function(){ if(window.outerWidth < 425) {
 }
 });
 
-
-
-
- 
-    

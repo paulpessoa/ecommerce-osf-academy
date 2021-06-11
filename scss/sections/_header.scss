@@ -34,6 +34,21 @@ header {
     justify-content: space-around; 
 }
 
+// hamburger menu --------
+
+
+#hamburger {
+    align-items: flex-start;
+    background-color: transparent;
+    border: 0;
+    color: $primary-color;
+    text-decoration: none;
+    cursor: pointer;
+}    
+
+
+
+
 
 // Logo Style
 .nav-brand img {
@@ -105,7 +120,7 @@ header {
 }
 
 //this hover shows the dropdown content
-.d-menu:hover .d-menu-content, .d-menu-btn:hover{
+.d-menu:hover .d-menu-content, .d-menu-btn:hover, #hamburger:hover .d-menu-content{
     display: block;
 }
 
@@ -320,14 +335,20 @@ font-size: 14px;
 
 
 
-@media screen and (min-width: 768px) and (max-width: 880px) {
+@media screen and (min-width: 880px) {
+    #hamburger {
+        display: block;
+    }
+}
+
+    @media screen and (min-width: 768px) and (max-width: 880px) {
     .fa-bars{
         display: none;        
     }
 
+  
     .d-menu-btn {
         padding: 20px 8px 30px;
-
     }
 
 }
@@ -338,10 +359,11 @@ font-size: 14px;
 //--------------------------------
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    #eitia {
+    
+    .text-logo {
         display: none;
     }
-    
+
     .nav-buttons {
         position: fixed;
         bottom: 0;
@@ -352,7 +374,6 @@ font-size: 14px;
         background-color: $back-color;
         padding: 15px;
         
-
         path {
             fill: $base-color;
             }

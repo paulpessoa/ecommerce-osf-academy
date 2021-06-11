@@ -96,6 +96,15 @@ header {
   justify-content: space-around;
 }
 
+#hamburger {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 0;
+  color: #011847;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .nav-brand img {
   width: 64px;
   margin-right: 0.5rem;
@@ -152,7 +161,7 @@ header {
   padding: 20px;
 }
 
-.d-menu:hover .d-menu-content, .d-menu-btn:hover {
+.d-menu:hover .d-menu-content, .d-menu-btn:hover, #hamburger:hover .d-menu-content {
   display: block;
 }
 
@@ -302,6 +311,11 @@ header {
   background-color: gray;
 }
 
+@media screen and (min-width: 880px) {
+  #hamburger {
+    display: block;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 880px) {
   .fa-bars {
     display: none;
@@ -312,7 +326,7 @@ header {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  #eitia {
+  .text-logo {
     display: none;
   }
 
@@ -376,6 +390,15 @@ header {
   justify-content: space-around;
 }
 
+#hamburger {
+  align-items: flex-start;
+  background-color: transparent;
+  border: 0;
+  color: #011847;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .nav-brand img {
   width: 64px;
   margin-right: 0.5rem;
@@ -432,7 +455,7 @@ header {
   padding: 20px;
 }
 
-.d-menu:hover .d-menu-content, .d-menu-btn:hover {
+.d-menu:hover .d-menu-content, .d-menu-btn:hover, #hamburger:hover .d-menu-content {
   display: block;
 }
 
@@ -582,6 +605,11 @@ header {
   background-color: gray;
 }
 
+@media screen and (min-width: 880px) {
+  #hamburger {
+    display: block;
+  }
+}
 @media screen and (min-width: 768px) and (max-width: 880px) {
   .fa-bars {
     display: none;
@@ -592,7 +620,7 @@ header {
   }
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  #eitia {
+  .text-logo {
     display: none;
   }
 

@@ -198,8 +198,8 @@ header {
 
 .column-img {
     display: flex;
-    padding-top: 20px;
-    align-items: center;
+    padding: 20px;
+    justify-content: center;
 }
 
 // Style dropdown "services"

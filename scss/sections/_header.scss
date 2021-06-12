@@ -196,12 +196,6 @@ header {
 }
 
 
-.column-img {
-    display: flex;
-    padding: 20px;
-    justify-content: center;
-}
-
 // Style dropdown "services"
 .nav-menu a, .downmenu a {
 margin: 0.4rem 1rem;
@@ -438,16 +432,23 @@ i {
         transform: translateX(-8%);
     }
 
+    
+    .column-img {
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+    }
 
     .text-logo {
         display: none;
     }
 
-
     .menu-products, .menu-sales {
         display: none;
     }
 
+
+    
     .nav-buttons {
         position: fixed;
         bottom: 0;
@@ -461,5 +462,9 @@ i {
         path {
             fill: $base-color;
             }
+
+        span {
+            background-color: $back-color;
+        }
     }
 }

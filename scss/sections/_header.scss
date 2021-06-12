@@ -263,6 +263,9 @@ i {
     color: $base-color;
 }
 
+.column-img img {
+    border-radius: 10px;
+}
 
 
 
@@ -437,6 +440,7 @@ i {
         display: flex;
         padding: 20px;
         justify-content: center;
+
     }
 
     .text-logo {

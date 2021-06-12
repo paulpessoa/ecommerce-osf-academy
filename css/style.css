@@ -271,6 +271,10 @@ i {
   color: #ffffff;
 }
 
+.column-img img {
+  border-radius: 10px;
+}
+
 .nav-buttons {
   margin-left: 20px;
 }
@@ -637,6 +641,10 @@ i {
 
 .d-menu-content-lang li a, .d-menu-content-cur li a {
   color: #ffffff;
+}
+
+.column-img img {
+  border-radius: 10px;
 }
 
 .nav-buttons {

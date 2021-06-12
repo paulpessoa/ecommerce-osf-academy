@@ -1,6 +1,8 @@
 # OSF-Frontend-Academy
 Ecommerce project, developed at the OSF Academy in June 2021
 
+New Deploy: https://osf-frontend-academy.vercel.app/
+
 ### Check List:
 
 - [ ] ( 3.1 Header)

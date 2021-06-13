@@ -59,6 +59,17 @@
   list-style: none;
 }
 
+footer .social-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+footer path {
+  fill: #bdc3c7;
+}
+footer path:hover {
+  fill: #84bc22;
+}
+
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;

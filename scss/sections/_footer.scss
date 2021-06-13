@@ -4,3 +4,21 @@
         '../helpers/fonts',
         '../helpers/reset';
         
+
+
+footer {
+
+
+  .social-buttons {
+    display: flex;
+    justify-content: space-around; 
+  } 
+
+
+    path {
+        fill: $opacity-color;
+    &:hover{
+        fill: $secondary-color;
+    }
+}
+}

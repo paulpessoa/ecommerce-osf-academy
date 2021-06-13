@@ -68,6 +68,7 @@ footer {
 footer h4 {
   font-size: 16px;
   font-weight: bold;
+  color: #45413e;
 }
 footer li {
   font-size: 14px;
@@ -95,6 +96,10 @@ footer .categoriest-column a, footer .about-column a {
 footer .categoriest-column a:hover, footer .about-column a:hover {
   color: #84bc22;
 }
+footer i {
+  font-size: 14px;
+  vertical-align: text-top;
+}
 footer .social-buttons {
   display: flex;
   justify-content: space-around;
@@ -110,8 +115,21 @@ footer path:hover {
   footer {
     display: block;
   }
+  footer #contact-column, footer #categoriest-column, footer #about-column {
+    display: none;
+  }
   footer .categoriest-column {
     display: block;
+  }
+  footer .social-buttons {
+    justify-content: space-between;
+    max-width: 60%;
+    margin: 80px auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .d-menu-content .fa-sort-down, footer .fa-sort-down {
+    display: none;
   }
 }
 * {
@@ -198,6 +216,10 @@ header {
   background-color: inherit;
   text-transform: uppercase;
 }
+.d-menu-btn i {
+  font-size: 14px;
+  vertical-align: text-top;
+}
 
 #hoverbutton {
   background: #262a32;
@@ -247,6 +269,10 @@ header {
 .hoverli h3 {
   font-size: 14px;
   text-transform: uppercase;
+}
+.hoverli h3 i {
+  font-size: 14px;
+  vertical-align: text-top;
 }
 
 .hoverli:hover a {
@@ -575,6 +601,10 @@ header {
   background-color: inherit;
   text-transform: uppercase;
 }
+.d-menu-btn i {
+  font-size: 14px;
+  vertical-align: text-top;
+}
 
 #hoverbutton {
   background: #262a32;
@@ -624,6 +654,10 @@ header {
 .hoverli h3 {
   font-size: 14px;
   text-transform: uppercase;
+}
+.hoverli h3 i {
+  font-size: 14px;
+  vertical-align: text-top;
 }
 
 .hoverli:hover a {

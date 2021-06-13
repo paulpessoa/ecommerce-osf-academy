@@ -95,6 +95,10 @@ header {
     padding: 20px 18px 30px;
     background-color: inherit;
     text-transform: uppercase;
+    i {
+        font-size: 14px;
+        vertical-align: text-top;
+    }
 }
 
 #hoverbutton{
@@ -158,6 +162,10 @@ header {
 .hoverli h3 {
     font-size: 14px;
     text-transform: uppercase;
+    i {
+        font-size: 14px;
+        vertical-align: text-top;
+    }
 }
 
 

@@ -3,8 +3,6 @@
         '../helpers/components',
         '../helpers/fonts',
         '../helpers/reset';
-        
-
 
 
 footer {
@@ -13,13 +11,11 @@ footer {
     justify-content: space-around;
     width: 100%;
     margin: 30px 0;
-    .container{
-
-    }
-  
+    
     h4 {
         font-size: 16px;
         font-weight: bold;
+        color: $main-color;
     }
 
     li {
@@ -53,6 +49,11 @@ footer {
         }
 }
 
+i {
+    font-size: 14px;
+    vertical-align: text-top;
+}
+
 
   .social-buttons {
     display: flex;
@@ -77,11 +78,28 @@ footer {
         footer{
             display: block;
             
+            #contact-column, #categoriest-column, #about-column {
+                display: none;              
+            }
             
             .categoriest-column {
                 display: block;
               }
 
+
+            .social-buttons {
+                justify-content: space-between;
+                max-width: 60%;
+                margin: 80px auto;
+            }
         }
     
+        
+}
+
+
+@media screen and (min-width: 768px){
+    .d-menu-content .fa-sort-down, footer .fa-sort-down {
+        display: none;
+    }
 }

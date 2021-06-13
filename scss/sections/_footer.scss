@@ -6,7 +6,52 @@
         
 
 
+
 footer {
+
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 30px 0;
+    .container{
+
+    }
+  
+    h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    li {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    a {
+        font-size: 14px;
+        color: $main-color;
+        &:hover {
+            color: $secondary-color;
+        }
+      }
+
+
+    .categoriest-column, .about-column{
+        display: flex;
+        ul{
+            width: 33%;
+        }
+        a {
+            color: $opacity-color;
+            line-height: 2rem;
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+}
 
 
   .social-buttons {
@@ -21,4 +66,22 @@ footer {
         fill: $secondary-color;
     }
 }
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    
+        footer{
+            display: block;
+            
+            
+            .categoriest-column {
+                display: block;
+              }
+
+        }
+    
 }

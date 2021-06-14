@@ -41,6 +41,10 @@ h2 {
         background-repeat: no-repeat;
     }
 
+    .card-info{
+        padding: 1rem;
+    }
+
     h4 {
         font-size: 16px;
     }
@@ -53,10 +57,10 @@ h2 {
         right: 0;
         height: 100%;
         width: 100%;
-        opacity: 0.3;
+        opacity: 0;
         border-radius: 10px;
-        transition: .5s ease;
-        background-color: #008CBA;
+        transition: 0.5s ease;
+        background: linear-gradient(to top, $icon-color1, $offer-color);
     }
     .card-buttons {
         color: white;
@@ -68,12 +72,40 @@ h2 {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         text-align: center;
+        width: 100%;
+   
+    }
+
+
+
+    button.add, button.favorite{
+        opacity: 1!important;
+        border: none;
+        background-color: $base-color;         
+        padding: 30px;
+        border-radius: 100%;
+        margin: 0.5rem;
+        transition: .3s ease;
+        img {
+            width: 30px;
+            height: 100%;
+        }
+
+        &:hover {
+            box-shadow: 1px 1px 10px $back-color;
+            cursor: pointer;
+        }
     }
 
     &:hover .card-hover {
-        opacity: 1;
-      }
+        opacity: 0.9;
 
+
+
+    }
+
+
+   
     
 
 }

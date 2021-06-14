@@ -560,6 +560,9 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
 }
+.cardx .card-info {
+  padding: 1rem;
+}
 .cardx h4 {
   font-size: 16px;
 }
@@ -571,10 +574,10 @@ h2 {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.3;
+  opacity: 0;
   border-radius: 10px;
   transition: 0.5s ease;
-  background-color: #008CBA;
+  background: linear-gradient(to top, #23c46e, #24c36c);
 }
 .cardx .card-buttons {
   color: white;
@@ -586,9 +589,27 @@ h2 {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 100%;
+}
+.cardx button.add, .cardx button.favorite {
+  opacity: 1 !important;
+  border: none;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 100%;
+  margin: 0.5rem;
+  transition: 0.3s ease;
+}
+.cardx button.add img, .cardx button.favorite img {
+  width: 30px;
+  height: 100%;
+}
+.cardx button.add:hover, .cardx button.favorite:hover {
+  box-shadow: 1px 1px 10px #262a32;
+  cursor: pointer;
 }
 .cardx:hover .card-hover {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 * {

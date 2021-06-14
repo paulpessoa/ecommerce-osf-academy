@@ -3,89 +3,64 @@
         '../helpers/fonts',
         '../helpers/reset';
 
-//desktop standard        
-body {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1280px;
-    a:hover { text-decoration: none }
-    button:focus {
-    outline: none;
-  }
-}
-
-
 // --------------- header style ---------------------
-
-// border botton line
+// styck menu and border botton line
 header {
-    border-bottom: 2px solid #F3F0E9;
-    position: fixed;
+    #fixedtop {
+        position: fixed;
+        width: 100%;
+        max-width: 1280px;
+        background-color: $base-color;
+        border-bottom: 2px solid #F3F0E9;
+        z-index: 100;
+}
     width: 100%;
     max-width: 1280px;
-    z-index: 100;
-    background-color: $base-color;
+    margin: 0 auto;  
+    .nav-wrapper, .nav-brand{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around; 
+    }
+    // Logo Style
+    .nav-brand img {
+        width: 64px;
+        margin-right: 0.5rem;
+    }
+    // "OSF" Style 
+    .nav-brand h1 {
+        margin: 0;
+        color: $primary-color;
+        font-family: $osf-font;
+        font-weight: 900;
+        font-size: 32px;
+        text-transform: uppercase;
+        letter-spacing: 6.33px;
+    }
+    // "Academy" Style 
+    .nav-brand h2 {
+        margin: 0;
+        margin-top: -8px;
+        color: $secondary-color;
+        font-family: $osf-font;
+        font-size: 18px;
+        font-weight: 400;
+    }
 }
 
-.nav-wrapper, .nav-brand, .nav-menu{
+.nav-menu{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around; 
+    a {
+        margin: 0.4rem 1rem;
+        color: $main-color;
+        font-family: Lato;
+        font-size: 14px;
+    }
 }
 
-// hamburger menu --------
-
-
-.nav-wrapper#hamburger {
-    display: none;
-    background-color: transparent;
-    border: 0;
-    color: $primary-color;
-    text-decoration: none;
-    cursor: pointer;
-    padding: 0.5rem;
-    width: 15%;
-}    
-
-
-
-
-
-// Logo Style
-.nav-brand img {
-    width: 64px;
-    margin-right: 0.5rem;
-}
-
-
-// "OSF" Style 
-.nav-brand h1 {
-    margin: 0;
-    color: $primary-color;
-    font-family: $osf-font;
-    font-weight: 900;
-    font-size: 32px;
-    text-transform: uppercase;
-    letter-spacing: 6.33px;
-}
-
-// "Academy" Style 
-.nav-brand h2 {
-    margin: 0;
-    margin-top: -8px;
-    color: $secondary-color;
-    font-family: $osf-font;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-
-// --------------- dropdown menu ---------------
-
-//reset menu button  -------
-
-.nav-wrapper ul{
+// reset menu button 
+.nav-wrapper ul {
     margin: 0px;
 }
 .d-menu-btn {
@@ -95,33 +70,32 @@ header {
     padding: 20px 18px 30px;
     background-color: inherit;
     text-transform: uppercase;
+    cursor: pointer;
     i {
         font-size: 14px;
+        margin-left: 8px;
         vertical-align: text-top;
     }
 }
 
-#hoverbutton{
-    background: $back-color;
-    border-bottom: 4px solid $secondary-color;
+//itens menu
+.d-menu-btn {
+    background: $base-color;
     padding-bottom: 26px;
-    color: $base-color;
+    color: $main-color;
+    //hover itens menu effect green and dark
+    &:hover {
+        background: $back-color;
+        border-bottom: 4px solid $secondary-color;
+        padding-bottom: 22px;
+        color: $base-color;
+    }
 }
 
-//hover effect menu button green and dark
-.d-menu-btn:hover, .d-menu button:hover{
-    background: $back-color;
-    border-bottom: 4px solid $secondary-color;
-    padding-bottom: 26px;
-    color: $base-color;
-}
-
-//hover effect menu button green and dark
 
 
-
-
-//first dropdown content style 
+// --------------- dropdown menu ---------------
+// first dropdown content style 
 .d-menu-content, .d-menu-content-lang, .d-menu-content-cur {
     display: none;
     position: absolute;
@@ -131,56 +105,19 @@ header {
     right: 0;
     z-index: 15;
     justify-content: space-around;
-    padding: 20px;
+    padding: 18px;
 }
 
-//this hover shows the dropdown content
+// when hover shows the dropdown content
 .d-menu:hover .d-menu-content, .d-menu-btn:hover{
     display: block;
 }
 
 //dropdown content color links "a" 
-
 .d-menu-content {
     max-width: 1280px;
-    width: 100%;
-    margin: 0px auto;
-  
-    
+    margin: 0px auto;    
 }
-.d-menu-content-flex {
-    margin: 35px;
-
-    li a {
-        color:$base-color;
-        margin: 0px;
-        font-size: 16px;
-    }
-}
-
-
-.hoverli h3 {
-    font-size: 14px;
-    text-transform: uppercase;
-    i {
-        font-size: 14px;
-        vertical-align: text-top;
-    }
-}
-
-
-
-.hoverli:hover {
-    a {
-        color: $secondary-color;
-         }
-    h3, h3 span {
-        color: $secondary-color;
-            }
-}
-
-
-
 
 //content columns side by side 
 .d-menu-content-flex {
@@ -189,43 +126,49 @@ header {
     justify-content: space-between;
     max-width: $size-desktop;
     color: $base-color;
-}
-
-//content list side by side 
-.menu-products, .menu-sales {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding-top: 10px;
-    line-height: 2rem;
-    ul:nth-child(-n+3) {
-        margin-right: 110px;
+    margin: 35px;
+    //color itens 
+    li a {
+        color:$base-color;
+        margin: 0px;
+        // hover itens 
+        &:hover {
+            color: $secondary-color;
+        }
     }
+    // style title dropdown menu 
+    h3 {
+        font-weight: bold;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+
+    //content list side by side 
+    .menu-products, .menu-sales {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-top: 10px;
+        line-height: 2rem;
+        ul:nth-child(-n+3) {
+            margin-right: 110px; // spacing between product and sale column
+        }
+    }
+
+    
+
 }
 
 
-// Style dropdown "services"
-.nav-menu a, .downmenu a {
-margin: 0.4rem 1rem;
-color: $main-color;
-font-family: Lato;
-font-size: 14px;
 
-}
+// Style icon buttons
 
 .nav-menu span, .d-lang, .d-cur{
     color: $opacity-color;
     font-weight: 600;
 }
 
-.nav-menu span {
-    font-size: 0.5rem;
-}
 
-i {
-    margin-left: 8px;
-    
-}
 
 
 
@@ -352,14 +295,21 @@ i {
     height: 200px;
 }
 
-.imagini2 {
- background-color: gray;   
-}
+
 
 
 //---- responsivity ------------------------
 
 
+
+// hamburger menu --------
+.nav-wrapper#hamburger {
+    display: none;
+    color: $primary-color;
+    text-decoration: none;
+    padding: 0.5rem;
+    width: 15%;
+}    
 
 
 
@@ -436,7 +386,8 @@ i {
     }
 
     .nav-wrapper#hamburger {
-        display:flex;}
+        display:flex;
+    }
 
     .nav-brand {
         width: 85%;
@@ -479,12 +430,4 @@ i {
             background-color: $back-color;
         }
     }
-}
-
-
-
-
-.tempclass {
-    height: 30vh;
-    background-color: $main-color;
 }

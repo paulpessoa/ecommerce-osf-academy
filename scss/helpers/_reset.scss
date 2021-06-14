@@ -12,3 +12,12 @@
 $size-desktop: 1280px;
 $size-tablet: 768px;
 $size-phone: 320px;
+
+
+//desktop standard        
+body {
+    a:hover { text-decoration: none }
+    button:focus {
+    outline: none;
+  }
+}

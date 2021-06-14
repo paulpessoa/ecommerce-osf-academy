@@ -3,4 +3,77 @@
         '../helpers/components',
         '../helpers/fonts',
         '../helpers/reset';
-        
+      
+//background section color        
+#popular-itens{
+     background-color: $back-color;
+}
+
+h2 {
+    color: $base-color;    
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.row.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardx {
+    padding: 0px;
+    width: 100%;
+    max-width: 271px;
+    height: 366px;
+    border-radius: 10px;
+    background-color: $base-color;
+    text-align: center;
+    position: relative;
+    
+    .card-img {
+        padding: 10px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        height: 266px;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    .card-hover{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0.3;
+        border-radius: 10px;
+        transition: .5s ease;
+        background-color: #008CBA;
+    }
+    .card-buttons {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &:hover .card-hover {
+        opacity: 1;
+      }
+
+    
+
+}

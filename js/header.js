@@ -20,10 +20,9 @@ $(document).ready(function(){
 
 // open and close all services
 
-  $(document).ready(function(){ if(window.outerWidth < 425) {
+  $(document).ready(function(){ if(window.outerWidth < 768) {
     $('#link-service').click(function() {
-        $('div#link-service').css('color', '$secondary-color');
-        $('#list-pro, #list-sale').slideToggle('slow');
+        $('.column-products, .column-sales').slideToggle('slow');
     }
     );
 }
@@ -36,9 +35,8 @@ $(document).ready(function(){
 
 // open and close just product list
 
-  $(document).ready(function(){ if(window.outerWidth < 425) {
+  $(document).ready(function(){ if(window.outerWidth < 768) {
     $('#list-pro').click(function() {
-        $('div#list-pro').css('color', '$secondary-color');
         $('.menu-products').slideToggle('slow');
     }
     );
@@ -48,9 +46,8 @@ $(document).ready(function(){
 
 // open and close just sale list
 
-$(document).ready(function(){ if(window.outerWidth < 425) {
+$(document).ready(function(){ if(window.outerWidth < 768) {
     $('#list-sale').click(function() {
-        $('div#list-sale').css('color', '$secondary-color');
         $('.menu-sales').slideToggle('slow');
     }
     );

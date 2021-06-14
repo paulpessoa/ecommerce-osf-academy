@@ -93,7 +93,6 @@ header {
 }
 
 
-
 // --------------- dropdown menu ---------------
 // first dropdown content style 
 .d-menu-content, .d-menu-content-lang, .d-menu-content-cur {
@@ -144,25 +143,45 @@ header {
     }
 
     //content list side by side 
-    .menu-products, .menu-sales {
+    .menu-products, {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        padding-top: 10px;
-        line-height: 2rem;
+        justify-content: space-around;
+        line-height: 3rem;
+       
+       
         ul:nth-child(-n+3) {
             margin-right: 110px; // spacing between product and sale column
         }
     }
 
-    
+    @media screen and (min-width: 860px) and (max-width: 1080px) {
+        .menu-products  ul:nth-child(-n+3)  {
+            margin-right: 40px;
+    }
+        .column-img {
+                       img {
+                width: 80%;
+            }
+
+        }
+    }
 
 }
+    //content list side by side 
+    .menu-sales {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        line-height: 3rem;
+        ul {
+            margin-right: 10px; // spacing between product and sale column
+        }
+    }
 
 
 
 // Style icon buttons
-
 .nav-menu span, .d-lang, .d-cur{
     color: $opacity-color;
     font-weight: 600;
@@ -170,14 +189,7 @@ header {
 
 
 
-
-
-
-
-
-
 //first dropdown content style 
-
 .d-menu2{
     display: block;
     position: relative;
@@ -197,8 +209,6 @@ header {
     color: $base-color;
     margin: -15px;
     z-index: 10;
-  
-
 }
 
 //this hover shows the dropdown content
@@ -213,18 +223,15 @@ header {
 .d-menu-content-lang li a, .d-menu-content-cur li a{
     color: $base-color;
 }
-
 .column-img img {
     border-radius: 10px;
 }
-
 
 
 // ---------------  green balloons in the icons favorite and cart   ----------------------------------------
 
 .nav-buttons {
     margin-left: 20px; //space between dropdown buttons 
-
     span {
         position: absolute;
         font-size: 10px;
@@ -237,7 +244,6 @@ header {
         border-radius: 50%;
     }
 
-
     // ----------- hover buttons ------------
     li:hover {
     path {
@@ -247,16 +253,7 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-//----------------------login -----------------------------
-
+//---------------------------------------------------
 .nav-banners{
     justify-content: space-around;
     padding-top: 110px;
@@ -264,15 +261,12 @@ header {
     margin: 0 auto;
     
 }
-
-
 .banners-main {
     .image {
         height: 500px;
         border-radius: 10px;
     }
 }
-
 .banners-offer {
     
     margin: 0;
@@ -281,7 +275,6 @@ header {
         height: 305px;
         border-radius: 10px;
     }
-
     .follow{
         margin-top: 40px;
 
@@ -289,18 +282,13 @@ header {
     }
 }
 
-
 .imagini {
     background-size: cover no-repeat;
     height: 200px;
 }
 
 
-
-
 //---- responsivity ------------------------
-
-
 
 // hamburger menu --------
 .nav-wrapper#hamburger {
@@ -311,99 +299,90 @@ header {
     width: 15%;
 }    
 
-
-
-
+// --------
 @media screen and (min-width: 880px) {
     #hamburger {
         display: block;
     }
 }
 
-    @media screen and (min-width: 768px) and (max-width: 880px) {
+// tablet screen
+@media screen and (min-width: 768px) and (max-width: 880px) {
     .fa-bars{
         display: none;  
-    }
-    
-  
+    } 
     .d-menu-btn {
         padding: 20px 8px 30px;
     }
 
-}
+    .d-menu-content-flex {
+        img {
+            width: 200px;
+        }
 
+        .menu-products ul:nth-child(-n+3),
+        .menu-sales ul:nth-child(-n+1) {
+            margin-right: 10px;
+        }
+    }
+   
+}
 .link-mobile-menu {
     display: flex;
     display: none;
 }
 
 
-//--------------------------------
 
+
+// mobile screen
 @media screen and (min-width: 320px) and (max-width: 768px) {
-    
     .iconmenu{
         font-size: 28px;
         padding: 1rem 2rem;
         z-index: 100;
-    }
-
-    
+    }  
     .link-mobile-menu {
-        display: block; 
-               
+        display: block;      
     }
-
-
-    #list-pro, #list-sale {
-        display:none;
-    }
-
     .d-menu-content-flex {
         display: block;
         margin: 0;
-    }
 
+        //hide the submenus on mobile
+        .column-sales, .column-products{
+            display:none;
+            .menu-products, .menu-sales{
+                display: none;
+            }               
+        }
+
+    }
     
     .d-menu{
         margin-top: 64px;
-        
         h3 {
            padding-top: 15px;
-
-        
         }
     }
-
     .d-menu-btn {
         display: none;
     }
-
     .nav-wrapper#hamburger {
         display:flex;
     }
-
     .nav-brand {
         width: 85%;
         transform: translateX(-8%);
     }
-
-    
     .column-img {
         display: flex;
         padding: 20px;
         justify-content: center;
-
     }
-
     .text-logo {
         display: none;
     }
-
-    .menu-products, .menu-sales {
-        display: none;
-    }
-
 
     
     .nav-buttons {
@@ -415,11 +394,9 @@ header {
         justify-content: center;
         background-color: $back-color;
         padding: 15px;
-        
         path {
             fill: $base-color;
             }
-
         span {
             background-color: $back-color;
         }

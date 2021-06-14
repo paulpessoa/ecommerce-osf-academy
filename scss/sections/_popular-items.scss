@@ -14,13 +14,13 @@
     width: 100%;
     padding-top: 40px;
     padding-bottom: 40px;
-}
 
-
-h2 {
-    color: $base-color;    
-    font-size: 20px;
-    font-weight: bolder;
+    h2 {
+        text-align: center;
+        color: $base-color;    
+        font-size: 20px;
+        font-weight: bolder;
+    }
 }
 
 .row.cards {

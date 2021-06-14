@@ -125,8 +125,8 @@ footer .categoriest-column ul, footer .about-column ul {
   width: 33%;
 }
 footer .categoriest-column a, footer .about-column a {
-  color: #bdc3c7;
-  line-height: 2rem;
+  color: #45413e;
+  line-height: 3rem;
 }
 footer .categoriest-column a:hover, footer .about-column a:hover {
   color: #84bc22;
@@ -307,15 +307,32 @@ header .nav-brand h2 {
   font-size: 16px;
   text-transform: uppercase;
 }
-.d-menu-content-flex .menu-products, .d-menu-content-flex .menu-sales {
+.d-menu-content-flex .menu-products {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 10px;
-  line-height: 2rem;
+  justify-content: space-around;
+  line-height: 3rem;
 }
-.d-menu-content-flex .menu-products ul:nth-child(-n+3), .d-menu-content-flex .menu-sales ul:nth-child(-n+3) {
+.d-menu-content-flex .menu-products ul:nth-child(-n+3) {
   margin-right: 110px;
+}
+@media screen and (min-width: 860px) and (max-width: 1080px) {
+  .d-menu-content-flex .menu-products ul:nth-child(-n+3) {
+    margin-right: 40px;
+  }
+  .d-menu-content-flex .column-img img {
+    width: 80%;
+  }
+}
+
+.menu-sales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  line-height: 3rem;
+}
+.menu-sales ul {
+  margin-right: 10px;
 }
 
 .nav-menu span, .d-lang, .d-cur {
@@ -427,6 +444,14 @@ header .nav-brand h2 {
   .d-menu-btn {
     padding: 20px 8px 30px;
   }
+
+  .d-menu-content-flex img {
+    width: 200px;
+  }
+  .d-menu-content-flex .menu-products ul:nth-child(-n+3),
+.d-menu-content-flex .menu-sales ul:nth-child(-n+1) {
+    margin-right: 10px;
+  }
 }
 .link-mobile-menu {
   display: flex;
@@ -444,13 +469,15 @@ header .nav-brand h2 {
     display: block;
   }
 
-  #list-pro, #list-sale {
-    display: none;
-  }
-
   .d-menu-content-flex {
     display: block;
     margin: 0;
+  }
+  .d-menu-content-flex .column-sales, .d-menu-content-flex .column-products {
+    display: none;
+  }
+  .d-menu-content-flex .column-sales .menu-products, .d-menu-content-flex .column-sales .menu-sales, .d-menu-content-flex .column-products .menu-products, .d-menu-content-flex .column-products .menu-sales {
+    display: none;
   }
 
   .d-menu {
@@ -460,12 +487,7 @@ header .nav-brand h2 {
     padding-top: 15px;
   }
 
-  span {
-    rotation-point: 50% 50%;
-    rotation: 180deg !important;
-  }
-
-  button {
+  .d-menu-btn {
     display: none;
   }
 
@@ -485,10 +507,6 @@ header .nav-brand h2 {
   }
 
   .text-logo {
-    display: none;
-  }
-
-  .menu-products, .menu-sales {
     display: none;
   }
 
@@ -535,8 +553,8 @@ body button:focus {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-
-h2 {
+.popular-itens h2 {
+  text-align: center;
   color: #ffffff;
   font-size: 20px;
   font-weight: bolder;
@@ -775,15 +793,32 @@ header .nav-brand h2 {
   font-size: 16px;
   text-transform: uppercase;
 }
-.d-menu-content-flex .menu-products, .d-menu-content-flex .menu-sales {
+.d-menu-content-flex .menu-products {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  padding-top: 10px;
-  line-height: 2rem;
+  justify-content: space-around;
+  line-height: 3rem;
 }
-.d-menu-content-flex .menu-products ul:nth-child(-n+3), .d-menu-content-flex .menu-sales ul:nth-child(-n+3) {
+.d-menu-content-flex .menu-products ul:nth-child(-n+3) {
   margin-right: 110px;
+}
+@media screen and (min-width: 860px) and (max-width: 1080px) {
+  .d-menu-content-flex .menu-products ul:nth-child(-n+3) {
+    margin-right: 40px;
+  }
+  .d-menu-content-flex .column-img img {
+    width: 80%;
+  }
+}
+
+.menu-sales {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  line-height: 3rem;
+}
+.menu-sales ul {
+  margin-right: 10px;
 }
 
 .nav-menu span, .d-lang, .d-cur {
@@ -895,6 +930,14 @@ header .nav-brand h2 {
   .d-menu-btn {
     padding: 20px 8px 30px;
   }
+
+  .d-menu-content-flex img {
+    width: 200px;
+  }
+  .d-menu-content-flex .menu-products ul:nth-child(-n+3),
+.d-menu-content-flex .menu-sales ul:nth-child(-n+1) {
+    margin-right: 10px;
+  }
 }
 .link-mobile-menu {
   display: flex;
@@ -912,13 +955,15 @@ header .nav-brand h2 {
     display: block;
   }
 
-  #list-pro, #list-sale {
-    display: none;
-  }
-
   .d-menu-content-flex {
     display: block;
     margin: 0;
+  }
+  .d-menu-content-flex .column-sales, .d-menu-content-flex .column-products {
+    display: none;
+  }
+  .d-menu-content-flex .column-sales .menu-products, .d-menu-content-flex .column-sales .menu-sales, .d-menu-content-flex .column-products .menu-products, .d-menu-content-flex .column-products .menu-sales {
+    display: none;
   }
 
   .d-menu {
@@ -928,12 +973,7 @@ header .nav-brand h2 {
     padding-top: 15px;
   }
 
-  span {
-    rotation-point: 50% 50%;
-    rotation: 180deg !important;
-  }
-
-  button {
+  .d-menu-btn {
     display: none;
   }
 
@@ -953,10 +993,6 @@ header .nav-brand h2 {
   }
 
   .text-logo {
-    display: none;
-  }
-
-  .menu-products, .menu-sales {
     display: none;
   }
 

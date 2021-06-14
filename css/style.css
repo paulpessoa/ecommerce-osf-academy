@@ -529,6 +529,13 @@ body button:focus {
   background-color: #262a32;
 }
 
+.popular-itens {
+  max-width: 1280px;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 h2 {
   color: #ffffff;
   font-size: 20px;
@@ -537,10 +544,12 @@ h2 {
 
 .row.cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .cardx {
+  margin: 1rem;
   padding: 0px;
   width: 100%;
   max-width: 271px;
@@ -610,6 +619,21 @@ h2 {
 }
 .cardx:hover .card-hover {
   opacity: 0.9;
+}
+
+.load-more {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.load-more #load-more {
+  border: 2px solid #ffffff;
+  padding: 6px 70px;
+  font-size: 15px;
+  background-color: #262a32;
+  color: #ffffff;
+  border-radius: 25px;
+  text-transform: uppercase;
 }
 
 * {

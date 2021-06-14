@@ -6,8 +6,16 @@
       
 //background section color        
 #popular-itens{
-     background-color: $back-color;
+    background-color: $back-color;
 }
+
+.popular-itens{
+    max-width: 1280px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
 
 h2 {
     color: $base-color;    
@@ -17,10 +25,13 @@ h2 {
 
 .row.cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
 .cardx {
+    margin: 1rem;
     padding: 0px;
     width: 100%;
     max-width: 271px;
@@ -29,6 +40,8 @@ h2 {
     background-color: $base-color;
     text-align: center;
     position: relative;
+
+
     
     .card-img {
         padding: 10px;
@@ -103,9 +116,23 @@ h2 {
 
 
     }
-
-
    
-    
 
+}
+
+.load-more {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+    #load-more {
+        border: 2px solid $base-color;
+        padding: 6px 70px;
+        font-size: 15px;
+        background-color: $back-color;
+        color: $base-color;
+        border-radius: 25px;
+        text-transform: uppercase;
+       
+    }
 }

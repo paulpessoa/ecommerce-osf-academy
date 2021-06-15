@@ -35,7 +35,7 @@
     padding: 0px;
     width: 100%;
     max-width: 271px;
-    height: 366px;
+    height: 367px;
     border-radius: 10px;
     background-color: $base-color;
     text-align: center;
@@ -55,11 +55,51 @@
     }
 
     .card-info{
-        padding: 1rem;
+        padding: 0.6rem;
     }
 
     h4 {
-        font-size: 16px;
+        font-size: 15px;
+    }
+
+    .card-buy {
+        display: flex;
+        justify-content: center;
+            #button1 {
+                border: 2px solid $opacity-color;    
+                border-radius: 50px 0px 0px 50px ;
+                background-color: $base-color;
+                border-right-width: 0px;
+                height: 35px;
+                width: 100px;
+                font-weight: bold;
+                font-size: 14px;
+                a {
+                    color: $offer-color;
+                    
+                }
+           
+                                
+            }
+            #button2 {   
+                border: 2px solid $opacity-color;
+                border-radius: 0px 50px 50px 0px  ;
+                height: 35px;
+                width: 100px;
+                background-color: $base-color;
+                color: $main-color;
+                font-size: 14px;
+                font-weight: bold;
+                text-transform: uppercase;
+                cursor: pointer;
+                transition: 0.4s ease;
+                &:hover {
+                    background-color: $secondary-color;
+                    border: 2px solid $secondary-color;
+                    color: $base-color;
+                    
+                }
+            }            
     }
 
     .card-hover{

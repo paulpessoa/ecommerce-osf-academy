@@ -571,7 +571,7 @@ body button:focus {
   padding: 0px;
   width: 100%;
   max-width: 271px;
-  height: 366px;
+  height: 367px;
   border-radius: 10px;
   background-color: #ffffff;
   text-align: center;
@@ -588,10 +588,45 @@ body button:focus {
   background-repeat: no-repeat;
 }
 .cardx .card-info {
-  padding: 1rem;
+  padding: 0.6rem;
 }
 .cardx h4 {
-  font-size: 16px;
+  font-size: 15px;
+}
+.cardx .card-buy {
+  display: flex;
+  justify-content: center;
+}
+.cardx .card-buy #button1 {
+  border: 2px solid #bdc3c7;
+  border-radius: 50px 0px 0px 50px;
+  background-color: #ffffff;
+  border-right-width: 0px;
+  height: 35px;
+  width: 100px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.cardx .card-buy #button1 a {
+  color: #24c36c;
+}
+.cardx .card-buy #button2 {
+  border: 2px solid #bdc3c7;
+  border-radius: 0px 50px 50px 0px;
+  height: 35px;
+  width: 100px;
+  background-color: #ffffff;
+  color: #45413e;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.4s ease;
+}
+.cardx .card-buy #button2:hover {
+  background-color: #84bc22;
+  border: 2px solid #84bc22;
+  color: #ffffff;
 }
 .cardx .card-hover {
   position: absolute;

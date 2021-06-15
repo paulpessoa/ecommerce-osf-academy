@@ -27,8 +27,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    
 }
+
+
+
+
 
 .cardx {
     margin: 1rem;
@@ -41,8 +44,6 @@
     text-align: center;
     position: relative;
 
-
-    
     .card-img {
         padding: 10px;
         border-top-left-radius: 8px;
@@ -65,7 +66,8 @@
     .card-buy {
         display: flex;
         justify-content: center;
-            #button1 {
+            // price button ------
+            #pricebutton {
                 border: 2px solid $opacity-color;    
                 border-radius: 50px 0px 0px 50px ;
                 background-color: $base-color;
@@ -81,7 +83,9 @@
            
                                 
             }
-            #button2 {   
+
+            // buy button ----
+            #buybutton {   
                 border: 2px solid $opacity-color;
                 border-radius: 0px 50px 50px 0px  ;
                 height: 35px;
@@ -95,7 +99,6 @@
                 transition: 0.4s ease;
                 &:hover {
                     background-color: $secondary-color;
-                    border: 2px solid $secondary-color;
                     color: $base-color;
                     
                 }
@@ -115,6 +118,10 @@
         transition: 0.5s ease;
         background: linear-gradient(to top, $icon-color1, $offer-color);
     }
+
+    
+
+
     .card-buttons {
         color: white;
         font-size: 20px;
@@ -126,13 +133,14 @@
         transform: translate(-50%, -50%);
         text-align: center;
         width: 100%;
+        display: none;
    
     }
 
 
 
     button.add, button.favorite{
-        opacity: 1!important;
+        opacity: 1;
         border: none;
         background-color: $base-color;         
         padding: 30px;
@@ -150,15 +158,76 @@
         }
     }
 
-    &:hover .card-hover {
-        opacity: 0.9;
-
-
-
+    span.price-text a {
+        font-weight: bold;
     }
-   
+
+    a {
+        color: $main-color;
+        transition: 0.3s ease;
+            &:hover {
+            color: $secondary-color;
+    }
+   }
+//add function hover
+&:hover .card-hover {
+    opacity: 0.9;
+    display:flex;
+    .card-buttons {
+        display: block;
+    }
+}
 
 }
+
+
+.card-img-last {
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+    
+//last card ------
+.card-hover-last {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    border-radius: 10px;
+    background: linear-gradient(to top, #64469c, #c03e74);
+    .card-info {
+        text-align: left;
+        padding: 32px;
+        position: absolute;
+        bottom: 0;
+        p {
+            color: $base-color;
+            font-size: 16px;
+        }
+        .price-text {
+            color: $base-color;
+            font-size: 15px;
+            text-transform: uppercase;
+            vertical-align: bottom;
+        }
+
+    }
+}
+
+
+
+
+
 
 .load-more {
     display: flex;

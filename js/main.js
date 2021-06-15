@@ -12,4 +12,3 @@ function addCart() {
     numCart++;
     document.getElementById('add-cart-sum').textContent = numCart;
     }
-    

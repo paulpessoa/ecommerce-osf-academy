@@ -597,7 +597,7 @@ body button:focus {
   display: flex;
   justify-content: center;
 }
-.cardx .card-buy #button1 {
+.cardx .card-buy #pricebutton {
   border: 2px solid #bdc3c7;
   border-radius: 50px 0px 0px 50px;
   background-color: #ffffff;
@@ -607,10 +607,10 @@ body button:focus {
   font-weight: bold;
   font-size: 14px;
 }
-.cardx .card-buy #button1 a {
+.cardx .card-buy #pricebutton a {
   color: #24c36c;
 }
-.cardx .card-buy #button2 {
+.cardx .card-buy #buybutton {
   border: 2px solid #bdc3c7;
   border-radius: 0px 50px 50px 0px;
   height: 35px;
@@ -623,9 +623,8 @@ body button:focus {
   cursor: pointer;
   transition: 0.4s ease;
 }
-.cardx .card-buy #button2:hover {
+.cardx .card-buy #buybutton:hover {
   background-color: #84bc22;
-  border: 2px solid #84bc22;
   color: #ffffff;
 }
 .cardx .card-hover {
@@ -652,9 +651,10 @@ body button:focus {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
+  display: none;
 }
 .cardx button.add, .cardx button.favorite {
-  opacity: 1 !important;
+  opacity: 1;
   border: none;
   background-color: #ffffff;
   padding: 30px;
@@ -670,8 +670,63 @@ body button:focus {
   box-shadow: 1px 1px 10px #262a32;
   cursor: pointer;
 }
+.cardx span.price-text a {
+  font-weight: bold;
+}
+.cardx a {
+  color: #45413e;
+  transition: 0.3s ease;
+}
+.cardx a:hover {
+  color: #84bc22;
+}
 .cardx:hover .card-hover {
   opacity: 0.9;
+  display: flex;
+}
+.cardx:hover .card-hover .card-buttons {
+  display: block;
+}
+
+.card-img-last {
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.card-hover-last {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  border-radius: 10px;
+  background: linear-gradient(to top, #64469c, #c03e74);
+}
+.card-hover-last .card-info {
+  text-align: left;
+  padding: 32px;
+  position: absolute;
+  bottom: 0;
+}
+.card-hover-last .card-info p {
+  color: #ffffff;
+  font-size: 16px;
+}
+.card-hover-last .card-info .price-text {
+  color: #ffffff;
+  font-size: 15px;
+  text-transform: uppercase;
+  vertical-align: bottom;
 }
 
 .load-more {

@@ -388,6 +388,9 @@ header .nav-brand h2 {
   z-index: 14;
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  text-align: center;
 }
 .nav-buttons li:hover path {
   fill: #84bc22;
@@ -736,12 +739,20 @@ body button:focus {
 }
 .load-more #load-more {
   border: 2px solid #ffffff;
-  padding: 6px 70px;
+  padding: 6px 80px;
   font-size: 15px;
   background-color: #262a32;
   color: #ffffff;
   border-radius: 25px;
   text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.load-more #load-more img {
+  position: absolute;
+  margin: 4px 14px;
+}
+.load-more #load-more:hover {
+  background-color: #84bc22;
 }
 
 * {
@@ -964,6 +975,9 @@ header .nav-brand h2 {
   z-index: 14;
   padding: 0.1rem 0.3rem;
   border-radius: 50%;
+  width: 21px;
+  height: 21px;
+  text-align: center;
 }
 .nav-buttons li:hover path {
   fill: #84bc22;

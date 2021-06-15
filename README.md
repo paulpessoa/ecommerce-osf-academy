@@ -5,13 +5,13 @@ New Deploy: https://osf-frontend-academy.vercel.app/
 
 ### Check List:
 
-- [ ] ( 3.1 Header)
+- [x] ( 3.1 Header)
 
-- [ ] ( 3.2 Navigation)
+- [x] ( 3.2 Navigation)
 
-- [ ] ( 3.3 Navigation on Mobile)
+- [x] ( 3.3 Navigation on Mobile)
 
-- [ ] ( 3.4 Footer)
+- [x] ( 3.4 Footer)
 
 - [ ] ( 4.1 Product Title)
 

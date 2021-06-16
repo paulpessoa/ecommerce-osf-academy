@@ -227,29 +227,8 @@
 
 
 
-
-
 .load-more {
     display: flex;
     justify-content: center;
     padding: 20px;
-
-    #load-more {
-        border: 2px solid $base-color;
-        padding: 6px 80px;
-        font-size: 15px;
-        background-color: $back-color;
-        color: $base-color;
-        border-radius: 25px;
-        text-transform: uppercase;
-        transition: 0.4s ease;
-
-        img {
-            position: absolute;
-            margin: 4px 14px
-        }
-        &:hover {
-            background-color: $secondary-color;
-        }
-    }
 }

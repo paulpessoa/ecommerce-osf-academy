@@ -396,36 +396,6 @@ header .nav-brand h2 {
   fill: #84bc22;
 }
 
-.nav-banners {
-  justify-content: space-around;
-  padding-top: 110px;
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.banners-main .image {
-  height: 500px;
-  border-radius: 10px;
-}
-
-.banners-offer {
-  margin: 0;
-}
-.banners-offer .image {
-  width: 100%;
-  height: 305px;
-  border-radius: 10px;
-}
-.banners-offer .follow {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.imagini {
-  background-size: cover no-repeat;
-  height: 200px;
-}
-
 .nav-wrapper#hamburger {
   display: none;
   color: #011847;
@@ -529,6 +499,37 @@ header .nav-brand h2 {
   .nav-buttons span {
     background-color: #262a32;
   }
+}
+section.nav-banners {
+  background-color: red;
+  margin: 100px auto 25px auto;
+}
+section.nav-banners .carousel-item {
+  height: 510px;
+  width: 100%;
+  border-radius: 8px;
+}
+section.nav-banners .banner-offer {
+  text-align: center;
+}
+section.nav-banners .banner-offer .offer-image {
+  height: 330px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+section.nav-banners .banner-offer .offer-image h3 {
+  margin: 0px;
+  font-size: 100px;
+  font-weight: 900;
+}
+section.nav-banners .banner-offer .offer-image h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 40px 50px 0px 50px;
 }
 * {
   box-sizing: border-box;
@@ -983,36 +984,6 @@ header .nav-brand h2 {
   fill: #84bc22;
 }
 
-.nav-banners {
-  justify-content: space-around;
-  padding-top: 110px;
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
-.banners-main .image {
-  height: 500px;
-  border-radius: 10px;
-}
-
-.banners-offer {
-  margin: 0;
-}
-.banners-offer .image {
-  width: 100%;
-  height: 305px;
-  border-radius: 10px;
-}
-.banners-offer .follow {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.imagini {
-  background-size: cover no-repeat;
-  height: 200px;
-}
-
 .nav-wrapper#hamburger {
   display: none;
   color: #011847;
@@ -1116,6 +1087,37 @@ header .nav-brand h2 {
   .nav-buttons span {
     background-color: #262a32;
   }
+}
+section.nav-banners {
+  background-color: red;
+  margin: 100px auto 25px auto;
+}
+section.nav-banners .carousel-item {
+  height: 510px;
+  width: 100%;
+  border-radius: 8px;
+}
+section.nav-banners .banner-offer {
+  text-align: center;
+}
+section.nav-banners .banner-offer .offer-image {
+  height: 330px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+section.nav-banners .banner-offer .offer-image h3 {
+  margin: 0px;
+  font-size: 100px;
+  font-weight: 900;
+}
+section.nav-banners .banner-offer .offer-image h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 40px 50px 0px 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

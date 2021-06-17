@@ -22,6 +22,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 .button-banner {
   width: 149px;
   border: 2px solid #bdc3c7;
@@ -99,6 +104,16 @@
   background-color: transparent !important;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -115,6 +130,11 @@ body button:focus {
   outline: none;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 .button-banner {
   width: 149px;
   border: 2px solid #bdc3c7;
@@ -192,6 +212,16 @@ body button:focus {
   background-color: transparent !important;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -208,6 +238,11 @@ body button:focus {
   outline: none;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 .button-banner {
   width: 149px;
   border: 2px solid #bdc3c7;
@@ -285,6 +320,16 @@ body button:focus {
   background-color: transparent !important;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -301,6 +346,11 @@ body button:focus {
   outline: none;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 .button-banner {
   width: 149px;
   border: 2px solid #bdc3c7;
@@ -378,6 +428,16 @@ body button:focus {
   background-color: transparent !important;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -394,6 +454,11 @@ body button:focus {
   outline: none;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 .button-banner {
   width: 149px;
   border: 2px solid #bdc3c7;
@@ -471,6 +536,16 @@ body button:focus {
   background-color: transparent !important;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -561,6 +636,11 @@ footer path:hover {
     display: none;
   }
 }
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 .button-banner {
   width: 149px;
   border: 2px solid #bdc3c7;
@@ -638,6 +718,16 @@ footer path:hover {
   background-color: transparent !important;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -984,21 +1074,21 @@ section.nav-banners .carousel-item .carousel-caption {
   right: 10%;
 }
 section.nav-banners .carousel-item .carousel-caption h2 {
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: Myriad, "Myriad", "Lato", Helvetica, sans-serif, Arial, "Lato", Helvetica, sans-serif;
   padding-bottom: 70px;
   font-size: 50px;
-  font-weight: 800;
+  font-weight: bold;
   color: #ffffff;
   text-shadow: none;
 }
 section.nav-banners .carousel-item .carousel-caption p {
   font-size: 18px;
-  margin: 0% 15%;
+  width: 70%;
   padding-bottom: 15px;
   text-shadow: none;
 }
 section.nav-banners .carousel-item .carousel-caption .button-banner {
-  margin: 30px;
+  margin: 30px 0px;
 }
 section.nav-banners .banner-offer {
   height: 100%;
@@ -1033,6 +1123,11 @@ section.nav-banners .follow .fb-button {
   margin-top: 18px;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 .button-banner {
   width: 149px;
   border: 2px solid #bdc3c7;
@@ -1110,6 +1205,16 @@ section.nav-banners .follow .fb-button {
   background-color: transparent !important;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -1318,6 +1423,11 @@ body button:focus {
   padding: 20px;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 .button-banner {
   width: 149px;
   border: 2px solid #bdc3c7;
@@ -1395,6 +1505,16 @@ body button:focus {
   background-color: transparent !important;
 }
 
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
 * {
   box-sizing: border-box;
   font-family: "Lato", Helvetica, sans-serif;
@@ -1741,21 +1861,21 @@ section.nav-banners .carousel-item .carousel-caption {
   right: 10%;
 }
 section.nav-banners .carousel-item .carousel-caption h2 {
-  font-family: "Lato", Helvetica, sans-serif;
+  font-family: Myriad, "Myriad", "Lato", Helvetica, sans-serif, Arial, "Lato", Helvetica, sans-serif;
   padding-bottom: 70px;
   font-size: 50px;
-  font-weight: 800;
+  font-weight: bold;
   color: #ffffff;
   text-shadow: none;
 }
 section.nav-banners .carousel-item .carousel-caption p {
   font-size: 18px;
-  margin: 0% 15%;
+  width: 70%;
   padding-bottom: 15px;
   text-shadow: none;
 }
 section.nav-banners .carousel-item .carousel-caption .button-banner {
-  margin: 30px;
+  margin: 30px 0px;
 }
 section.nav-banners .banner-offer {
   height: 100%;

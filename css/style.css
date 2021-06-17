@@ -1064,6 +1064,18 @@ section.nav-banners .row {
   margin-top: 100px;
   margin-bottom: 20px;
 }
+section.nav-banners .carousel-item:nth-child(1) .carousel-caption {
+  align-items: flex-start;
+  text-align: left;
+}
+section.nav-banners .carousel-item:nth-child(2) .carousel-caption {
+  align-items: center;
+  text-align: center;
+}
+section.nav-banners .carousel-item:nth-child(3) .carousel-caption {
+  align-items: flex-end;
+  text-align: right;
+}
 section.nav-banners .carousel-item {
   height: 510px;
   width: 100%;
@@ -1083,12 +1095,24 @@ section.nav-banners .carousel-item .carousel-caption h2 {
 }
 section.nav-banners .carousel-item .carousel-caption p {
   font-size: 18px;
-  width: 70%;
   padding-bottom: 15px;
   text-shadow: none;
 }
 section.nav-banners .carousel-item .carousel-caption .button-banner {
   margin: 30px 0px;
+}
+@media screen and (max-width: 995px) {
+  section.nav-banners .carousel-item .carousel-caption {
+    left: 5%;
+    right: 5%;
+  }
+  section.nav-banners .carousel-item .carousel-caption h2 {
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+  section.nav-banners .carousel-item .carousel-caption p {
+    padding-top: 70px;
+  }
 }
 section.nav-banners .banner-offer {
   height: 100%;
@@ -1851,6 +1875,18 @@ section.nav-banners .row {
   margin-top: 100px;
   margin-bottom: 20px;
 }
+section.nav-banners .carousel-item:nth-child(1) .carousel-caption {
+  align-items: flex-start;
+  text-align: left;
+}
+section.nav-banners .carousel-item:nth-child(2) .carousel-caption {
+  align-items: center;
+  text-align: center;
+}
+section.nav-banners .carousel-item:nth-child(3) .carousel-caption {
+  align-items: flex-end;
+  text-align: right;
+}
 section.nav-banners .carousel-item {
   height: 510px;
   width: 100%;
@@ -1870,12 +1906,24 @@ section.nav-banners .carousel-item .carousel-caption h2 {
 }
 section.nav-banners .carousel-item .carousel-caption p {
   font-size: 18px;
-  width: 70%;
   padding-bottom: 15px;
   text-shadow: none;
 }
 section.nav-banners .carousel-item .carousel-caption .button-banner {
   margin: 30px 0px;
+}
+@media screen and (max-width: 995px) {
+  section.nav-banners .carousel-item .carousel-caption {
+    left: 5%;
+    right: 5%;
+  }
+  section.nav-banners .carousel-item .carousel-caption h2 {
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+  section.nav-banners .carousel-item .carousel-caption p {
+    padding-top: 70px;
+  }
 }
 section.nav-banners .banner-offer {
   height: 100%;

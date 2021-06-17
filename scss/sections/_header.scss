@@ -391,8 +391,38 @@ section.nav-banners{
     }
     // column 1 banner carousel -------
    
- 
-   
+    
+    .carousel-item {
+        &:nth-child(1) {
+            .carousel-caption {
+                align-items: flex-start;
+                text-align: left;        
+            }
+        }
+
+    }
+    
+    .carousel-item:nth-child(2) {
+        .carousel-caption {
+            align-items: center;
+            text-align: center; 
+            
+        }
+    }
+
+      
+    .carousel-item:nth-child(3) {
+        .carousel-caption {
+            align-items: flex-end;
+            text-align: right;
+                    
+        }
+    }
+
+        
+    
+  
+
    
     .carousel-item {
         height: 510px;         
@@ -408,7 +438,7 @@ section.nav-banners{
         .carousel-caption {
             left: 10%;
             right: 10%;
-
+     
            
 
               
@@ -423,7 +453,6 @@ section.nav-banners{
     
             p {
                 font-size: 18px;
-                width: 70%;
                 padding-bottom: 15px;
                 text-shadow: none;
             }
@@ -431,6 +460,18 @@ section.nav-banners{
             .button-banner{
                 margin: 30px 0px ;
             }
+
+            @media screen and (max-width: 995px) {
+                left: 5%;
+                right: 5%;
+                h2 {
+                    font-size: 30px;
+                    padding-bottom: 0px;
+                }
+                p {
+                    padding-top: 70px;
+                }
+            }     
         }
 
         

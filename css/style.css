@@ -1146,6 +1146,11 @@ section.nav-banners .follow p {
 section.nav-banners .follow .fb-button {
   margin-top: 18px;
 }
+@media screen and (max-width: 768px) {
+  section.nav-banners .banner-offer {
+    display: none;
+  }
+}
 
 @font-face {
   font-family: "Myriad";
@@ -1956,6 +1961,11 @@ section.nav-banners .follow p {
 }
 section.nav-banners .follow .fb-button {
   margin-top: 18px;
+}
+@media screen and (max-width: 768px) {
+  section.nav-banners .banner-offer {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

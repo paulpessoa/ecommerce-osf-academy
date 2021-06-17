@@ -478,12 +478,12 @@ section.nav-banners{
     }
 
 
-
-
-
-
-
     // column 2 banners offers -------
+
+  
+   
+    
+    //offer banner -----
     .banner-offer {
         height: 100%;
         text-align: center;
@@ -507,8 +507,7 @@ section.nav-banners{
                     }
                 }
         }
-    
- 
+        //facebook follow us button
         .follow{
             h4 {
                 padding-top: 30px;
@@ -522,5 +521,13 @@ section.nav-banners{
             }
 
         }
+
+        @media screen and (max-width: 768px) {
+            .banner-offer {
+                display: none;
+            }
+        }
+
+
 }
 

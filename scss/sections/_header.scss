@@ -41,7 +41,7 @@ header {
     // "Academy" Style 
     .nav-brand h2 {
         margin: 0;
-        margin-top: -8px;
+        margin-top: -5px;
         color: $secondary-color;
         font-family: $osf-font;
         font-size: 18px;
@@ -147,7 +147,7 @@ header {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        line-height: 3rem;
+        line-height: 2!important;
        
        
         ul:nth-child(-n+3) {
@@ -173,11 +173,12 @@ header {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
-        line-height: 3rem;
+        line-height: 2!important;
         ul {
             margin-right: 10px; // spacing between product and sale column
         }
     }
+
 
 
 
@@ -372,20 +373,56 @@ header {
 }
 
 
-
+// banners section ------------------------------
 
 section.nav-banners{
-    background-color: red;
-    margin: 100px auto 25px auto;
-
+    .row {
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    // column 1 banner carousel -------
     .carousel-item {
         height: 510px;         
         width: 100%;
         border-radius: 8px;
+
+        .carousel-caption {
+            left: 10%;
+            right: 10%;
+            h2 {
+                font-family: $osf-font;
+                padding-bottom: 70px;
+                font-size: 50px;
+                font-weight: 800;
+                color: $base-color;
+                text-shadow: none;
+                
+            }
+    
+            p {
+                font-size: 18px;
+                margin: 0% 15%;
+                padding-bottom: 15px;
+                text-shadow: none;
+            }
+
+            .button-banner{
+                margin: 30px;
+            }
+        }
+
+        
     }
 
 
+
+
+
+
+
+    // column 2 banners offers -------
     .banner-offer {
+        height: 100%;
         text-align: center;
             .offer-image{
                 height: 330px;
@@ -408,7 +445,18 @@ section.nav-banners{
                 }
         }
     
-    .banner-offer {
+ 
+        .follow{
+            h4 {
+                padding-top: 30px;
+            }
+
+            p {
+                padding: 0px 30px;
+            }
+            .fb-button {
+                margin-top: 18px;
+            }
 
         }
 }

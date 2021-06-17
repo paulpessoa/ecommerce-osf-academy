@@ -179,16 +179,11 @@ header {
         }
     }
 
-
-
-
 // Style icon buttons
 .nav-menu span, .d-lang, .d-cur{
     color: $opacity-color;
     font-weight: 600;
 }
-
-
 
 //first dropdown content style 
 .d-menu2{
@@ -255,7 +250,6 @@ header {
     }
 } 
 }
-
 
 //---- responsivity ------------------------
 
@@ -378,70 +372,40 @@ header {
 
 
 
-
-
-
-
 // banners section -----------------------------------------------------------------
-
 section.nav-banners{
     .row {
         margin-top: 100px;
         margin-bottom: 20px;
     }
+
     // column 1 banner carousel -------
-   
-    
-    .carousel-item {
-        &:nth-child(1) {
+    .carousel-item:nth-child(1) {
             .carousel-caption {
                 align-items: flex-start;
                 text-align: left;        
             }
         }
-
-    }
-    
     .carousel-item:nth-child(2) {
         .carousel-caption {
             align-items: center;
             text-align: center; 
-            
         }
     }
-
-      
     .carousel-item:nth-child(3) {
         .carousel-caption {
             align-items: flex-end;
-            text-align: right;
-                    
+            text-align: right;      
         }
-    }
-
-        
-    
-  
-
-   
+    } 
     .carousel-item {
         height: 510px;         
         width: 100%;
         border-radius: 8px;
 
-
-        
-
-        
-
-        
         .carousel-caption {
             left: 10%;
-            right: 10%;
-     
-           
-
-              
+            right: 10%; 
             h2 {
                 font-family: Myriad, $t-banner-font, $osf-font;
                 padding-bottom: 70px;
@@ -450,13 +414,11 @@ section.nav-banners{
                 color: $base-color;
                 text-shadow: none;
             }
-    
             p {
                 font-size: 18px;
                 padding-bottom: 15px;
                 text-shadow: none;
             }
-
             .button-banner{
                 margin: 30px 0px ;
             }
@@ -472,17 +434,10 @@ section.nav-banners{
                     padding-top: 70px;
                 }
             }     
-        }
-
-        
+        }    
     }
 
-
-    // column 2 banners offers -------
-
-  
-   
-    
+    // column 2 banners offers -------    
     //offer banner -----
     .banner-offer {
         height: 100%;
@@ -521,13 +476,11 @@ section.nav-banners{
             }
 
         }
-
         @media screen and (max-width: 768px) {
             .banner-offer {
                 display: none;
             }
         }
-
-
+        
 }
 

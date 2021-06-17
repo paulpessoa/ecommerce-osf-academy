@@ -1267,14 +1267,43 @@ body button:focus {
 .popular-itens {
   max-width: 1280px;
   width: 100%;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .popular-itens h2 {
   text-align: center;
   color: #ffffff;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bolder;
+  position: relative;
+  margin-bottom: 40px;
+}
+.popular-itens h2:before {
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  content: "";
+  width: 38%;
+  height: 100%;
+  border-bottom: 1px solid #bdc3c7;
+}
+@media screen and (max-width: 770px) {
+  .popular-itens h2:before {
+    width: 20%;
+  }
+}
+.popular-itens h2:after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+  width: 38%;
+  border-bottom: 1px solid #bdc3c7;
+}
+@media screen and (max-width: 770px) {
+  .popular-itens h2:after {
+    width: 20%;
+  }
 }
 
 .row.cards {
@@ -1294,6 +1323,12 @@ body button:focus {
   text-align: center;
   position: relative;
 }
+@media screen and (max-width: 990px) {
+  .cardx {
+    max-width: 330px;
+    height: 390px;
+  }
+}
 .cardx .card-img {
   padding: 10px;
   border-top-left-radius: 8px;
@@ -1306,6 +1341,17 @@ body button:focus {
 }
 .cardx .card-info {
   padding: 0.6rem;
+}
+@media screen and (max-width: 990px) {
+  .cardx .card-info {
+    padding: 1rem;
+  }
+  .cardx .card-info .card-buy {
+    margin-top: 15px;
+  }
+  .cardx .card-info h4.name {
+    margin-bottom: 20px;
+  }
 }
 .cardx h4 {
   font-size: 15px;

@@ -22,6 +22,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1060,98 +1063,6 @@ header .nav-brand h2 {
     background-color: #262a32;
   }
 }
-section.nav-banners .row {
-  margin-top: 100px;
-  margin-bottom: 20px;
-}
-section.nav-banners .carousel-item:nth-child(1) .carousel-caption {
-  align-items: flex-start;
-  text-align: left;
-}
-section.nav-banners .carousel-item:nth-child(2) .carousel-caption {
-  align-items: center;
-  text-align: center;
-}
-section.nav-banners .carousel-item:nth-child(3) .carousel-caption {
-  align-items: flex-end;
-  text-align: right;
-}
-section.nav-banners .carousel-item {
-  height: 510px;
-  width: 100%;
-  border-radius: 8px;
-}
-section.nav-banners .carousel-item .carousel-caption {
-  left: 10%;
-  right: 10%;
-}
-section.nav-banners .carousel-item .carousel-caption h2 {
-  font-family: Myriad, "Myriad", "Lato", Helvetica, sans-serif, Arial, "Lato", Helvetica, sans-serif;
-  padding-bottom: 70px;
-  font-size: 50px;
-  font-weight: bold;
-  color: #ffffff;
-  text-shadow: none;
-}
-section.nav-banners .carousel-item .carousel-caption p {
-  font-size: 18px;
-  padding-bottom: 15px;
-  text-shadow: none;
-}
-section.nav-banners .carousel-item .carousel-caption .button-banner {
-  margin: 30px 0px;
-}
-@media screen and (max-width: 995px) {
-  section.nav-banners .carousel-item .carousel-caption {
-    left: 5%;
-    right: 5%;
-  }
-  section.nav-banners .carousel-item .carousel-caption h2 {
-    font-size: 30px;
-    padding-bottom: 0px;
-  }
-  section.nav-banners .carousel-item .carousel-caption p {
-    padding-top: 70px;
-  }
-}
-section.nav-banners .banner-offer {
-  height: 100%;
-  text-align: center;
-}
-section.nav-banners .banner-offer .offer-image {
-  height: 330px;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-}
-section.nav-banners .banner-offer .offer-image h3 {
-  margin: 0px;
-  font-size: 100px;
-  font-weight: 900;
-}
-section.nav-banners .banner-offer .offer-image h4 {
-  font-size: 24px;
-  text-transform: uppercase;
-  padding: 40px 50px 0px 50px;
-}
-section.nav-banners .follow h4 {
-  padding-top: 30px;
-}
-section.nav-banners .follow p {
-  padding: 0px 30px;
-}
-section.nav-banners .follow .fb-button {
-  margin-top: 18px;
-}
-@media screen and (max-width: 768px) {
-  section.nav-banners .banner-offer {
-    display: none;
-  }
-}
-
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1606,6 +1517,206 @@ body button:focus {
   outline: none;
 }
 
+section.nav-banners .row {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+section.nav-banners .carousel-item:nth-child(1) .carousel-caption {
+  align-items: flex-start;
+  text-align: left;
+}
+section.nav-banners .carousel-item:nth-child(2) .carousel-caption {
+  align-items: center;
+  text-align: center;
+}
+section.nav-banners .carousel-item:nth-child(3) .carousel-caption {
+  align-items: flex-end;
+  text-align: right;
+}
+section.nav-banners .carousel-item {
+  height: 510px;
+  width: 100%;
+  border-radius: 8px;
+}
+section.nav-banners .carousel-item .carousel-caption {
+  left: 10%;
+  right: 10%;
+}
+section.nav-banners .carousel-item .carousel-caption h2 {
+  font-family: Myriad, "Myriad", "Lato", Helvetica, sans-serif, Arial, "Lato", Helvetica, sans-serif;
+  padding-bottom: 70px;
+  font-size: 50px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: none;
+}
+section.nav-banners .carousel-item .carousel-caption p {
+  font-size: 18px;
+  padding-bottom: 15px;
+  text-shadow: none;
+}
+section.nav-banners .carousel-item .carousel-caption .button-banner {
+  margin: 30px 0px;
+}
+@media screen and (max-width: 995px) {
+  section.nav-banners .carousel-item .carousel-caption {
+    left: 5%;
+    right: 5%;
+  }
+  section.nav-banners .carousel-item .carousel-caption h2 {
+    font-size: 30px;
+    padding-bottom: 0px;
+  }
+  section.nav-banners .carousel-item .carousel-caption p {
+    padding-top: 70px;
+  }
+}
+section.nav-banners .banner-offer {
+  height: 100%;
+  text-align: center;
+}
+section.nav-banners .banner-offer .offer-image {
+  height: 330px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+section.nav-banners .banner-offer .offer-image h3 {
+  margin: 0px;
+  font-size: 100px;
+  font-weight: 900;
+}
+section.nav-banners .banner-offer .offer-image h4 {
+  font-size: 24px;
+  text-transform: uppercase;
+  padding: 40px 50px 0px 50px;
+}
+section.nav-banners .follow h4 {
+  padding-top: 30px;
+}
+section.nav-banners .follow p {
+  padding: 0px 30px;
+}
+section.nav-banners .follow .fb-button {
+  margin-top: 18px;
+}
+@media screen and (max-width: 768px) {
+  section.nav-banners .banner-offer {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+.button-banner {
+  width: 149px;
+  border: 2px solid #bdc3c7;
+  padding: 8px;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.button-banner a {
+  color: #ffffff;
+}
+.button-banner:hover {
+  background-color: #84bc22;
+  border: 2px solid #ffffff;
+}
+.button-banner:hover a {
+  color: #ffffff;
+}
+
+.fb-button {
+  width: 150px;
+  border: 2px solid #3a5b96;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.fb-button svg {
+  position: relative;
+  right: 10px;
+}
+.fb-button a {
+  color: #3a5b96;
+}
+.fb-button:hover {
+  background-color: #3a5b96;
+}
+.fb-button:hover path {
+  fill: #ffffff;
+}
+.fb-button:hover a {
+  color: #ffffff;
+}
+
+#load-more {
+  width: 263px;
+  border: 2px solid #ffffff;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #262a32;
+  color: #ffffff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+#load-more img {
+  position: relative;
+  left: 10px;
+}
+#load-more:hover {
+  background-color: #84bc22;
+}
+
+.carousel-indicators li {
+  border: 3px solid transparent !important;
+  background-color: #bdc3c7 !important;
+  margin-left: 10px !important;
+}
+.carousel-indicators li.active {
+  border: 3px solid #ffffff !important;
+  background-color: transparent !important;
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Lato", Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+body button:focus {
+  outline: none;
+}
+
 header {
   width: 100%;
   max-width: 1280px;
@@ -1920,97 +2031,6 @@ header .nav-brand h2 {
   }
   .nav-buttons span {
     background-color: #262a32;
-  }
-}
-section.nav-banners .row {
-  margin-top: 100px;
-  margin-bottom: 20px;
-}
-section.nav-banners .carousel-item:nth-child(1) .carousel-caption {
-  align-items: flex-start;
-  text-align: left;
-}
-section.nav-banners .carousel-item:nth-child(2) .carousel-caption {
-  align-items: center;
-  text-align: center;
-}
-section.nav-banners .carousel-item:nth-child(3) .carousel-caption {
-  align-items: flex-end;
-  text-align: right;
-}
-section.nav-banners .carousel-item {
-  height: 510px;
-  width: 100%;
-  border-radius: 8px;
-}
-section.nav-banners .carousel-item .carousel-caption {
-  left: 10%;
-  right: 10%;
-}
-section.nav-banners .carousel-item .carousel-caption h2 {
-  font-family: Myriad, "Myriad", "Lato", Helvetica, sans-serif, Arial, "Lato", Helvetica, sans-serif;
-  padding-bottom: 70px;
-  font-size: 50px;
-  font-weight: bold;
-  color: #ffffff;
-  text-shadow: none;
-}
-section.nav-banners .carousel-item .carousel-caption p {
-  font-size: 18px;
-  padding-bottom: 15px;
-  text-shadow: none;
-}
-section.nav-banners .carousel-item .carousel-caption .button-banner {
-  margin: 30px 0px;
-}
-@media screen and (max-width: 995px) {
-  section.nav-banners .carousel-item .carousel-caption {
-    left: 5%;
-    right: 5%;
-  }
-  section.nav-banners .carousel-item .carousel-caption h2 {
-    font-size: 30px;
-    padding-bottom: 0px;
-  }
-  section.nav-banners .carousel-item .carousel-caption p {
-    padding-top: 70px;
-  }
-}
-section.nav-banners .banner-offer {
-  height: 100%;
-  text-align: center;
-}
-section.nav-banners .banner-offer .offer-image {
-  height: 330px;
-  border-radius: 8px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #ffffff;
-}
-section.nav-banners .banner-offer .offer-image h3 {
-  margin: 0px;
-  font-size: 100px;
-  font-weight: 900;
-}
-section.nav-banners .banner-offer .offer-image h4 {
-  font-size: 24px;
-  text-transform: uppercase;
-  padding: 40px 50px 0px 50px;
-}
-section.nav-banners .follow h4 {
-  padding-top: 30px;
-}
-section.nav-banners .follow p {
-  padding: 0px 30px;
-}
-section.nav-banners .follow .fb-button {
-  margin-top: 18px;
-}
-@media screen and (max-width: 768px) {
-  section.nav-banners .banner-offer {
-    display: none;
   }
 }
 

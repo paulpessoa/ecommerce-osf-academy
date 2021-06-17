@@ -119,3 +119,39 @@ section.nav-banners{
 
 
 
+.full-banner-theme {
+    height: 447px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: $base-color;
+
+    h2 {
+        margin: 0px;
+        padding-bottom: 30px;
+        font-size: 50px;
+        font-weight: 750;
+    }
+    p {
+        font-size: 18px;
+        width: 30%;
+        margin: 0px auto;
+    }
+
+
+    @media screen and (max-width:768px) {
+        height: 325px;
+
+        h2 {
+            padding-bottom: 20px;
+            font-size: 32px;
+            font-weight: 750;
+        }
+        p {
+            font-size: 18px;
+            width: 80%;
+          
+        }
+    }
+}

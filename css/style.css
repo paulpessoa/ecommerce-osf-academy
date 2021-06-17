@@ -1609,6 +1609,40 @@ section.nav-banners .follow .fb-button {
   }
 }
 
+.full-banner-theme {
+  height: 447px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+.full-banner-theme h2 {
+  margin: 0px;
+  padding-bottom: 30px;
+  font-size: 50px;
+  font-weight: 750;
+}
+.full-banner-theme p {
+  font-size: 18px;
+  width: 30%;
+  margin: 0px auto;
+}
+@media screen and (max-width: 768px) {
+  .full-banner-theme {
+    height: 325px;
+  }
+  .full-banner-theme h2 {
+    padding-bottom: 20px;
+    font-size: 32px;
+    font-weight: 750;
+  }
+  .full-banner-theme p {
+    font-size: 18px;
+    width: 80%;
+  }
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");

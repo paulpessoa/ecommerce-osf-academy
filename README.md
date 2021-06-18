@@ -13,17 +13,17 @@ New Deploy: https://osf-frontend-academy.vercel.app/
 
 - [x] ( 3.4 Footer)
 
-- [ ] ( 4.1 Product Title)
+- [x] ( 4.1 Product Title)
 
-- [ ] ( 5.1 Carrousel Banner.
+- [x] ( 5.1 Carrousel Banner.
 
 - [ ] ( 5.2 Popular Itens)
 
-- [ ] ( 5.3 Full Width Image)
+- [x] ( 5.3 Full Width Image)
 
 - [ ] ( 5.4 Featured Products)
 
-- [ ] ( 5.5 Benefits coontent)
+- [x] ( 5.5 Benefits coontent)
 
 - [ ] ( 6.1 Breadcrumbs)
 

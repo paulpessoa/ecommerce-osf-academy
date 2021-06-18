@@ -3,4 +3,50 @@
         '../helpers/components',
         '../helpers/fonts',
         '../helpers/reset';
+    
+
+#benefits{
+    background-color: $main-color;
+}
+
+.benefits-content {
+ 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    @media screen and (max-width: 768px) {
+        .row {
+            margin: 0px auto;
+            width: 90vw;
+        }
+    }
+    .benefit-card {
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
         
+        @media screen and (max-width: 768px) {
+            &:nth-child(2) {
+                flex-direction: row-reverse;
+            }
+                
+        }
+
+        .benefit-icon {
+            padding: 30px;
+           
+        }
+
+        .benefit-caption {
+            h3 {
+                color: $base-color;
+                text-transform: uppercase;
+            }
+
+            p {
+                color: $opacity-color;
+            }
+        }
+    }
+}
+

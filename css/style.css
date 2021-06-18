@@ -241,6 +241,42 @@ body button:focus {
   outline: none;
 }
 
+#benefits {
+  background-color: #45413e;
+}
+
+.benefits-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media screen and (max-width: 768px) {
+  .benefits-content .row {
+    margin: 0px auto;
+    width: 90vw;
+  }
+}
+.benefits-content .benefit-card {
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  .benefits-content .benefit-card:nth-child(2) {
+    flex-direction: row-reverse;
+  }
+}
+.benefits-content .benefit-card .benefit-icon {
+  padding: 30px;
+}
+.benefits-content .benefit-card .benefit-caption h3 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.benefits-content .benefit-card .benefit-caption p {
+  color: #bdc3c7;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");

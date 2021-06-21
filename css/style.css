@@ -493,6 +493,57 @@ body button:focus {
   outline: none;
 }
 
+#featureds {
+  background-color: #262a32;
+}
+
+.popular-itens {
+  max-width: 1280px;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.popular-itens #fea-pro {
+  text-align: center;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: bolder;
+  position: relative;
+  margin-bottom: 40px;
+}
+.popular-itens #fea-pro:before {
+  position: absolute;
+  bottom: 50%;
+  right: 0;
+  content: "";
+  width: 38%;
+  height: 100%;
+  border-bottom: 1px solid #bdc3c7;
+}
+@media screen and (max-width: 770px) {
+  .popular-itens #fea-pro:before {
+    width: 20%;
+  }
+}
+.popular-itens #fea-pro:after {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  content: "";
+  width: 38%;
+  border-bottom: 1px solid #bdc3c7;
+}
+@media screen and (max-width: 770px) {
+  .popular-itens #fea-pro:after {
+    width: 20%;
+  }
+}
+
+.container {
+  margin: 0px;
+  padding: 0px;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1217,7 +1268,7 @@ body button:focus {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.popular-itens h2 {
+.popular-itens #pop-itens {
   text-align: center;
   color: #ffffff;
   font-size: 24px;
@@ -1225,7 +1276,7 @@ body button:focus {
   position: relative;
   margin-bottom: 40px;
 }
-.popular-itens h2:before {
+.popular-itens #pop-itens:before {
   position: absolute;
   bottom: 50%;
   right: 0;
@@ -1235,11 +1286,11 @@ body button:focus {
   border-bottom: 1px solid #bdc3c7;
 }
 @media screen and (max-width: 770px) {
-  .popular-itens h2:before {
+  .popular-itens #pop-itens:before {
     width: 20%;
   }
 }
-.popular-itens h2:after {
+.popular-itens #pop-itens:after {
   position: absolute;
   top: 50%;
   left: 0;
@@ -1248,7 +1299,7 @@ body button:focus {
   border-bottom: 1px solid #bdc3c7;
 }
 @media screen and (max-width: 770px) {
-  .popular-itens h2:after {
+  .popular-itens #pop-itens:after {
     width: 20%;
   }
 }
@@ -1296,7 +1347,7 @@ body button:focus {
   .cardx .card-info .card-buy {
     margin-top: 15px;
   }
-  .cardx .card-info h4.name {
+  .cardx .card-info h4.product-name {
     margin-bottom: 20px;
   }
 }

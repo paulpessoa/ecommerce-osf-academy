@@ -16,7 +16,7 @@ function addCart() {
 
 // load more button function
 
-$(function(){
+$(function loadMore(){
 
     let $data = $('#more-products');
 
@@ -26,11 +26,18 @@ $(function(){
         success: function(data){
             $.each(data, function(i, data){
                 console.log('Sucess', data)
-                $data.append("<br><img src='" + data.cardimg + "' alt='Image not found'/><p>" + data.productname + '<br>'  + data.price + "</p>");
-            
-
+                $data.append("<br> <li class='hidden'> <img src='" + data.cardimg + "' alt='Image not found'/><p>" + data.productname + '<br>'  + data.price + "</li></p>");
             });
-         
+
+            function loadMore(){
+                $("#more-products .hidden").slice(0,4).removeClass("hidden");
+            }
+        
+            loadMore();
+        
+            $("#btnLoadMore").on("click",loadMore);    
+
+
         } 
     });
 });

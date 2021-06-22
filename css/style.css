@@ -1730,6 +1730,43 @@ section.nav-banners .follow .fb-button {
   }
 }
 
+.breadcrumbs {
+  padding: 120px 50px 40px 50px;
+  text-align: center;
+  background-color: #F1EDEA;
+}
+.breadcrumbs ul {
+  display: flex;
+  justify-content: center;
+}
+.breadcrumbs h2 {
+  margin: 0;
+  font-weight: 900;
+  font-size: 46px;
+  color: #45413e;
+}
+
+section.notfound {
+  background-color: #F1EDEA;
+  padding-bottom: 40px;
+}
+section.notfound h3 {
+  font-size: 120px;
+  color: #84bc22;
+  font-weight: 900;
+}
+section.notfound .not-found {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+#oops-img {
+  background-image: url("../img/layers/404page.png");
+  background-repeat: no-repeat;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");

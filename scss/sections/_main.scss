@@ -154,3 +154,58 @@ section.nav-banners{
         }
     }
 }
+
+
+
+
+
+// 404 page not found ------
+
+
+  .breadcrumbs {
+    padding: 120px 50px 40px 50px;
+    text-align: center;
+    background-color: #F1EDEA;
+    ul {
+        display: flex;
+        justify-content: center;
+        
+    }
+    h2 {
+        margin: 0;
+        font-weight: 900;
+        font-size: 46px;
+        color: $main-color;
+    }
+  }
+ 
+  section.notfound{
+        
+        background-color: #F1EDEA;
+        padding-bottom: 40px;
+ 
+        
+        h3 {
+            font-size: 120px;
+            color: $secondary-color;
+            font-weight: 900;
+            
+        }
+      .not-found {
+        display: flex;
+        background-color: $base-color;
+        border-radius: 10px;
+        padding: 40px;
+        
+      }
+
+  }
+  
+
+    #oops-img {
+        background-image: url('../img/layers/404page.png') ;
+        background-repeat: no-repeat;
+        
+        
+    }
+  

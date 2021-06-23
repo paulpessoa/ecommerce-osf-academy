@@ -5,17 +5,18 @@
 
 // --------------- header style ---------------------
 // styck menu and border botton line
+
 header {
     #fixedtop {
         position: fixed;
         width: 100%;
-        max-width: 1280px;
+       // max-width: 1280px;
         background-color: $base-color;
         border-bottom: 2px solid #F3F0E9;
         z-index: 100;
 }
     width: 100%;
-    max-width: 1280px;
+   // max-width: 1280px;
     margin: 0 auto;  
     .nav-wrapper, .nav-brand{
         display: flex;
@@ -107,11 +108,12 @@ header {
 }
 //dropdown content color links "a" 
 .d-menu-content {
-    max-width: 1280px;
+    //max-width: 1280px;
     margin: 0px auto;    
 }
 //content columns side by side 
 .d-menu-content-flex {
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

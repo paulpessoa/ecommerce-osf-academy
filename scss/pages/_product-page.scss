@@ -1,0 +1,54 @@
+@import '../helpers/colors',
+        '../helpers/components',
+        '../helpers/fonts',
+        '../helpers/reset';
+
+// product detailed page ------
+
+.product-page{
+    background-color: $back-color0;
+    .row {
+        margin: 0 auto;
+        background-color: $base-color;
+        padding: 15px;
+    }
+    .product-img {
+        cursor: zoom-in;
+        #zoom-button {
+            position: absolute;
+            margin: 20px;
+        }
+        .product-zoom {
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            width: 100%;
+            max-width: 578;
+            height: auto;
+            cursor: zoom-in;
+        }
+    
+    }
+    .modal-body {
+        justify-items: center;
+        margin: 0 auto;
+        width: 100%;
+  
+    }
+
+
+
+    .thumb li {
+        cursor: pointer;
+    }
+
+
+
+
+}
+
+
+
+    
+    
+

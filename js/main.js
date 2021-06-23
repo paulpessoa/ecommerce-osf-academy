@@ -14,11 +14,27 @@ function addCart() {
 
 
 
+// light box product with bootstrap
+$(document).ready(function() {
+    var $lightbox = $('#lightbox');    
+    $('[data-target="#lightbox"]').on('click', function(event) {
+        var $img = $(this).find('img'), 
+            src = $img.attr('src'),
+            alt = $img.attr('alt'),
+            css = {
+                'maxWidth': $(window).width() - 100,
+                'maxHeight': $(window).height() - 100
+            };
+    
+        $lightbox.find('.close').addClass('hidden');
+        $lightbox.find('img').attr('src', src);
+        $lightbox.find('img').attr('alt', alt);
+        $lightbox.find('img').css(css);
+    });
+});
 
 
-
-// change image
-
+// change cart image - JS function
 function imgSlider (anything){ 
-    document.querySelector('#imgcart-zoom').src = anything;
+    document.querySelector('.product-zoom').src = anything;
 }

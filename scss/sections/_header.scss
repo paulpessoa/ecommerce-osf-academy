@@ -48,7 +48,6 @@ header {
         font-weight: 400;
     }
 }
-
 .nav-menu{
     display: flex;
     a {
@@ -58,7 +57,6 @@ header {
         font-size: 14px;
     }
 }
-
 // reset menu button 
 .nav-wrapper ul {
     margin: 0px;
@@ -77,7 +75,6 @@ header {
         vertical-align: text-top;
     }
 }
-
 //itens menu
 .d-menu-btn {
     background: $base-color;
@@ -91,8 +88,6 @@ header {
         color: $base-color;
     }
 }
-
-
 // --------------- dropdown menu ---------------
 // first dropdown content style 
 .d-menu-content, .d-menu-content-lang, .d-menu-content-cur {
@@ -106,18 +101,15 @@ header {
     justify-content: space-around;
     padding: 18px;
 }
-
 // when hover shows the dropdown content
 .d-menu:hover .d-menu-content, .d-menu-btn:hover{
     display: block;
 }
-
 //dropdown content color links "a" 
 .d-menu-content {
     max-width: 1280px;
     margin: 0px auto;    
 }
-
 //content columns side by side 
 .d-menu-content-flex {
     display: flex;
@@ -141,50 +133,42 @@ header {
         font-size: 16px;
         text-transform: uppercase;
     }
-
     //content list side by side 
     .menu-products, {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         line-height: 2!important;
-       
-       
         ul:nth-child(-n+3) {
             margin-right: 110px; // spacing between product and sale column
         }
     }
-
     @media screen and (min-width: 860px) and (max-width: 1080px) {
         .menu-products  ul:nth-child(-n+3)  {
             margin-right: 40px;
     }
         .column-img {
-                       img {
+                img {
                 width: 80%;
             }
-
         }
     }
-
 }
-    //content list side by side 
-    .menu-sales {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        line-height: 2!important;
-        ul {
-            margin-right: 10px; // spacing between product and sale column
-        }
+//content list side by side 
+.menu-sales {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 2!important;
+    ul {
+        margin-right: 10px; // spacing between product and sale column
     }
-
+}
 // Style icon buttons
 .nav-menu span, .d-lang, .d-cur{
     color: $opacity-color;
     font-weight: 600;
 }
-
 //first dropdown content style 
 .d-menu2{
     display: block;
@@ -195,7 +179,6 @@ header {
         color: $opacity-color;
     }
 }
-
 .d-menu-content-lang a, .d-menu-content-cur a{
     display: flex;
     text-align: center;
@@ -206,7 +189,6 @@ header {
     margin: -15px;
     z-index: 10;
 }
-
 //this hover shows the dropdown content
 .d-menu2:hover .d-menu-content-lang, .d-menu2:hover .d-menu-content-cur{
     display: block;
@@ -214,7 +196,6 @@ header {
        color: $secondary-color;
    }
 }
-
 //dropdown content color links "a" 
 .d-menu-content-lang li a, .d-menu-content-cur li a{
     color: $base-color;
@@ -223,9 +204,7 @@ header {
     border-radius: 10px;
 }
 
-
 // ---------------  green balloons in the icons favorite and cart   ----------------------------------------
-
 .nav-buttons {
     margin-left: 20px; //space between dropdown buttons 
     span {
@@ -242,17 +221,15 @@ header {
         height: 21px;
         text-align: center;
     }
-
     // ----------- hover buttons ------------
     li:hover {
     path {
-    fill: $secondary-color;
-    }
-} 
+        fill: $secondary-color;
+        }
+    } 
 }
 
 //---- responsivity ------------------------
-
 // hamburger menu --------
 .nav-wrapper#hamburger {
     display: none;
@@ -261,14 +238,12 @@ header {
     padding: 0.5rem;
     width: 15%;
 }    
-
 // --------
 @media screen and (min-width: 880px) {
     #hamburger {
         display: block;
     }
 }
-
 // tablet screen
 @media screen and (min-width: 768px) and (max-width: 880px) {
     .fa-bars{
@@ -277,27 +252,20 @@ header {
     .d-menu-btn {
         padding: 20px 8px 30px;
     }
-
     .d-menu-content-flex {
         img {
             width: 200px;
         }
-
         .menu-products ul:nth-child(-n+3),
         .menu-sales ul:nth-child(-n+1) {
             margin-right: 10px;
         }
     }
-   
 }
 .link-mobile-menu {
     display: flex;
     display: none;
 }
-
-
-
-
 // mobile screen
 @media screen and (min-width: 320px) and (max-width: 768px) {
     .iconmenu{
@@ -311,7 +279,6 @@ header {
     .d-menu-content-flex {
         display: block;
         margin: 0;
-
         //hide the submenus on mobile
         .column-sales, .column-products{
             display:none;
@@ -319,9 +286,7 @@ header {
                 display: none;
             }               
         }
-
     }
-    
     .d-menu{
         margin-top: 64px;
         h3 {
@@ -346,8 +311,6 @@ header {
     .text-logo {
         display: none;
     }
-
-    
     .nav-buttons {
         position: fixed;
         bottom: 0;
@@ -365,8 +328,3 @@ header {
         }
     }
 }
-
-
-
-
-

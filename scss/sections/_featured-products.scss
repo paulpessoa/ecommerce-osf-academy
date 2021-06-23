@@ -4,59 +4,45 @@
         '../helpers/fonts',
         '../helpers/reset';
     
-
-
 #featureds {
     background-color: $back-color;
 }
-        .popular-itens{
-            max-width: 1280px;
-            width: 100%;
-            padding-top: 30px;
-            padding-bottom: 30px;
-        
-            #fea-pro {
-                text-align: center;
-                color: $base-color;    
-                font-size: 24px;
-                font-weight: bolder;
-                position: relative;
-                margin-bottom: 40px;
-                //line before title ---
-                &:before {
-                    position: absolute;
-                    bottom: 50%;
-                    right: 0;
-                    content: "";
-                    width: 38%;
-                    height: 100%;    
-                    border-bottom: 1px solid $opacity-color;
-        
-                    @media screen and (max-width: 770px) {
-                        width: 20%;
-                    }
-                }
-                //line after title ---
-                &:after {
-                    position: absolute;
-                    top: 50%;
-                    left: 0;
-                    content: "";
-                    width: 38%;
-                    border-bottom: 1px solid $opacity-color;
-                    @media screen and (max-width: 770px) {
-                        width: 20%;
-                    }
-                   
-                    }
-        
-                
+.popular-itens{
+    max-width: 1280px;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    #fea-pro {
+        text-align: center;
+        color: $base-color;    
+        font-size: 24px;
+        font-weight: bolder;
+        position: relative;
+        margin-bottom: 40px;
+        //line before title ---
+        &:before {
+            position: absolute;
+            bottom: 50%;
+            right: 0;
+            content: "";
+            width: 38%;
+            height: 100%;    
+            border-bottom: 1px solid $opacity-color;
+            @media screen and (max-width: 770px) {
+                width: 20%;
             }
         }
-
-
-
-        .container{
-            margin: 0px ;
-            padding: 0px;
-        }
+        //line after title ---
+        &:after {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            content: "";
+            width: 38%;
+            border-bottom: 1px solid $opacity-color;
+            @media screen and (max-width: 770px) {
+                width: 20%;
+            }
+        }          
+    }
+}

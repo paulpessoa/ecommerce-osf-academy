@@ -385,114 +385,6 @@ body button:focus {
   outline: none;
 }
 
-@font-face {
-  font-family: "Myriad";
-  src: url("../fonts/myriadpro-bold.otf") format("opentype");
-  font-weight: bold;
-}
-.button-banner {
-  width: 149px;
-  border: 2px solid #bdc3c7;
-  padding: 8px;
-  font-size: 14px;
-  background-color: transparent;
-  border-radius: 25px;
-  text-transform: uppercase;
-  transition: 0.4s ease;
-}
-.button-banner a {
-  color: #ffffff;
-}
-.button-banner:hover {
-  background-color: #84bc22;
-  border: 2px solid #ffffff;
-}
-.button-banner:hover a {
-  color: #ffffff;
-}
-
-.fb-button {
-  width: 150px;
-  border: 2px solid #3a5b96;
-  padding: 8px;
-  font-size: 14px;
-  background-color: #ffffff;
-  border-radius: 25px;
-  text-transform: uppercase;
-  transition: 0.3s ease;
-}
-.fb-button svg {
-  position: relative;
-  right: 10px;
-}
-.fb-button a {
-  color: #3a5b96;
-}
-.fb-button:hover {
-  background-color: #3a5b96;
-}
-.fb-button:hover path {
-  fill: #ffffff;
-}
-.fb-button:hover a {
-  color: #ffffff;
-}
-
-#load-more {
-  width: 263px;
-  border: 2px solid #ffffff;
-  padding: 8px;
-  font-size: 14px;
-  background-color: #262a32;
-  color: #ffffff;
-  border-radius: 25px;
-  text-transform: uppercase;
-  transition: 0.4s ease;
-}
-#load-more img {
-  position: relative;
-  left: 10px;
-}
-#load-more:hover {
-  background-color: #84bc22;
-}
-
-.carousel-indicators li {
-  border: 3px solid transparent !important;
-  background-color: #bdc3c7 !important;
-  margin-left: 10px !important;
-}
-.carousel-indicators li.active {
-  border: 3px solid #ffffff !important;
-  background-color: transparent !important;
-}
-
-@font-face {
-  font-family: "Myriad";
-  src: url("../fonts/myriadpro-bold.otf") format("opentype");
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Myriad";
-  src: url("../fonts/myriadpro-bold.otf") format("opentype");
-  font-weight: bold;
-}
-* {
-  box-sizing: border-box;
-  font-family: "Lato", Helvetica, sans-serif;
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-}
-
-body a:hover {
-  text-decoration: none;
-}
-body button:focus {
-  outline: none;
-}
-
 #featureds {
   background-color: #262a32;
 }
@@ -537,11 +429,6 @@ body button:focus {
   .popular-itens #fea-pro:after {
     width: 20%;
   }
-}
-
-.container {
-  margin: 0px;
-  padding: 0px;
 }
 
 @font-face {
@@ -663,6 +550,11 @@ footer h4 {
   font-weight: bold;
   color: #45413e;
 }
+footer i {
+  font-size: 14px;
+  vertical-align: text-top;
+  margin-left: 8px;
+}
 footer li {
   font-size: 14px;
 }
@@ -688,11 +580,6 @@ footer .categoriest-column a, footer .about-column a {
 }
 footer .categoriest-column a:hover, footer .about-column a:hover {
   color: #84bc22;
-}
-footer i {
-  font-size: 14px;
-  vertical-align: text-top;
-  margin-left: 8px;
 }
 footer .social-buttons {
   display: flex;
@@ -1728,6 +1615,114 @@ section.nav-banners .follow .fb-button {
     font-size: 18px;
     width: 80%;
   }
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+.button-banner {
+  width: 149px;
+  border: 2px solid #bdc3c7;
+  padding: 8px;
+  font-size: 14px;
+  background-color: transparent;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.button-banner a {
+  color: #ffffff;
+}
+.button-banner:hover {
+  background-color: #84bc22;
+  border: 2px solid #ffffff;
+}
+.button-banner:hover a {
+  color: #ffffff;
+}
+
+.fb-button {
+  width: 150px;
+  border: 2px solid #3a5b96;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.3s ease;
+}
+.fb-button svg {
+  position: relative;
+  right: 10px;
+}
+.fb-button a {
+  color: #3a5b96;
+}
+.fb-button:hover {
+  background-color: #3a5b96;
+}
+.fb-button:hover path {
+  fill: #ffffff;
+}
+.fb-button:hover a {
+  color: #ffffff;
+}
+
+#load-more {
+  width: 263px;
+  border: 2px solid #ffffff;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #262a32;
+  color: #ffffff;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+#load-more img {
+  position: relative;
+  left: 10px;
+}
+#load-more:hover {
+  background-color: #84bc22;
+}
+
+.carousel-indicators li {
+  border: 3px solid transparent !important;
+  background-color: #bdc3c7 !important;
+  margin-left: 10px !important;
+}
+.carousel-indicators li.active {
+  border: 3px solid #ffffff !important;
+  background-color: transparent !important;
+}
+
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Myriad";
+  src: url("../fonts/myriadpro-bold.otf") format("opentype");
+  font-weight: bold;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Lato", Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body a:hover {
+  text-decoration: none;
+}
+body button:focus {
+  outline: none;
 }
 
 .breadcrumbs {

@@ -8,13 +8,11 @@
 #popular-itens{
     background-color: $back-color;
 }
-
 .popular-itens{
     max-width: 1280px;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
-
     #pop-itens {
         text-align: center;
         color: $base-color;    
@@ -31,7 +29,6 @@
             width: 38%;
             height: 100%;    
             border-bottom: 1px solid $opacity-color;
-
             @media screen and (max-width: 770px) {
                 width: 20%;
             }
@@ -47,23 +44,14 @@
             @media screen and (max-width: 770px) {
                 width: 20%;
             }
-           
-            }
-
-        
+        } 
     }
 }
-
 .row.cards {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-
-
-
-
-
 .cardx {
     margin: 1rem;
     padding: 0px;
@@ -88,68 +76,57 @@
         background-position: center;
         background-repeat: no-repeat;
     }
-
     .card-info{
         padding: 0.6rem;
-
         @media screen and (max-width: 990px) {
             padding: 1rem;
             .card-buy {
                 margin-top: 15px;
             }
-
             h4.product-name {
                 margin-bottom: 20px;
             }
         }
     }
-
     h4 {
         font-size: 15px;
     }
-
     .card-buy {
         display: flex;
         justify-content: center;
-            // price button ------
-            #pricebutton {
-                border: 2px solid $opacity-color;    
-                border-radius: 50px 0px 0px 50px ;
-                background-color: $base-color;
-                border-right-width: 0px;
-                height: 35px;
-                width: 100px;
-                font-weight: bold;
-                font-size: 14px;
-                a {
-                    color: $offer-color;
-                    
-                }
-           
-                                
+        // price button ------
+        #pricebutton {
+            border: 2px solid $opacity-color;    
+            border-radius: 50px 0px 0px 50px ;
+            background-color: $base-color;
+            border-right-width: 0px;
+            height: 35px;
+            width: 100px;
+            font-weight: bold;
+            font-size: 14px;
+            a {
+                color: $offer-color;
+            }                
+        }
+        // buy button ----
+        #buybutton {   
+            border: 2px solid $opacity-color;
+            border-radius: 0px 50px 50px 0px  ;
+            height: 35px;
+            width: 100px;
+            background-color: $base-color;
+            color: $main-color;
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            cursor: pointer;
+            transition: 0.4s ease;
+            &:hover {
+                background-color: $secondary-color;
+                color: $base-color; 
             }
-
-            // buy button ----
-            #buybutton {   
-                border: 2px solid $opacity-color;
-                border-radius: 0px 50px 50px 0px  ;
-                height: 35px;
-                width: 100px;
-                background-color: $base-color;
-                color: $main-color;
-                font-size: 14px;
-                font-weight: bold;
-                text-transform: uppercase;
-                cursor: pointer;
-                transition: 0.4s ease;
-                &:hover {
-                    background-color: $secondary-color;
-                    color: $base-color;
-                    
-                }
-            }            
+        }            
     }
-
     .card-hover{
         position: absolute;
         top: 0;
@@ -162,11 +139,7 @@
         border-radius: 10px;
         transition: 0.5s ease;
         background: linear-gradient(to top, $icon-color1, $offer-color);
-    }
-
-    
-
-
+    } 
     .card-buttons {
         color: white;
         font-size: 20px;
@@ -181,9 +154,6 @@
         display: none;
    
     }
-
-
-
     button.add, button.favorite{
         opacity: 1;
         border: none;
@@ -196,36 +166,30 @@
             width: 30px;
             height: 100%;
         }
-
         &:hover {
             box-shadow: 1px 1px 10px $back-color;
             cursor: pointer;
         }
     }
-
     span.price-text a {
         font-weight: bold;
     }
-
     a {
         color: $main-color;
         transition: 0.3s ease;
             &:hover {
             color: $secondary-color;
-    }
+        }
    }
 //add function hover
 &:hover .card-hover {
     opacity: 0.9;
     display:flex;
-    .card-buttons {
-        display: block;
+        .card-buttons {
+            display: block;
+        }
     }
 }
-
-}
-
-
 .card-img-last {
     padding: 10px;
     border-top-left-radius: 8px;
@@ -265,13 +229,8 @@
             text-transform: uppercase;
             vertical-align: bottom;
         }
-
     }
 }
-
-
-
-
 .load-more {
     display: flex;
     justify-content: center;

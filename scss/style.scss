@@ -4,21 +4,15 @@
     'helpers/components',
     'helpers/fonts',
     'helpers/reset';
-
-
 // ---------------------------- sections ----------------------------
 @import
     'sections/benefits',
-    'sections/breadcrumbs',
     'sections/featured-products',
     'sections/footer',
     'sections/header',
     'sections/popular-items',
     'sections/main';
-
-  
 // ---------------------------- pages ----------------------------
-
 @import
     'pages/404',
     'pages/cart',

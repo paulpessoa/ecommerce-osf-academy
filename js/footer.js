@@ -1,3 +1,7 @@
+//show current year
+const d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();
+
 // open and close contact list
 $(document).ready(function(){ if(window.outerWidth < 768) {
     $('#b-contact').click(function() {
@@ -24,7 +28,3 @@ $(document).ready(function(){ if(window.outerWidth < 768) {
     );
 }
 });
-
-
-
-

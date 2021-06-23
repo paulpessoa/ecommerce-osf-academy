@@ -113,6 +113,24 @@
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -133,7 +151,7 @@
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -224,6 +242,24 @@ body button:focus {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -244,7 +280,7 @@ body button:focus {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -371,6 +407,24 @@ body button:focus {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -391,7 +445,7 @@ body button:focus {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -528,6 +582,24 @@ body button:focus {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -548,7 +620,7 @@ body button:focus {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -713,6 +785,24 @@ footer path:hover {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -733,7 +823,7 @@ footer path:hover {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -1137,6 +1227,24 @@ header .nav-brand h2 {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1157,7 +1265,7 @@ header .nav-brand h2 {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -1486,6 +1594,24 @@ body button:focus {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1506,7 +1632,7 @@ body button:focus {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -1723,6 +1849,24 @@ section.nav-banners .follow .fb-button {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1743,7 +1887,7 @@ section.nav-banners .follow .fb-button {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -1755,7 +1899,7 @@ body button:focus {
 .breadcrumbs {
   padding: 120px 50px 40px 50px;
   text-align: center;
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 .breadcrumbs ul {
   display: flex;
@@ -1871,6 +2015,24 @@ section.notfound .not-found {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1891,7 +2053,7 @@ section.notfound .not-found {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -1982,6 +2144,24 @@ body button:focus {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -2002,7 +2182,7 @@ body button:focus {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;
@@ -2012,12 +2192,13 @@ body button:focus {
 }
 
 .product-page {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 .product-page .row {
   margin: 0 auto;
   background-color: #ffffff;
   padding: 15px;
+  border-radius: 10px;
 }
 .product-page .product-img {
   cursor: zoom-in;
@@ -2075,6 +2256,57 @@ body button:focus {
 .product-page .thumb li {
   cursor: pointer;
 }
+.product-page .product-info {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.product-page .product-info #price-product-page {
+  font-size: 50px;
+  font-weight: 900;
+}
+.product-page .product-info #sel-colors {
+  margin: 10px auto;
+  font: inherit;
+  color: inherit;
+  padding: 10px;
+  border: 1px solid #bdc3c7;
+  border-radius: 25px;
+}
+.product-page .product-info .product-page-add {
+  margin: 10px auto;
+}
+.product-page .product-info .product-paragraph {
+  text-align: justify;
+}
+.product-page .product-info .product-paragraph .span-readmore {
+  display: none;
+}
+.product-page .product-info .readmore-button {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.product-page .product-info .readmore-button:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.product-page .product-info .sharepage {
+  margin-top: 20px;
+}
+.product-page .product-info .sharepage h5 {
+  color: #bdc3c7;
+  margin-right: 20px;
+}
+.product-page .product-info .sharepage .product-social-buttons path {
+  fill: #bdc3c7;
+}
+.product-page .product-info .sharepage .product-social-buttons path:hover {
+  fill: #84bc22;
+}
+.product-page .product-info .sharepage .product-social-buttons .product-share-svg {
+  margin-top: 10px;
+  margin-left: 14px;
+}
 
 @font-face {
   font-family: "Myriad";
@@ -2158,6 +2390,24 @@ body button:focus {
   background-color: transparent !important;
 }
 
+.button-page-product {
+  width: 149px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+  font-size: 14px;
+  background-color: #84bc22;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+  color: #ffffff;
+  font-weight: 500;
+}
+.button-page-product:hover {
+  background-color: #ffffff;
+  border: 2px solid #84bc22;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -2178,7 +2428,7 @@ body button:focus {
 }
 
 body {
-  background-color: #F1EDEA;
+  background-color: #E8E2D6;
 }
 body a:hover {
   text-decoration: none;

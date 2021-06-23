@@ -33,3 +33,11 @@ $(document).ready(function() {
 function imgSlider (anything){ 
     document.querySelector('.product-zoom').src = anything;
 }
+
+// read more - product information paragraph 
+
+$(document).ready(function(){
+    $(".readmore-button").click(function(){
+    $(".span-readmore").show();
+    });
+});

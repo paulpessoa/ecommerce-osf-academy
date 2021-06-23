@@ -11,6 +11,7 @@
         margin: 0 auto;
         background-color: $base-color;
         padding: 15px;
+        border-radius: 10px;
     }
     // COLUMN 01
     .product-img {
@@ -71,10 +72,58 @@
     }
 
     // COLUMN 03
+    .product-info {
+        padding-left: 40px;
+        padding-right: 40px;
+        #price-product-page {
+            font-size: 50px;
+            font-weight: 900;
+        }
+        #sel-colors {
+            margin: 10px auto;
+            font: inherit;
+            color: inherit;
+            padding: 10px;
+            border: 1px solid $opacity-color;
+            border-radius: 25px;
+        }
+        .product-page-add {
+            margin: 10px auto;
+        }
+        .product-paragraph {
+            text-align: justify;
+            .span-readmore {
+               display: none;
+            }  
+        }
+
+        .readmore-button {
+            color: $secondary-color;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+                color: $secondary-color;
+            }
+        }
+        .sharepage {
+            margin-top: 20px;
+            h5 {
+                color: $opacity-color;
+                margin-right: 20px;
+            }
+            .product-social-buttons {        
+                path {
+                    fill: $opacity-color;
+                &:hover{
+                    fill: $secondary-color;
+                }  
+            }
+            .product-share-svg{
+                margin-top: 10px;
+                margin-left: 14px;
+              }
+          }
+        }
+    }    
 }
-
-
-
-    
-    
-

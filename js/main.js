@@ -12,3 +12,13 @@ function addCart() {
     }
 // load more button function
 
+
+
+
+
+
+// change image
+
+function imgSlider (anything){ 
+    document.querySelector('#imgcart-zoom').src = anything;
+}

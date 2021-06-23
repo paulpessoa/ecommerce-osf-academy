@@ -2028,17 +2028,49 @@ body button:focus {
 }
 .product-page .product-img .product-zoom {
   background-repeat: no-repeat;
-  background-size: cover;
-  height: 400px;
   width: 100%;
-  max-width: 578;
-  height: auto;
   cursor: zoom-in;
 }
-.product-page .modal-body {
-  justify-items: center;
-  margin: 0 auto;
-  width: 100%;
+.product-page .modal-dialog .product-modal {
+  max-width: 60vw;
+  height: auto;
+  width: 600px;
+}
+@media screen and (max-width: 768px) {
+  .product-page .modal-dialog {
+    margin-top: 30%;
+  }
+  .product-page .modal-dialog .product-modal {
+    width: 94vw;
+    height: auto;
+    max-width: 768px;
+  }
+}
+.product-page .thumb {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product-page .thumb li {
+  transition: 0.3s ease;
+  margin: 10px;
+  border: 1px solid #45413e;
+  border-radius: 2px;
+}
+@media screen and (max-width: 768px) {
+  .product-page .thumb li {
+    margin: 5px;
+  }
+  .product-page .thumb li:last-child {
+    display: none;
+  }
+}
+.product-page .thumb li:hover {
+  transition: 0.3s ease;
+  border: 1px solid #84bc22;
+}
+.product-page .thumb li img {
+  border-radius: 2px;
 }
 .product-page .thumb li {
   cursor: pointer;

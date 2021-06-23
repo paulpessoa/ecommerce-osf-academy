@@ -12,6 +12,7 @@
         background-color: $base-color;
         padding: 15px;
     }
+    // COLUMN 01
     .product-img {
         cursor: zoom-in;
         #zoom-button {
@@ -20,31 +21,56 @@
         }
         .product-zoom {
             background-repeat: no-repeat;
-            background-size: cover;
-            height: 400px;
             width: 100%;
-            max-width: 578;
-            height: auto;
             cursor: zoom-in;
         }
-    
     }
-    .modal-body {
-        justify-items: center;
-        margin: 0 auto;
-        width: 100%;
-  
+    .modal-dialog {
+        .product-modal {
+         max-width: 60vw;
+         height: auto;
+         width: 600px;
+        }
+        @media screen and (max-width: 768px) {
+            margin-top: 30%;
+            .product-modal {
+                width: 94vw;
+    height: auto;
+    max-width: 768px;
+            }
+        }
     }
 
-
-
+    // COLUMN 02
+    .thumb {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        li {
+            transition: 0.3s ease;
+            @media screen and (max-width: 768px) {
+                margin: 5px;
+                &:last-child { // remove this after jquery function implementation
+                  display: none; 
+                } 
+          }
+            margin: 10px;
+            border: 1px solid $main-color;
+            border-radius: 2px;
+            &:hover {
+                transition: 0.3s ease;
+                border: 1px solid $secondary-color;   
+            }
+            img {
+                border-radius: 2px;
+            }
+        }
+    }
     .thumb li {
         cursor: pointer;
     }
 
-
-
-
+    // COLUMN 03
 }
 
 

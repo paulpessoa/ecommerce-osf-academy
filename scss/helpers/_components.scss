@@ -114,3 +114,84 @@
         color: $secondary-color!important;
     }
 }
+
+// line before and after titles
+.line-title {
+    text-align: center;
+    color: $main-color;    
+    font-size: 24px;
+    font-weight: bolder;
+    position: relative;
+    margin-bottom: 40px;
+    //line before title ---
+    &:before {
+        position: absolute;
+        bottom: 50%;
+        right: 0;
+        content: "";
+        width: 38%;
+        height: 100%;    
+        border-bottom: 1px solid $opacity-color;
+        @media screen and (max-width: 770px) {
+            width: 20%;
+        }
+    }
+    //line after title ---
+    &:after {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        content: "";
+        width: 38%;
+        border-bottom: 1px solid $opacity-color;
+        @media screen and (max-width: 770px) {
+            width: 20%;
+        }
+    } 
+}
+
+// breadcrumbs style ---
+.breadcrumbs {
+    padding: 115px 50px 90px 50px;
+    text-align: center;
+    background-color:$back-color0;
+    color: $main-color;
+    font-size: 14px;
+    a {
+        color: $secondary-color;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+    h2 {
+        margin: 0;
+        font-weight: 900;
+        font-size: 46px;
+        color: $main-color;
+    }
+
+    // breadcrumb LINE and TITLE style 
+    .breadcrumbs-title{
+        text-align: center;
+        background: $back-color0;
+        z-index: 4;
+        position:absolute; 
+        left:50%;
+        padding: 0  20px;
+        transform: translate(-50%)
+        
+    } .breadcrumbs-div::before {
+        position: relative;
+        display: block;
+        content: "";
+        height: 2px;
+        opacity: 0.5;
+        background-color: $opacity-color;
+        width: 100%;
+        top: 30px;
+    } 
+}

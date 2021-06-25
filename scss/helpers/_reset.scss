@@ -18,9 +18,10 @@ $size-phone: 320px;
 
 //desktop standard        
 body {
-
-    a:hover { text-decoration: none }
+    a:hover {
+    text-decoration: none
+  }
     button:focus {
-    outline: none;
+      outline: none;
   }
 }

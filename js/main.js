@@ -10,7 +10,29 @@ function addCart() {
     numCart++;
     document.getElementById('add-cart-sum').textContent = numCart;
     }
-// load more button function
+
+    // load more button function
+$(function loadMore(){
+    let $data = $('.row.cards');
+    let div = document.createElement("div")
+    $.ajax({
+        type: 'GET',
+        url: './data/product-list.json',
+        success: function (data){
+            $.each(data, function(i, data){
+                $data.append('<div class="cardx hidden"><div class="card-img" style="background-image: url(' + data.cardimg + ')"></div><div class="card-info"><h4 class="productname">' + data.productname + '</h4><span class="price-text"><a href="../product.html">'+ data.price +'</a></span></div><div class="card-hover"><div class="card-buttons"><button class="add" onclick="addCart()"><img src="./img/icons/Plus.svg" alt="Add"></button><button class="favorite" onclick="addFav()"><img src="./img/icons/Heart (24x24).svg" alt="Favorite"></button></div></div></div>');            
+            });
+            // when click button "load more" add 4 cards
+            $("#load-more").click(function(){
+                $(".row.cards .hidden").slice(0,4).removeClass("hidden");
+                console.log("You are the best!!!", data);   
+            });
+            } 
+        });
+    });
+
+
+
 
 
 

@@ -1512,6 +1512,10 @@ body button:focus {
   padding: 20px;
 }
 
+.hidden {
+  display: none;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");

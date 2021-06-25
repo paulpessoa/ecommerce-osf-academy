@@ -100,3 +100,17 @@
         color: $secondary-color;   
     }
 }
+
+// simple link button -------
+.linkbutton {
+    color: $secondary-color;
+   font-weight: 500;
+    cursor: pointer;
+    &:hover {
+        text-decoration: underline;
+        color: $secondary-color;
+    }
+    &:visited {
+        color: $secondary-color!important;
+    }
+}

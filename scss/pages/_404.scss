@@ -7,7 +7,7 @@
 .breadcrumbs {
     padding: 120px 50px 40px 50px;
     text-align: center;
-    background-color: $back-color0;
+    background-color:$back-color0;
     ul {
         display: flex;
         justify-content: center;
@@ -20,15 +20,18 @@
     }
     }
 section.notfound{
-    background-color: #F1EDEA;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $back-color0;
     padding-bottom: 40px;   
-    h3 {
+    #oops {
         font-size: 120px;
         color: $secondary-color;
         font-weight: 900;    
     }
     .not-found {
     display: flex;
+    flex-wrap: wrap;
     background-color: $base-color;
     border-radius: 10px;
     padding: 40px;
@@ -37,4 +40,53 @@ section.notfound{
 #oops-img {
     background-image: url('../img/layers/404page.png') ;
     background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 0;
+}
+
+.info-error {
+    padding: 0 2rem;      
+    .title-error {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        color: $but-color;
+        font-size: 1.5rem;
+        font-weight: 900;
+        
+    }
+    .text-error{
+        color: $main-color;
+        font-weight:500;
+    }
+    .linkbutton {
+        margin-top:100px;    }
+}
+
+.search-box {
+    padding: 30px 0;
+    #searchspace {
+        border-radius: 25px;
+        width: 100%;
+        border: 2px solid $back-color0;
+        padding: 6px 20px;
+        &::placeholder {
+            color: $main-color;
+            font-size: 14px;
+        }
+    }
+    
+    .svg-search {
+        position: absolute;
+        right: 36px;
+        padding: 8px;
+        cursor: pointer;
+        &:hover path {
+            fill: $secondary-color;
+            }
+    
+    }
+    
 }

@@ -131,6 +131,19 @@
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -150,9 +163,6 @@
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -260,6 +270,19 @@ body button:focus {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -279,9 +302,6 @@ body button:focus {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -425,6 +445,19 @@ body button:focus {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -444,9 +477,6 @@ body button:focus {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -600,6 +630,19 @@ body button:focus {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -619,9 +662,6 @@ body button:focus {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -803,6 +843,19 @@ footer path:hover {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -822,9 +875,6 @@ footer path:hover {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -1245,6 +1295,19 @@ header .nav-brand h2 {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1264,9 +1327,6 @@ header .nav-brand h2 {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -1616,6 +1676,19 @@ body button:focus {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1635,9 +1708,6 @@ body button:focus {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -1871,6 +1941,19 @@ section.nav-banners .follow .fb-button {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -1890,9 +1973,6 @@ section.nav-banners .follow .fb-button {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -1917,16 +1997,19 @@ body button:focus {
 }
 
 section.notfound {
-  background-color: #F1EDEA;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #E8E2D6;
   padding-bottom: 40px;
 }
-section.notfound h3 {
+section.notfound #oops {
   font-size: 120px;
   color: #84bc22;
   font-weight: 900;
 }
 section.notfound .not-found {
   display: flex;
+  flex-wrap: wrap;
   background-color: #ffffff;
   border-radius: 10px;
   padding: 40px;
@@ -1935,6 +2018,52 @@ section.notfound .not-found {
 #oops-img {
   background-image: url("../img/layers/404page.png");
   background-repeat: no-repeat;
+  background-size: contain;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  left: 0;
+}
+
+.info-error {
+  padding: 0 2rem;
+}
+.info-error .title-error {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.info-error .text-error {
+  color: #45413e;
+  font-weight: 500;
+}
+.info-error .linkbutton {
+  margin-top: 100px;
+}
+
+.search-box {
+  padding: 30px 0;
+}
+.search-box #searchspace {
+  border-radius: 25px;
+  width: 100%;
+  border: 2px solid #E8E2D6;
+  padding: 6px 20px;
+}
+.search-box #searchspace::placeholder {
+  color: #45413e;
+  font-size: 14px;
+}
+.search-box .svg-search {
+  position: absolute;
+  right: 36px;
+  padding: 8px;
+  cursor: pointer;
+}
+.search-box .svg-search:hover path {
+  fill: #84bc22;
 }
 
 @font-face {
@@ -2037,6 +2166,19 @@ section.notfound .not-found {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -2056,9 +2198,6 @@ section.notfound .not-found {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -2166,6 +2305,19 @@ body button:focus {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -2185,9 +2337,6 @@ body button:focus {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }
@@ -2284,15 +2433,6 @@ body button:focus {
 }
 .product-page .product-info .product-paragraph .span-readmore {
   display: none;
-}
-.product-page .product-info .readmore-button {
-  color: #84bc22;
-  font-weight: 500;
-  cursor: pointer;
-}
-.product-page .product-info .readmore-button:hover {
-  text-decoration: underline;
-  color: #84bc22;
 }
 .product-page .product-info .sharepage {
   margin-top: 20px;
@@ -2412,6 +2552,19 @@ body button:focus {
   color: #84bc22;
 }
 
+.linkbutton {
+  color: #84bc22;
+  font-weight: 500;
+  cursor: pointer;
+}
+.linkbutton:hover {
+  text-decoration: underline;
+  color: #84bc22;
+}
+.linkbutton:visited {
+  color: #84bc22 !important;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -2431,9 +2584,6 @@ body button:focus {
   list-style: none;
 }
 
-body {
-  background-color: #E8E2D6;
-}
 body a:hover {
   text-decoration: none;
 }

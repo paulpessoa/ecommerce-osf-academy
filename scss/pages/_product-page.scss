@@ -118,29 +118,72 @@
     }    
 }
 
-
+//section product tabs ----------
 .tabs {
-    height: 340px;
+    padding-top: 40px;
+    height: 300px;
     display: flex;
     justify-content: center;
+    background-color: $base-color;
     ul {
         list-style: none;
         li {
             float: left;
             label {
-                width: 100px;
-                padding: 25px;
-                background-color: $back-color0;
+                margin: 0px;
+                padding: 16px 40px;
+                background-color: $base-color;
                 display: block;
-                color: $back-color;
+                color: $opacity-color;
                 cursor: pointer;
                 text-align: center;
+                transition: 0.3s ease;
+                font-size: 20px;
+                font-weight: 800;
             }
-            .rd_tabs:checked ~ label {
+            .rd_tabs {
+                display: none;
+                &:checked ~ label {
+                    border-radius: 16px 16px 0px 0px;
+                    background-color: $back-color;
+                    color: $base-color;
+                }
+                &:checked ~ .content-tab {
+                    display: flex;
+                }
+            }
+            .content-tab {
+                min-height: 220px;
                 background-color: $back-color;
                 color: $base-color;
+                display: none;
+                position: absolute;
+                width: 100%;
+                border-radius: 0px 0px 10px 10px ;
+                margin: 0 auto;
+                left:50%;
+                transform: translate(-50%);    
+                .tab-left, .tab-right {
+                    padding: 10px;
+                    margin: 10px;
+                    width: 50%;
+                    margin: 40px 30px;
+                }
             }
         }
     }
+}
 
+//more height to content tab
+@media screen and (max-width: 1000px) {
+    .tabs {
+        height: 350px;
+    }   
+}
+
+//hide the tabs section to mobile screen
+@media screen and (max-width: 768px) {
+    section.tabs {
+        display: none;
+    }
 }

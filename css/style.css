@@ -3360,9 +3360,11 @@ body button:focus {
 }
 
 .tabs {
-  height: 340px;
+  padding-top: 40px;
+  height: 300px;
   display: flex;
   justify-content: center;
+  background-color: #ffffff;
 }
 .tabs ul {
   list-style: none;
@@ -3371,19 +3373,57 @@ body button:focus {
   float: left;
 }
 .tabs ul li label {
-  width: 100px;
-  padding: 25px;
-  background-color: #E8E2D6;
+  margin: 0px;
+  padding: 16px 40px;
+  background-color: #ffffff;
   display: block;
-  color: #262a32;
+  color: #bdc3c7;
   cursor: pointer;
   text-align: center;
+  transition: 0.3s ease;
+  font-size: 20px;
+  font-weight: 800;
+}
+.tabs ul li .rd_tabs {
+  display: none;
 }
 .tabs ul li .rd_tabs:checked ~ label {
+  border-radius: 16px 16px 0px 0px;
   background-color: #262a32;
   color: #ffffff;
 }
+.tabs ul li .rd_tabs:checked ~ .content-tab {
+  display: flex;
+}
+.tabs ul li .content-tab {
+  min-height: 220px;
+  background-color: #262a32;
+  color: #ffffff;
+  display: none;
+  position: absolute;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  margin: 0 auto;
+  left: 50%;
+  transform: translate(-50%);
+}
+.tabs ul li .content-tab .tab-left, .tabs ul li .content-tab .tab-right {
+  padding: 10px;
+  margin: 10px;
+  width: 50%;
+  margin: 40px 30px;
+}
 
+@media screen and (max-width: 1000px) {
+  .tabs {
+    height: 350px;
+  }
+}
+@media screen and (max-width: 768px) {
+  section.tabs {
+    display: none;
+  }
+}
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");

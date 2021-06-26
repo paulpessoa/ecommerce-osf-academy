@@ -10,8 +10,8 @@
     .row {
         margin: 0 auto;
         background-color: $base-color;
-        padding: 15px;
-        border-radius: 10px;
+        padding: 24px 10px;
+        border-radius: 10px 10px 0px 0px;
     }
     // COLUMN 01
     .product-img {
@@ -112,8 +112,14 @@
             .product-share-svg{
                 margin-top: 10px;
                 margin-left: 14px;
-              }
-          }
+                }
+            }
         }
     }    
+}
+
+
+.tabs {
+    background-color: $back-color;
+    height: 340px;
 }

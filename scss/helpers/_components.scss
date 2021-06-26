@@ -165,6 +165,7 @@
     }
     ul {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
     h2 {
@@ -177,14 +178,24 @@
     // breadcrumb LINE and TITLE style 
     .breadcrumbs-title{
         text-align: center;
+        font-weight: 800;
         background: $back-color0;
         z-index: 4;
         position:absolute; 
         left:50%;
         padding: 0  20px;
-        transform: translate(-50%)
-        
-    } .breadcrumbs-div::before {
+        font-size: 4rem;
+        transform: translate(-50%)    
+    }
+    @media screen and (max-width: 768px) {
+        .breadcrumbs-title{
+            font-size: 2.5rem;
+            padding: 0px;
+            
+        }   
+    }
+
+    .breadcrumbs-div::before {
         position: relative;
         display: block;
         content: "";

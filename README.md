@@ -25,7 +25,7 @@ New Deploy: https://osf-frontend-academy.vercel.app/
 
 - [x] ( 5.5 Benefits coontent)
 
-- [ ] ( 6.1 Breadcrumbs)
+- [x] ( 6.1 Breadcrumbs)
 
 - [ ] ( 6.2 Filters)
 
@@ -35,7 +35,7 @@ New Deploy: https://osf-frontend-academy.vercel.app/
 
 - [ ] ( 7.3 Tabs)
 
-- [ ] ( 8.1 404 page)
+- [x] ( 8.1 404 page)
 
 - [ ] ( 8.2 Log in Diagoly)
 

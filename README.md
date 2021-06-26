@@ -17,11 +17,11 @@ New Deploy: https://osf-frontend-academy.vercel.app/
 
 - [x] ( 5.1 Carrousel Banner.
 
-- [ ] ( 5.2 Popular Itens)
+- [x] ( 5.2 Popular Itens) - Still need to add the carousel function
 
 - [x] ( 5.3 Full Width Image)
 
-- [ ] ( 5.4 Featured Products)
+- [ ] ( 5.4 Featured Products) Still need to creat and add the carousel function
 
 - [x] ( 5.5 Benefits coontent)
 
@@ -29,11 +29,11 @@ New Deploy: https://osf-frontend-academy.vercel.app/
 
 - [ ] ( 6.2 Filters)
 
-- [ ] ( 7.1 Product Image)
+- [x] ( 7.1 Product Image)
 
 - [ ] ( 7.2 Produt Details)
 
-- [ ] ( 7.3 Tabs)
+- [x] ( 7.3 Tabs)
 
 - [x] ( 8.1 404 page)
 

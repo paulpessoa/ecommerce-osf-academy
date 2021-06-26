@@ -161,6 +161,7 @@
         color: $secondary-color;
         &:hover {
             text-decoration: underline;
+            color: $secondary-color;
         }
     }
     ul {

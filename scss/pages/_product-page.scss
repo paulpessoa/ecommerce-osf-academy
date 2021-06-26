@@ -120,6 +120,27 @@
 
 
 .tabs {
-    background-color: $back-color;
     height: 340px;
+    display: flex;
+    justify-content: center;
+    ul {
+        list-style: none;
+        li {
+            float: left;
+            label {
+                width: 100px;
+                padding: 25px;
+                background-color: $back-color0;
+                display: block;
+                color: $back-color;
+                cursor: pointer;
+                text-align: center;
+            }
+            .rd_tabs:checked ~ label {
+                background-color: $back-color;
+                color: $base-color;
+            }
+        }
+    }
+
 }

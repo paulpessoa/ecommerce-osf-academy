@@ -141,3 +141,59 @@ section.nav-banners{
         }
     }
 }
+
+
+
+
+// ----------------------------------------
+
+.modal-dialog {
+    .modal-content {
+        padding: 40px;
+        max-width: 500px;
+        max-height: 470px;
+        padding: 50px;
+      }
+    .login-title {
+        font-size: 28px;
+        font-weight: 900;
+        text-align: center;
+        margin: 0;
+    }
+    .form-group {
+
+    }
+    
+
+}
+  
+.close {
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
+
+}
+  
+  
+
+
+
+.form-login {
+    width: 100%;
+    border-radius: 25px;
+    border: 2px solid $back-color0;
+    padding: 6px;
+}
+
+
+
+
+
+
+  #eye-pwd {
+    position: absolute;
+    right: 0;
+    
+  }

@@ -146,54 +146,89 @@ section.nav-banners{
 
 
 // ----------------------------------------
+.modal.in .modal-dialog {
+    margin: 0 auto;
+    .modal-content {
+        margin: 0 auto;
+
+    }
+}
 
 .modal-dialog {
+    height: 100%;
+    width: 100%;
     .modal-content {
         padding: 40px;
-        max-width: 500px;
+        max-width: 480px;
         max-height: 470px;
         padding: 50px;
+        .close {
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+            top: 0;
+            margin: 20px;
+        }
       }
     .login-title {
         font-size: 28px;
         font-weight: 900;
         text-align: center;
         margin: 0;
+        color: $main-color;
     }
     .form-group {
-
+        margin: 30px 0px;
+        label, a {
+            padding: 18px 0px 6px 0px;
+        }
+        .form-login {
+            width: 100%;
+            border-radius: 25px;
+            border: 2px solid $back-color0;
+            padding: 8px; 
+        }
+        #eye-pwd {
+            position: absolute;
+            float: right;
+            right: 65px;
+            svg {
+                margin: 12px 0px 0px 0px;
+                &:hover path {
+                    fill: $secondary-color;
+                }
+            }
+        }
+    
     }
+    .div-login-button{
+        text-align: center;
+        margin: 40px 0px 20px 0px;
+    }
+
+  
+
+    .linkbutton.login {
+        text-align: center;
+    }
+}
+  
+
+
+
     
 
-}
-  
-.close {
-    cursor: pointer;
-    position: absolute;
-    right: 0;
-    top: 0;
-    margin: 20px;
 
-}
+
   
   
 
 
 
-.form-login {
-    width: 100%;
-    border-radius: 25px;
-    border: 2px solid $back-color0;
-    padding: 6px;
-}
 
 
 
 
 
 
-  #eye-pwd {
-    position: absolute;
-    right: 0;
-    
-  }
+ 

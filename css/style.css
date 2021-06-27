@@ -233,6 +233,21 @@
   top: 30px;
 }
 
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -462,6 +477,21 @@ body button:focus {
   background-color: #bdc3c7;
   width: 100%;
   top: 30px;
+}
+
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
 }
 
 @font-face {
@@ -729,6 +759,21 @@ body button:focus {
   background-color: #bdc3c7;
   width: 100%;
   top: 30px;
+}
+
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
 }
 
 @font-face {
@@ -1006,6 +1051,21 @@ body button:focus {
   background-color: #bdc3c7;
   width: 100%;
   top: 30px;
+}
+
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
 }
 
 @font-face {
@@ -1313,6 +1373,21 @@ footer path:hover {
   background-color: #bdc3c7;
   width: 100%;
   top: 30px;
+}
+
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
 }
 
 @font-face {
@@ -1859,6 +1934,21 @@ header .nav-brand h2 {
   top: 30px;
 }
 
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -2332,6 +2422,21 @@ body button:focus {
   top: 30px;
 }
 
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -2485,6 +2590,68 @@ section.nav-banners .follow .fb-button {
     font-size: 18px;
     width: 80%;
   }
+}
+
+.modal.in .modal-dialog {
+  margin: 0 auto;
+}
+.modal.in .modal-dialog .modal-content {
+  margin: 0 auto;
+}
+
+.modal-dialog {
+  height: 100%;
+  width: 100%;
+}
+.modal-dialog .modal-content {
+  padding: 40px;
+  max-width: 480px;
+  max-height: 470px;
+  padding: 50px;
+}
+.modal-dialog .modal-content .close {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 20px;
+}
+.modal-dialog .login-title {
+  font-size: 28px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  color: #45413e;
+}
+.modal-dialog .form-group {
+  margin: 30px 0px;
+}
+.modal-dialog .form-group label, .modal-dialog .form-group a {
+  padding: 18px 0px 6px 0px;
+}
+.modal-dialog .form-group .form-login {
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid #E8E2D6;
+  padding: 8px;
+}
+.modal-dialog .form-group #eye-pwd {
+  position: absolute;
+  float: right;
+  right: 65px;
+}
+.modal-dialog .form-group #eye-pwd svg {
+  margin: 12px 0px 0px 0px;
+}
+.modal-dialog .form-group #eye-pwd svg:hover path {
+  fill: #84bc22;
+}
+.modal-dialog .div-login-button {
+  text-align: center;
+  margin: 40px 0px 20px 0px;
+}
+.modal-dialog .linkbutton.login {
+  text-align: center;
 }
 
 @font-face {
@@ -2687,6 +2854,21 @@ section.nav-banners .follow .fb-button {
   background-color: #bdc3c7;
   width: 100%;
   top: 30px;
+}
+
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
 }
 
 @font-face {
@@ -2991,6 +3173,21 @@ section.notfound .not-found {
   top: 30px;
 }
 
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -3220,6 +3417,21 @@ body button:focus {
   background-color: #bdc3c7;
   width: 100%;
   top: 30px;
+}
+
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
 }
 
 @font-face {
@@ -3624,6 +3836,21 @@ body button:focus {
   background-color: #bdc3c7;
   width: 100%;
   top: 30px;
+}
+
+.login-button {
+  border: 2px solid #84bc22;
+  background-color: #84bc22;
+  color: #ffffff;
+  border-radius: 25px;
+  padding: 8px 70px;
+  font-size: 14px;
+  text-transform: uppercase;
+  transition: 0.4s ease;
+}
+.login-button:hover {
+  background-color: #ffffff;
+  color: #84bc22;
 }
 
 @font-face {

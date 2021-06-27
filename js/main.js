@@ -1,3 +1,26 @@
+//loginModal ------------
+$(document).ready(function() {
+    $('#loginButton').modal('show');
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+  })
+});
+
+
+//hide or show password
+$(document).ready(function() {
+    $("#eye-pwd").on('click', function(event) {
+        event.preventDefault();
+        if($('#show_hide_password').attr("type") == "text"){
+            $('#show_hide_password').attr('type', 'password');
+        }else if($('#show_hide_password').attr("type") == "password"){
+            $('#show_hide_password').attr('type', 'text'); 
+        }
+    });
+});
+
+
+
 // add one more item to favorite list
 numFav = 0;  
 function addFav() {

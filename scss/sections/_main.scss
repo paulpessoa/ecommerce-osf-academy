@@ -212,6 +212,11 @@ section.nav-banners{
     }
 }
 
+
+div.modal-backdrop.fade.in {
+    display: none!important;
+}
+
 // cookie section ----------
 .cookie-section{
     .modal.in .modal-dialog {

@@ -10,11 +10,24 @@ $(document).ready(function() {
     });
 });
 
-// show cookie modal after 5 seconds
+// show cookie modal after 3 seconds
 $(document).ready(function(){
-    setTimeout(function(){
-    $('#myModal').modal('show');
-    }, 5000);
+    // this function show the cookie if the cache is clean
+    if (!localStorage.nomeDoSeuCookies) {
+        setTimeout(function(){
+            $('#myModal').modal('show');
+        }, 3000);
+    }
+    // this function will hide the modal if to click the "accept button" 
+    const acceptCookies = () => {
+        document.querySelector("#myModal").classList.remove('show');
+        //this save on User Browser the value "accept" that wil be used for the function
+        localStorage.setItem("nomeDoSeuCookies", "accept");
+    };
+    //this variable save the button coockie class      
+    const btnCookies = document.querySelector(".btn-cookies");
+    //this active the function to "hide coockies modal"
+    btnCookies.addEventListener('click', acceptCookies);    
 });
 
 // add one more item to favorite list

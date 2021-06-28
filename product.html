@@ -75,13 +75,18 @@
             <div class="product-info col-sm-12 col-md-12 col-lg-5">
                 <h2 id="price-product-page">$299.99</h2>
                 <select name="sel-color" id="sel-colors">
-                  <option value="darkgray1">Dark Gray1</option>
-                  <option value="darkgray2">Dark Gray2</option>
-                  <option value="darkgray3">Dark Gray3</option>
-                  <option value="darkgray4">Dark Gray4</option>                            
+                  <option class="option-select" value="darkgray1" data-image="">Dark Gray1</option>
+                  <option class="option-select" value="darkgray2">Dark Gray2</option>
+                  <option class="option-select" value="darkgray3">Dark Gray3</option>
+                  <option class="option-select" value="darkgray4">Dark Gray4</option>                            
                 </select>
-                <div class="product-page-add">
-                    <input type="number">
+                <div class="product-page-add">                   
+                    <div class="input-up-down">
+                        <span onclick="downItem()" id="downItem">-</span>
+                        <input type="number" id="oneItem" value="1">
+                        <span onclick="upItem()" id="upItem">+</span>                        
+                        </input>
+                    </div>
                     <button class="button-page-product" onclick="addCart()">add to cart</button>
                 </div>
                     <p class="product-paragraph"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
@@ -89,8 +94,6 @@
                         </span>
                     </p>
                         <a class="linkbutton" href="#" disabled>Read More</a>
-                   
-            
                 <div class="sharepage" style="display: flex; flex-direction: row;">
                     <h5>Share</h5>
                     <ul class="product-social-buttons" style="display: flex; flex-direction: row;">
@@ -111,25 +114,25 @@
                 <label for="tab1">Description</label>
                 <div class="container content-tab">
                     <div class="tab-left">
-                        <p>1 - Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        <p>DESCRIPTION - Aenean commodo ligula eget  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                         <br><br>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                     </div>    
                     <div class="tab-right">
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                        <p>DESCRIPTION - natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
                         <br><br> ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     </div>    
                 </div>
             </li>
             <li>
                 <input type="radio" name="tabs" class="rd_tabs" id="tab2">
-                <label for="tab2">Adicional Information</label>
+                <label for="tab2">Aditional Information</label>
                 <div class="container content-tab">
                     <div class="tab-left">
-                        <p>2 - Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                        <p>ADITIONAL INFORMATION - Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
                     </div>    
                     <div class="tab-right">
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
+                        <p>ADITIONAL INFORMATION - Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
                         <br>ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     </div>    
                 </div>
@@ -139,22 +142,14 @@
                 <label for="tab3">Reviews (3)</label>
                 <div class="container content-tab reviews">
                     <div class="tab-left">
-                        <p>3 - Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                        ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-                        <h4>Customer name <img src="./img/layers/Layer162@1X.png" alt="Customer Profile">
-                        </h4>
+                        <p> REVIEW 01 - egeAenean commodo ligulat dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.sectetuer adipiscing elit. Aenean. Aenean massa.</p>
                     </div>    
                     <div class="tab-right">
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                        nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-                        <h4>Customer name <img src="./img/layers/Layer162@1X.png" alt="Customer Profile">
-                        </h4>
+                        <p>REVIEW 02 - Cum sociis natoque penatibus et magnis dis nec, pellentesque  consequat massa nec, pellentesque  consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     </div>    
                     <div class="tab-right">
-                        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                        ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-                        <h4>Customer name <img src="./img/layers/Layer162@1X.png" alt="Customer Profile">
-                        </h4>
+                        <p>REVIEW 03 - Cum sociis nato montes, nascetur ridiculus mus. Donec quam felis,
+                        ultricies nec, pellentesq sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
                     </div>    
                 </div>
             </li>

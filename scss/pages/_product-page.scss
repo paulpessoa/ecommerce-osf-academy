@@ -83,14 +83,53 @@
             margin: 10px auto;
             font: inherit;
             color: inherit;
-            padding: 10px;
+            padding: 8px 14px;
             border: 1px solid $opacity-color;
             border-radius: 25px;
+            box-shadow: none;
         }
         .product-page-add {
-            margin: 10px auto;
+            display: flex;
+            margin-top: 15px;
+            .input-up-down {
+                display: flex;
+                margin-right: 20px;
+            input {
+                width: 110px;    
+                border: 2px solid $back-color0;
+                border-radius: 25px;
+                text-align: center;                    
+                }
+                input[type="number"]::-webkit-outer-spin-button,
+                input[type="number"]::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                }            
+                #downItem {
+                    position: absolute;
+                    left:50px;
+                    padding: 10px;
+                    cursor: pointer;
+                    font-weight: 800;
+                    color: $opacity-color;
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+                #upItem {
+                    position: absolute;
+                    left: 115px;
+                    padding: 10px;
+                    cursor: pointer;
+                    font-weight: 800;
+                    color: $opacity-color;
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
         }
         .product-paragraph {
+            margin-top: 30px;
             text-align: justify;
             .span-readmore {
                display: none;

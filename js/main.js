@@ -69,10 +69,20 @@ function imgSlider (anything){
     document.querySelector('.product-zoom').src = anything;
 }
 
-// read more - product information paragraph 
 
+// add and subtract items on the product page
+function upItem() {
+    document.getElementById("oneItem").stepUp(1);
+};
+function downItem() {
+    document.getElementById("oneItem").stepDown(1);
+};
+
+// read more - product information paragraph 
 $(document).ready(function(){
     $(".linkbutton").click(function(){
     $(".span-readmore").show();
     });
 });
+
+

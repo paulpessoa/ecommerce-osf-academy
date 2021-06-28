@@ -5,6 +5,11 @@
 
 // --------------- main style ---------------------
 // banners section ---------
+
+.home-body{
+    background-color: $base-color!important;   
+}
+
 section.nav-banners{
     .row {
         margin-top: 100px;
@@ -144,23 +149,22 @@ section.nav-banners{
 
 
 
-
-// ----------------------------------------
+// login modal ---------------
 .modal.in .modal-dialog {
     margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     .modal-content {
         margin: 0 auto;
-
     }
 }
-
 .modal-dialog {
-    height: 100%;
-    width: 100%;
+    display: flex;
+    justify-content: center;
     .modal-content {
         padding: 40px;
-        max-width: 480px;
-        max-height: 470px;
         padding: 50px;
         .close {
             cursor: pointer;
@@ -179,6 +183,7 @@ section.nav-banners{
     }
     .form-group {
         margin: 30px 0px;
+        
         label, a {
             padding: 18px 0px 6px 0px;
         }
@@ -186,9 +191,10 @@ section.nav-banners{
             width: 100%;
             border-radius: 25px;
             border: 2px solid $back-color0;
-            padding: 8px; 
+            padding: 8px;            
         }
         #eye-pwd {
+            cursor: pointer;
             position: absolute;
             float: right;
             right: 65px;
@@ -205,30 +211,52 @@ section.nav-banners{
         text-align: center;
         margin: 40px 0px 20px 0px;
     }
-
-  
-
     .linkbutton.login {
         text-align: center;
     }
 }
-  
 
+// cookie section ----------
+.cookie-section{
+    .modal.in .modal-dialog {
+        max-width: fit-content;
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        bottom: 5%;
 
+        .modal-content {
+            padding: 20px 40px 10px 40px;
+        }
+        .modal-title {
+            font-size: 18px;
+            font-weight: 800;
+            color: $secondary-color;
+            margin-bottom: 14px;
+        }
+        .info-cookie{
+            display: flex;
+            flex-wrap: wrap;
+            p {
+                width: 80%;
+                text-align: justify;
+                padding-right: 100px;
+               
+            }
+            @media screen and (max-width: 768px) {
+                p {
+                    width: 100%;
+                    padding-right: 0px;
+           
+                } 
+                button {
+                    margin-bottom: 10px;
+                    margin-top: 10px;
+            }
+            
+            }
+        }
 
-    
-
-
-
-  
-  
-
-
-
-
-
-
-
-
-
- 
+    }
+}

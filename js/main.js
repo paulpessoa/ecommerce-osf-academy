@@ -1,10 +1,4 @@
-//loginModal ------------
-$(document).ready(function() {
-    $('#loginButton').modal('show');
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-  })
-});
+
 
 
 //hide or show password

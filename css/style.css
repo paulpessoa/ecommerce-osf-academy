@@ -2466,6 +2466,10 @@ body button:focus {
   outline: none;
 }
 
+.home-body {
+  background-color: #ffffff !important;
+}
+
 section.nav-banners .row {
   margin-top: 100px;
   margin-bottom: 20px;
@@ -2594,19 +2598,21 @@ section.nav-banners .follow .fb-button {
 
 .modal.in .modal-dialog {
   margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .modal.in .modal-dialog .modal-content {
   margin: 0 auto;
 }
 
 .modal-dialog {
-  height: 100%;
-  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 .modal-dialog .modal-content {
   padding: 40px;
-  max-width: 480px;
-  max-height: 470px;
   padding: 50px;
 }
 .modal-dialog .modal-content .close {
@@ -2636,6 +2642,7 @@ section.nav-banners .follow .fb-button {
   padding: 8px;
 }
 .modal-dialog .form-group #eye-pwd {
+  cursor: pointer;
   position: absolute;
   float: right;
   right: 65px;
@@ -2652,6 +2659,43 @@ section.nav-banners .follow .fb-button {
 }
 .modal-dialog .linkbutton.login {
   text-align: center;
+}
+
+.cookie-section .modal.in .modal-dialog {
+  max-width: fit-content;
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  bottom: 5%;
+}
+.cookie-section .modal.in .modal-dialog .modal-content {
+  padding: 20px 40px 10px 40px;
+}
+.cookie-section .modal.in .modal-dialog .modal-title {
+  font-size: 18px;
+  font-weight: 800;
+  color: #84bc22;
+  margin-bottom: 14px;
+}
+.cookie-section .modal.in .modal-dialog .info-cookie {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cookie-section .modal.in .modal-dialog .info-cookie p {
+  width: 80%;
+  text-align: justify;
+  padding-right: 100px;
+}
+@media screen and (max-width: 768px) {
+  .cookie-section .modal.in .modal-dialog .info-cookie p {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .cookie-section .modal.in .modal-dialog .info-cookie button {
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
 }
 
 @font-face {

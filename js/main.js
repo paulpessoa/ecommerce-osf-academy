@@ -13,7 +13,7 @@ $(document).ready(function() {
 // show cookie modal after 3 seconds
 $(document).ready(function(){
     // this function show the cookie if the cache is clean
-    if (!localStorage.nomeDoSeuCookies) {
+    if (!localStorage.osfCookies) {
         setTimeout(function(){
             $('#myModal').modal('show');
         }, 3000);
@@ -22,7 +22,7 @@ $(document).ready(function(){
     const acceptCookies = () => {
         document.querySelector("#myModal").classList.remove('show');
         //this save on User Browser the value "accept" that wil be used for the function
-        localStorage.setItem("nomeDoSeuCookies", "accept");
+        localStorage.setItem("osfCookies", "accept");
     };
     //this variable save the button coockie class      
     const btnCookies = document.querySelector(".btn-cookies");

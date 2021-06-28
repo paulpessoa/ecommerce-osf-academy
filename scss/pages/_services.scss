@@ -4,26 +4,44 @@
         '../helpers/reset';
 
 // Category Landing Services page ------
-
-
-
 .filters-section {
     background-color: $base-color;
-    padding: 30px;
+    padding: 34px 30px 10px 30px;
     border-radius: 8px;    
-
     .filter-category {
+        margin-bottom: 24px;
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
+        h4 {
+            padding: 10px 0px 0px 0px;
+            font-size: 15px;
+        }
+        select {
+            width: 76%;
+            float: right;
+            padding: 6px 18px;
+            border: 2px solid $back-color0;
+            border-radius: 25px;
+            box-shadow: none;
+            -webkit-appearance: none;
+            text-align: center;
+        }
+        
     }
-
     .filter-color {
+        width: 76%;
         display: flex;
-        flex-direction: row;
+        justify-content: space-between;
+        #color1 {
+            background-color: red;
+            width: 16px;
+            height: 16px;
+            border-radius: 25px;
+            color: green!important;
+        }        
     }
 }
-
-
 .text-results {
     text-align: center;
 }

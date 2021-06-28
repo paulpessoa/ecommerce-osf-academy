@@ -104,6 +104,13 @@
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -350,6 +357,13 @@ body button:focus {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -632,6 +646,13 @@ body button:focus {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -924,6 +945,13 @@ body button:focus {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -1246,6 +1274,13 @@ footer path:hover {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -1805,6 +1840,13 @@ header .nav-brand h2 {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -2294,6 +2336,13 @@ body button:focus {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -2776,6 +2825,13 @@ div.modal-backdrop.fade.in {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -3093,6 +3149,13 @@ section.notfound .not-found {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -3339,6 +3402,13 @@ body button:focus {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -3592,10 +3662,11 @@ body button:focus {
   margin: 10px auto;
   font: inherit;
   color: inherit;
-  padding: 8px 14px;
-  border: 1px solid #bdc3c7;
+  padding: 8px 18px;
+  border: 2px solid #E8E2D6;
   border-radius: 25px;
   box-shadow: none;
+  -webkit-appearance: none;
 }
 .product-page .product-info .product-page-add {
   display: flex;
@@ -3810,6 +3881,13 @@ body button:focus {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {
@@ -3988,16 +4066,40 @@ body button:focus {
 
 .filters-section {
   background-color: #ffffff;
-  padding: 30px;
+  padding: 34px 30px 10px 30px;
   border-radius: 8px;
 }
 .filters-section .filter-category {
+  margin-bottom: 24px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+.filters-section .filter-category h4 {
+  padding: 10px 0px 0px 0px;
+  font-size: 15px;
+}
+.filters-section .filter-category select {
+  width: 76%;
+  float: right;
+  padding: 6px 18px;
+  border: 2px solid #E8E2D6;
+  border-radius: 25px;
+  box-shadow: none;
+  -webkit-appearance: none;
+  text-align: center;
 }
 .filters-section .filter-color {
+  width: 76%;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+}
+.filters-section .filter-color #color1 {
+  background-color: red;
+  width: 16px;
+  height: 16px;
+  border-radius: 25px;
+  color: green !important;
 }
 
 .text-results {
@@ -4074,6 +4176,13 @@ body button:focus {
 }
 #load-more:hover {
   background-color: #84bc22;
+  cursor: pointer;
+}
+
+#load-more1:hover {
+  background-color: #ffffff;
+  color: #84bc22;
+  cursor: pointer;
 }
 
 .carousel-indicators li {

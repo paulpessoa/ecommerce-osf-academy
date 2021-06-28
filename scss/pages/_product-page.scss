@@ -83,10 +83,11 @@
             margin: 10px auto;
             font: inherit;
             color: inherit;
-            padding: 8px 14px;
-            border: 1px solid $opacity-color;
+            padding: 8px 18px;
+            border: 2px solid $back-color0;
             border-radius: 25px;
             box-shadow: none;
+            -webkit-appearance: none;
         }
         .product-page-add {
             display: flex;

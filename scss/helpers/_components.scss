@@ -68,6 +68,15 @@
     }
     &:hover {
         background-color: $secondary-color;
+        cursor: pointer;
+    }
+}
+
+#load-more1 {
+    &:hover {
+        background-color: $base-color;
+        color: $secondary-color;
+        cursor: pointer;
     }
 }
 

@@ -55,7 +55,7 @@ $(function getAJson (){
                 $data.append('<div class="cardx hidden"><div class="card-img" style="background-image: url(' + data.cardimg + ')"></div><div class="card-info"><h4 class="productname">' + data.productname + '</h4><span class="price-text"><a href="../product.html">'+ data.price +'</a></span></div><div class="card-hover"><div class="card-buttons"><button class="add" onclick="addCart()"><img src="./img/icons/Plus.svg" alt="Add"></button><button class="favorite" onclick="addFav()"><img src="./img/icons/Heart (24x24).svg" alt="Favorite"></button></div></div></div>');            
             });
             // when click button "load more" add 4 cards
-            $("#load-more").click(function loadMore (){
+            $("#load-more, #load-more1").click(function loadMore (){
                 $(".row.cards .hidden").slice(0,4).removeClass("hidden");  
             });
         } 

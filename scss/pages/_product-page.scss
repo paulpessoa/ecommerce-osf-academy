@@ -187,3 +187,20 @@
         display: none;
     }
 }
+
+// reviews tab 
+.container.content-tab.reviews {
+    h4 {
+        color: $secondary-color;
+        float: right;
+        font-size: 14px;
+    }
+    img {
+        float: left;
+        margin-right: 10px;
+        width: 30px;
+        border-radius: 100px;
+        height: auto;
+    }
+}
+

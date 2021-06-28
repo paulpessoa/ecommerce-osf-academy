@@ -3680,6 +3680,19 @@ body button:focus {
     display: none;
   }
 }
+.container.content-tab.reviews h4 {
+  color: #84bc22;
+  float: right;
+  font-size: 14px;
+}
+.container.content-tab.reviews img {
+  float: left;
+  margin-right: 10px;
+  width: 30px;
+  border-radius: 100px;
+  height: auto;
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");

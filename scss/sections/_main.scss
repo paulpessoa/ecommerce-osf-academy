@@ -147,8 +147,6 @@ section.nav-banners{
     }
 }
 
-
-
 // login modal ---------------
 .modal.in .modal-dialog {
     margin: 0 auto;
@@ -183,7 +181,6 @@ section.nav-banners{
     }
     .form-group {
         margin: 30px 0px;
-        
         label, a {
             padding: 18px 0px 6px 0px;
         }
@@ -204,8 +201,7 @@ section.nav-banners{
                     fill: $secondary-color;
                 }
             }
-        }
-    
+        }   
     }
     .div-login-button{
         text-align: center;
@@ -225,7 +221,6 @@ section.nav-banners{
         flex-direction: column;
         justify-content: flex-end;
         bottom: 5%;
-
         .modal-content {
             padding: 20px 40px 10px 40px;
         }
@@ -242,21 +237,17 @@ section.nav-banners{
                 width: 80%;
                 text-align: justify;
                 padding-right: 100px;
-               
             }
             @media screen and (max-width: 768px) {
                 p {
                     width: 100%;
                     padding-right: 0px;
-           
                 } 
                 button {
                     margin-bottom: 10px;
                     margin-top: 10px;
-            }
-            
+                }
             }
         }
-
     }
 }

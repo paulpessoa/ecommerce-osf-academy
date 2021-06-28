@@ -1,6 +1,3 @@
-
-
-
 //hide or show password
 $(document).ready(function() {
     $("#eye-pwd").on('click', function(event) {
@@ -13,7 +10,12 @@ $(document).ready(function() {
     });
 });
 
-
+// show cookie modal after 5 seconds
+$(document).ready(function(){
+    setTimeout(function(){
+    $('#myModal').modal('show');
+    }, 5000);
+});
 
 // add one more item to favorite list
 numFav = 0;  

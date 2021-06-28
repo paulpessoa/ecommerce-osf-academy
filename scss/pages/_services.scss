@@ -1,0 +1,29 @@
+@import '../helpers/colors',
+        '../helpers/components',
+        '../helpers/fonts',
+        '../helpers/reset';
+
+// Category Landing Services page ------
+
+
+
+.filters-section {
+    background-color: $base-color;
+    padding: 30px;
+    border-radius: 8px;    
+
+    .filter-category {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .filter-color {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+.text-results {
+    text-align: center;
+}

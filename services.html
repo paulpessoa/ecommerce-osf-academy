@@ -22,7 +22,7 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <title>Services</title>
 </head>
-<body>
+<body class="clp">
     <!-- start header -->
     <div id="header"></div>
     <!-- breadcrumbs -->
@@ -39,12 +39,220 @@
         </div>
     </section>
     <!-- services page content -->
-    <section class="filters-section">
-      <h1>filters</h1>
+    <section class="filters-section container">
+        <div class="row">
+            <!-- columnn 01 -->
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="filter-category">
+                    <h4>Price</h4>
+                    <select name="" id="">select
+                        <option value="">name</option>
+                    </select>
+                </div>
+                <div class="filter-category">
+                    <h4>Color</h4>
+                    <ul class="filter-color">
+                        <li>0</li>
+                        <li>0</li>
+                        <li>0</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- columnn 02 -->
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="filter-category">
+                    <h4>Price</h4>
+                    <select name="" id="">select
+                        <option value="">name</option>
+                    </select>
+                </div>
+                <div class="filter-category">
+                    <h4>Price</h4>
+                    <select name="" id="">select
+                        <option value="">name</option>
+                    </select>
+                </div>
+            </div>
+            <!-- columnn 03 -->
+            <div class="col-sm-12 col-md-4 col-lg-4">
+                <div class="filter-category">
+                    <h4>Price</h4>
+                    <select name="" id="">select
+                        <option value="">name</option>
+                    </select>
+                </div>
+                <div class="filter-category">
+                    <h4>Price</h4>
+                    <select name="" id="">select
+                        <option value="">name</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        
     </section>
 
    <!--5.2 Popular Itens-->
-   <div id="popular-itens"></div>
+   
+   <section class="container popular-itens">
+    <div class="text-results"> <span>12,931 results in apparel</span></div>
+
+    <br>
+    <!---row card 1 --->                    
+    <div class="row cards">
+            <!---card--->           
+            <div class="cardx">
+                <div class="card-img" style="background-image: url(../img/layers/Layer153@1X.png)"></div>
+                <div class="card-info">
+                    <h4 class="productname">Kristina Dam Oak Table With White Marble Top</h4>
+                    <span class="price-text"><a href="../product.html">$ 799.55</a></span>
+                </div>
+                <div class="card-hover">   
+                    <div class="card-buttons">
+                        <button class="add" onclick="addCart()">
+                            <img src="./img/icons/Plus.svg" alt="Add">
+                        </button>
+                        <button class="favorite" onclick="addFav()">
+                            <img src="./img/icons/Heart (24x24).svg" alt="Favorite">
+                        </button>
+                    </div>
+                </div>    
+            </div>
+            <!---card--->           
+            <div class="cardx">
+                <a href="../product.html">
+                    <div class="card-img" style="background-image: url(../img/layers/Layer151@1X.png)"></div>
+                </a>  
+                <div class="card-info">
+                    <h4 class="productname"><a href="../product.html">Kristina Dam Oak Table With White Marble Top</a></h4>
+                    <span class="price-text"><a href="../product.html">$659.55</a></span>
+                </div>
+                <div class="card-hover">
+                    <div class="card-buttons">
+                        <button class="add" onclick="addCart()">
+                            <img src="./img/icons/Plus.svg" alt="Add">
+                        </button>
+                        <button class="favorite" onclick="addFav()">
+                            <img src="./img/icons/Heart (24x24).svg" alt="Favorite">
+                        </button>
+                    </div>
+                </div>    
+            </div>
+            <!---card--->           
+            <div class="cardx">
+                <a href="../product.html">
+                    <div class="card-img" style="background-image: url(../img/layers/Layer33@1X.png)"></div>
+                </a>
+                <div class="card-info">
+                    <h4 class="productname"><a href="../product.html">Kristina Dam Oak Table With White Marble Top</a></h4>
+                    <!---buy button--->
+                    <div class="card-buy">
+                        <button id="pricebutton"><a href="../product.html">$659.55</a></button>
+                        <button id="buybutton" onclick="addCart()">Buy Now</button>
+                        </div>
+                </div>
+            </div>
+            <!---card--->           
+            <div class="cardx">
+                <div class="card-img" style="background-image: url(../img/layers/Layer44@1X.png)"></div>
+                <div class="card-info">
+                    <h4 class="productname">Kristina Dam Oak Table With White Marble Top</h4>
+                    <span class="price-text"><a href="../product.html">$ 799.55</a></span>
+                </div>
+                <div class="card-hover">
+                    <div class="card-buttons">
+                        <button class="add" onclick="addCart()">
+                            <img src="./img/icons/Plus.svg" alt="Add">
+                        </button>
+                        <button class="favorite" onclick="addFav()">
+                            <img src="./img/icons/Heart (24x24).svg" alt="Favorite">
+                        </button>
+                    </div>
+                </div>    
+            </div>           
+            <!---card--->           
+            <div class="cardx">
+                <div class="card-img" style="background-image: url(../img/layers/Layer156@1X.png)"></div>
+                <div class="card-info">
+                    <h4 class="productname">Kristina Dam Oak Table With White Marble Top</h4>
+                    <span class="price-text"><a href="../product.html">$ 799.55</a></span>
+                </div>
+                <div class="card-hover">
+                    <div class="card-buttons">
+                        <button class="add"  onclick="addCart()">
+                            <img src="./img/icons/Plus.svg" alt="Add">
+                        </button>
+                        <button class="favorite" onclick="addFav()">
+                            <img src="./img/icons/Heart (24x24).svg" alt="Favorite">
+                        </button>
+                    </div>
+                </div>    
+            </div>
+            <!---card--->           
+            <div class="cardx">
+                <div class="card-img" style="background-image: url(../img/layers/Layer155@1X.png)"></div>
+                <div class="card-info" onclick="addCart()">
+                    <h4 class="productname">Kristina Dam Oak Table With White Marble Top</h4>
+                    <span class="price-text"><a href="../product.html">$ 799.55</a></span>
+                </div>
+                <div class="card-hover">
+                    <div class="card-buttons">
+                        <button class="add"  onclick="addCart()">
+                            <img src="./img/icons/Plus.svg" alt="Add">
+                        </button>
+                        <button class="favorite" onclick="addFav()">
+                            <img src="./img/icons/Heart (24x24).svg" alt="Favorite">
+                        </button>
+                    </div>
+                </div>    
+            </div>
+            <!---card--->           
+            <div class="cardx">
+                <a href="../product.html">
+                    <div class="card-img" style="background-image: url(../img/layers/Layer110@1X.png)"></div>
+                </a>
+                <div class="card-info">
+                    <h4 class="productname"><a href="../product.html">Kristina Dam Oak Table With White Marble Top</a></h4>
+                    <!---buy button--->
+                    <div class="card-buy">
+                        <button id="pricebutton"><a href="../product.html">$659.55</a></button>
+                        <button id="buybutton" onclick="addCart()">Buy Now</button>
+                        </div>
+                </div>
+            </div>
+            <!---card--->           
+            <div class="cardx">
+                <div class="card-img" style="background-image: url(../img/layers/Layer157@1X.png)"></div>
+                <div class="card-info">
+                    <h4 class="productname">Kristina Dam Oak Table With White Marble Top</h4>
+                    <span class="price-text"><a href="../product.html">$ 799.55</a></span>
+                </div>
+                <div class="card-hover">
+                    <div class="card-buttons">
+                        <button class="add"  onclick="addCart()">
+                            <img src="./img/icons/Plus.svg" alt="Add">
+                        </button>
+                        <button class="favorite" onclick="addFav()">
+                            <img src="./img/icons/Heart (24x24).svg" alt="Favorite">
+                        </button>
+                    </div>
+                </div>    
+            </div>
+
+
+     
+           
+    </div>
+    <div class="load-more">
+        <button id="load-more">load more <img src="../img/icons/U@1X.png" alt="" srcset=""></button>
+    </div>
+</section>
+
+
+
+
+
+
     <!-- Importing footer -->
     <div id="footer"></div>
     <!-- header javascript -->    

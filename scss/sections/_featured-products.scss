@@ -4,45 +4,81 @@
         '../helpers/fonts',
         '../helpers/reset';
     
+.row.cards {
+    width: 100%;
+}        
 #featureds {
     background-color: $back-color;
 }
-.popular-itens{
-    max-width: 1280px;
-    width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    #fea-pro {
+
+.featured-products {
+    padding-bottom: 50px;
+    color: $base-color;
+    text-align: center;
+    .featured-title {
+            font-size: 30px;
+            font-weight: 750;
+    }
+    .featured-subtitle {
+        font-size: 16px;
+    }
+
+
+
+// featured LINE and TITLE style 
+    .featured-selector{
         text-align: center;
-        color: $base-color;    
-        font-size: 24px;
-        font-weight: bolder;
+        font-weight: 800;
+        background: $back-color;
+        color: $base-color;
+        position:relative; 
+        font-size: 20px;
+        padding: 0px 15px;   
+    }
+    .featured-selector-div::before {
         position: relative;
-        margin-bottom: 40px;
-        //line before title ---
-        &:before {
-            position: absolute;
-            bottom: 50%;
-            right: 0;
-            content: "";
-            width: 38%;
-            height: 100%;    
-            border-bottom: 1px solid $opacity-color;
-            @media screen and (max-width: 770px) {
-                width: 20%;
+        display: block;
+        content: "";
+        height: 2px;
+        opacity: 0.5;
+        background-color: $base-color;
+        margin: 0px auto;
+        width: 85%;
+        top: 16px;
+        @media screen and (max-width:950px) {
+            width: 70%;
+        }
+    } 
+    .featured-selector-div{ 
+        max-width: 50%;  
+        margin: 0px auto;
+        .next-card {
+            background-color: $main-color;
+            font-weight: 400;
+            padding: 5px 8px;
+            margin-left: 30px;
+            float: right;
+            cursor: pointer;
+            z-index: 5;
+            transition: 0.3s ease;
+            &:hover{
+                background-color: $secondary-color;
+                transition: 0.3s ease;                
             }
         }
-        //line after title ---
-        &:after {
-            position: absolute;
-            top: 50%;
-            left: 0;
-            content: "";
-            width: 38%;
-            border-bottom: 1px solid $opacity-color;
-            @media screen and (max-width: 770px) {
-                width: 20%;
+        .before-card {
+            background-color: $main-color;
+            font-weight: 400;
+            padding: 5px 8px;
+            margin-right: 30px;
+            float: left;
+            cursor: pointer;
+            z-index: 5;
+            transition: 0.3s ease;
+            &:hover{
+                background-color: $secondary-color;
+                transition: 0.3s ease;                
             }
-        }          
+        }
     }
 }

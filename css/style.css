@@ -829,50 +829,82 @@ body button:focus {
   outline: none;
 }
 
+.row.cards {
+  width: 100%;
+}
+
 #featureds {
   background-color: #262a32;
 }
 
-.popular-itens {
-  max-width: 1280px;
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.popular-itens #fea-pro {
-  text-align: center;
+.featured-products {
+  padding-bottom: 50px;
   color: #ffffff;
-  font-size: 24px;
-  font-weight: bolder;
+  text-align: center;
+}
+.featured-products .featured-title {
+  font-size: 30px;
+  font-weight: 750;
+}
+.featured-products .featured-subtitle {
+  font-size: 16px;
+}
+.featured-products .featured-selector {
+  text-align: center;
+  font-weight: 800;
+  background: #262a32;
+  color: #ffffff;
   position: relative;
-  margin-bottom: 40px;
+  font-size: 20px;
+  padding: 0px 15px;
 }
-.popular-itens #fea-pro:before {
-  position: absolute;
-  bottom: 50%;
-  right: 0;
+.featured-products .featured-selector-div::before {
+  position: relative;
+  display: block;
   content: "";
-  width: 38%;
-  height: 100%;
-  border-bottom: 1px solid #bdc3c7;
+  height: 2px;
+  opacity: 0.5;
+  background-color: #ffffff;
+  margin: 0px auto;
+  width: 85%;
+  top: 16px;
 }
-@media screen and (max-width: 770px) {
-  .popular-itens #fea-pro:before {
-    width: 20%;
+@media screen and (max-width: 950px) {
+  .featured-products .featured-selector-div::before {
+    width: 70%;
   }
 }
-.popular-itens #fea-pro:after {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  content: "";
-  width: 38%;
-  border-bottom: 1px solid #bdc3c7;
+.featured-products .featured-selector-div {
+  max-width: 50%;
+  margin: 0px auto;
 }
-@media screen and (max-width: 770px) {
-  .popular-itens #fea-pro:after {
-    width: 20%;
-  }
+.featured-products .featured-selector-div .next-card {
+  background-color: #45413e;
+  font-weight: 400;
+  padding: 5px 8px;
+  margin-left: 30px;
+  float: right;
+  cursor: pointer;
+  z-index: 5;
+  transition: 0.3s ease;
+}
+.featured-products .featured-selector-div .next-card:hover {
+  background-color: #84bc22;
+  transition: 0.3s ease;
+}
+.featured-products .featured-selector-div .before-card {
+  background-color: #45413e;
+  font-weight: 400;
+  padding: 5px 8px;
+  margin-right: 30px;
+  float: left;
+  cursor: pointer;
+  z-index: 5;
+  transition: 0.3s ease;
+}
+.featured-products .featured-selector-div .before-card:hover {
+  background-color: #84bc22;
+  transition: 0.3s ease;
 }
 
 @font-face {

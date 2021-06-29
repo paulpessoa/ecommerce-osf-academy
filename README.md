@@ -16,23 +16,23 @@ by
 
 - [x] ( 4.1 Product Title)
 
-- [x] ( 5.1 Carrousel Banner.
+- [x] ( 5.1 Carrousel Banner)
 
-- [x] ( 5.2 Popular Itens) - <i>Still need to add the carousel function</i>
+- [x] ( 5.2 Popular Itens) - <i>Still need to add the slick carousel function because the "unslick" breakpoint dont work </i>
 
 - [x] ( 5.3 Full Width Image)
 
-- [ ] ( 5.4 Featured Products) - <i>Still need to creat and add the carousel function</i>
+- [x] ( 5.4 Featured Products) - <i>Still need integrate the span and function "next" and "prev"</i>
 
 - [x] ( 5.5 Benefits coontent)
 
 - [x] ( 6.1 Breadcrumbs)
 
-- [ ] ( 6.2 Filters)
+- [x] ( 6.2 Filters) - <i>I need to style select icon and colors radio input</i>
 
 - [x] ( 7.1 Product Image)
 
-- [x] ( 7.2 Produt Details) - <i>I need to style counter and product selector input</i>
+- [x] ( 7.2 Produt Details)
 
 - [x] ( 7.3 Tabs)
 
@@ -40,4 +40,10 @@ by
 
 - [x] ( 8.2 Log in Diagoly)
 
-- [x] ( 8.3 Cookies Policy) - <i>I need to create the function to read the saved cookie and hide modal</i>
+- [x] ( 8.3 Cookies Policy)
+
+- [ ] ( 8.4 BONUS TASK - Countdown Page)
+
+- [x] ( 8.5 BONUS TASK - Cart Page) - <i>I need to style select icon and colors radio input</i>
+
+- [x] ( 8.6 BONUS TASK - Print Page)

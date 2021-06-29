@@ -36,33 +36,107 @@
     border-radius: 10px;
     padding: 100px;
     .line-product{
+        padding-bottom: 10px;
+        padding-top: 10px;
+        border-bottom: 1px solid $back-color0;
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
+        justify-content: space-around;
         .line-img-product{
             width: 90px;
             height: 90px;
             background-size: cover no-repeat;
         }
         .line-info-product {
-            display: block;
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 0px 20px;
+            flex-direction: column;
+            justify-content: center;
             .line-productitle a{
-
+                font-size: 16px;
+                color: $main-color;
+                &:hover {
+                    color: $secondary-color;
+                    text-decoration: underline;
+                }
             }
             .line-price-text a{
-
+                font-size: 14px;
+                color: $opacity-color;
+                &:hover {
+                    color: $secondary-color;
+                }
             }
         }
         .line-add-remove{
             display: flex;
-            flex-direction: row;
-            .input-up-down{
-                
-            }
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            vertical-align: middle;
+                .input-up-down {
+                    input {
+                    width: 110px;
+                    padding: 6px 0px;    
+                    border: 2px solid $back-color0;
+                    border-radius: 25px;
+                    text-align: center;                    
+                    }
+                    input[type="number"]::-webkit-outer-spin-button,
+                    input[type="number"]::-webkit-inner-spin-button {
+                        -webkit-appearance: none;
+                    }            
+                    #downItem {
+                        position: relative;
+                        left: 32px;
+                        padding: 8px;
+                        cursor: pointer;
+                        font-weight: 800;
+                        color: $opacity-color;
+                        &:hover {
+                            color: $secondary-color;
+                        }
+                    }
+                    #upItem {
+                        position: relative;
+                        right: 32px;
+                        padding: 8px;
+                        cursor: pointer;
+                        font-weight: 800;
+                        color: $opacity-color;
+                        &:hover {
+                            color: $secondary-color;
+                        }
+                    }
+                }            
             .sum-price-line{
-
+                font-size: 30px;
+                font-weight: 900;
+                margin: 0px 60px 0px 40px; 
+                @media screen and (max-width:768px) {
+                    margin: 0px 20px 0px 0px; 
+                }
             }
             .x-product{
+                border: 2px solid $back-color0;
+                width: 30px;
+                height: 30px;
+                border-radius: 25px;
+                text-align: center;
+                font-size: 12px;
+                font-weight: 900;
+                color: $main-color;
+                padding-top: 4px;
+                transition: 0.3s ease;
+                &:hover{
+                    background-color: rgba(255, 0, 0, 0.212);
+                    cursor: pointer;
+                    border: 2px solid $opacity-color;
+                    color: $base-color;
 
+                }
             }
         }
     }   

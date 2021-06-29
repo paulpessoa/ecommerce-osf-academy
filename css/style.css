@@ -2797,6 +2797,10 @@ div.modal-backdrop.fade.in {
     display: none !important;
   }
 }
+#exampleModal, #myModal {
+  background-color: rgba(0, 0, 0, 0.353);
+}
+
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");
@@ -3374,17 +3378,11 @@ body button:focus {
   outline: none;
 }
 
-.content-cart .line-product .line-info-product .line-productitle a {
-  color: red;
-}
-.content-cart .line-product .line-info-product .line-price-text a {
-  color: green;
-}
-
 .content-cart {
   background-color: #ffffff;
   border-radius: 10px;
   padding: 100px;
+  margin-bottom: 50px;
 }
 .content-cart .line-product {
   padding-bottom: 10px;
@@ -4263,6 +4261,10 @@ body button:focus {
 
 .text-results {
   text-align: center;
+}
+
+.row.cards.featuredcarousel {
+  width: 100%;
 }
 
 @font-face {

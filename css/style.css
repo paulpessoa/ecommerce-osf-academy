@@ -223,7 +223,7 @@
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -279,6 +279,7 @@
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -476,7 +477,7 @@ body button:focus {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -532,6 +533,7 @@ body button:focus {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -765,7 +767,7 @@ body button:focus {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -821,6 +823,7 @@ body button:focus {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -830,7 +833,7 @@ body button:focus {
 }
 
 .row.cards.slidefeatured {
-  width: 100%;
+  width: 100vw;
 }
 
 #featureds {
@@ -841,6 +844,7 @@ body button:focus {
   padding-bottom: 50px;
   color: #ffffff;
   text-align: center;
+  margin: 0px 10px !important;
 }
 .featured-products .featured-title {
   font-size: 30px;
@@ -1096,7 +1100,7 @@ body button:focus {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -1152,6 +1156,7 @@ body button:focus {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -1425,7 +1430,7 @@ footer path:hover {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -1481,6 +1486,7 @@ footer path:hover {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -1991,7 +1997,7 @@ header .nav-brand h2 {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -2047,6 +2053,7 @@ header .nav-brand h2 {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -2492,7 +2499,7 @@ body button:focus {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -2548,6 +2555,7 @@ body button:focus {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -2990,7 +2998,7 @@ div.modal-backdrop.fade.in {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -3046,6 +3054,7 @@ div.modal-backdrop.fade.in {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -3314,7 +3323,7 @@ section.notfound .not-found {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -3370,6 +3379,7 @@ section.notfound .not-found {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -3678,7 +3688,7 @@ body button:focus {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -3734,6 +3744,7 @@ body button:focus {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -4157,7 +4168,7 @@ body button:focus {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -4213,6 +4224,7 @@ body button:focus {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;
@@ -4456,7 +4468,7 @@ body button:focus {
   position: absolute;
   left: 50%;
   padding: 0 20px;
-  font-size: 2.5rem;
+  font-size: 34px;
   transform: translate(-50%);
 }
 @media screen and (max-width: 768px) {
@@ -4512,6 +4524,7 @@ body button:focus {
 
 body {
   background-color: #E8E2D6 !important;
+  padding-right: 0 !important;
 }
 body a:hover {
   text-decoration: none;

@@ -130,3 +130,14 @@ $(document).ready(function(){
         ]
     });    
 });
+
+
+//Call the plugin on the print button and done.
+
+
+
+
+$('.print').click(function(){
+    window.print();
+    return false;
+});

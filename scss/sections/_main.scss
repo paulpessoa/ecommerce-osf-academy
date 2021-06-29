@@ -10,6 +10,8 @@
     background-color: $base-color!important;   
 }
 
+
+
 section.nav-banners{
     .row {
         margin-top: 100px;
@@ -255,4 +257,12 @@ div.modal-backdrop.fade.in {
             }
         }
     }
+}
+
+
+@media screen and (max-width:768px) {
+    #featureds {
+        display: none!important;
+    }
+    
 }

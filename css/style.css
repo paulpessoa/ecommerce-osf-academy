@@ -2787,6 +2787,11 @@ div.modal-backdrop.fade.in {
   }
 }
 
+@media screen and (max-width: 768px) {
+  #featureds {
+    display: none !important;
+  }
+}
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");

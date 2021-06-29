@@ -259,7 +259,7 @@ div.modal-backdrop.fade.in {
     }
 }
 
-
+// hide featured products section on mobile
 @media screen and (max-width:768px) {
     #featureds {
         display: none!important;

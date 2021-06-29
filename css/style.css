@@ -829,7 +829,7 @@ body button:focus {
   outline: none;
 }
 
-.row.cards {
+.row.cards.slidefeatured {
   width: 100%;
 }
 
@@ -2293,6 +2293,11 @@ body button:focus {
   justify-content: center;
   padding: 20px;
 }
+@media screen and (max-width: 768px) {
+  .load-more {
+    display: none;
+  }
+}
 
 .hidden {
   display: none;
@@ -3369,6 +3374,34 @@ body button:focus {
   outline: none;
 }
 
+.content-cart .line-product .line-info-product .line-productitle a {
+  color: red;
+}
+.content-cart .line-product .line-info-product .line-price-text a {
+  color: green;
+}
+
+.content-cart {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 100px;
+}
+.content-cart .line-product {
+  display: flex;
+  flex-direction: row;
+}
+.content-cart .line-product .line-img-product {
+  width: 90px;
+  height: 90px;
+  background-size: cover no-repeat;
+}
+.content-cart .line-product .line-info-product {
+  display: block;
+}
+.content-cart .line-product .line-add-remove {
+  display: flex;
+  flex-direction: row;
+}
 @font-face {
   font-family: "Myriad";
   src: url("../fonts/myriadpro-bold.otf") format("opentype");

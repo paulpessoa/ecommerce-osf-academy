@@ -236,6 +236,9 @@
     display: flex;
     justify-content: center;
     padding: 20px;
+    @media screen and (max-width:768px){
+        display: none;
+    }
 }
 
 

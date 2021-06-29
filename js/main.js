@@ -10,13 +10,13 @@ $(document).ready(function() {
     });
 });
 
-// show cookie modal after 3 seconds
+// show cookie modal after 10 seconds
 $(document).ready(function(){
     // this function show the cookie if the cache is clean
     if (!localStorage.osfCookies) {
         setTimeout(function(){
             $('#myModal').modal('show');
-        }, 3000);
+        }, 10000);
     }
     // this function will hide the modal if to click the "accept button" 
     const acceptCookies = () => {

@@ -18,7 +18,13 @@ header {
     width: 100%;
    // max-width: 1280px;
     margin: 0 auto;  
-    .nav-wrapper, .nav-brand{
+    .nav-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center; 
+    }
+    .nav-brand{
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -118,7 +124,7 @@ header {
     justify-content: space-between;
     max-width: $size-desktop;
     color: $base-color;
-    margin: 35px;
+    margin: 35px auto;
     //color itens 
     li a {
         color:$base-color;
@@ -243,6 +249,9 @@ header {
 @media screen and (min-width: 880px) {
     #hamburger {
         display: block;
+    }
+    .nav-brand {
+        margin-right: 150px;
     }
 }
 // tablet screen

@@ -1506,7 +1506,13 @@ header #fixedtop {
   border-bottom: 2px solid #F3F0E9;
   z-index: 100;
 }
-header .nav-wrapper, header .nav-brand {
+header .nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+header .nav-brand {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1601,7 +1607,7 @@ header .nav-brand h2 {
   justify-content: space-between;
   max-width: 1280px;
   color: #ffffff;
-  margin: 35px;
+  margin: 35px auto;
 }
 .d-menu-content-flex li a {
   color: #ffffff;
@@ -1715,6 +1721,10 @@ header .nav-brand h2 {
 @media screen and (min-width: 880px) {
   #hamburger {
     display: block;
+  }
+
+  .nav-brand {
+    margin-right: 150px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 880px) {
@@ -4544,7 +4554,13 @@ header #fixedtop {
   border-bottom: 2px solid #F3F0E9;
   z-index: 100;
 }
-header .nav-wrapper, header .nav-brand {
+header .nav-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+header .nav-brand {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -4639,7 +4655,7 @@ header .nav-brand h2 {
   justify-content: space-between;
   max-width: 1280px;
   color: #ffffff;
-  margin: 35px;
+  margin: 35px auto;
 }
 .d-menu-content-flex li a {
   color: #ffffff;
@@ -4753,6 +4769,10 @@ header .nav-brand h2 {
 @media screen and (min-width: 880px) {
   #hamburger {
     display: block;
+  }
+
+  .nav-brand {
+    margin-right: 150px;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 880px) {

@@ -4,6 +4,15 @@ Project deploy:
 by
 <a href="https://www.linkedin.com/in/paulmspessoa/" target="_blank">Paul Pessoa</a> developed in June 2021.
 <br>
+
+To run localhost, you can download the zip file or clone it with <code>git clone</code> command in the terminal.
+To preview style changes, you must run the scss command <code>npm install -g sass</code> and then  <code>sass --watch scss:css
+ </code> which watches all edits made in SCSS and transforms to CSS.
+
+
+
+<a href="https://osf-academy.vercel.app/index.html" target="_blank"><img src="/img/preview-osfacademy-landinpage.png" alt="Page Preview"/></a>
+
 ### Check List:
 
 - [x] ( 3.1 Header)
